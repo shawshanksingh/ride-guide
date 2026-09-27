@@ -269,19 +269,9 @@
     updateMe(p);
     const at = st.at == null ? 0 : st.at;
 
-    // off route
-    if (st.off) {
-      const brg = N.bearing(p, st.nearest.pt || R.line.pointAt(st.nearest.at));
-      const dirTxt = N.relDirection(st.heading, brg);
-      const d = Math.round(st.dist / 10) * 10;
-      setCue('uturn', d + ' m', 'Off route — the route is ' + dirTxt);
-      if (Date.now() - ride.lastOffMsg > 30000) {
-        ride.lastOffMsg = Date.now();
-        speaker.say({ kind: 'nav', text: `You're off the route. It's about ${d} metres ${dirTxt}.` });
-      }
-      ride.wasOff = true; return;
-    }
-    if (ride.wasOff) { ride.wasOff = false; ride.lastOffMsg = 0; speaker.say({ kind: 'nav', text: 'Back on route.' }); }
+    // off route → turn-by-turn guidance back to the route
+    if (st.off) { ride.wasOff = true; handleOffRoute(p, ts, st); return; }
+    if (ride.wasOff) { ride.wasOff = false; ride.lastOffMsg = 0; ride.detour = null; speaker.say({ kind: 'nav', text: 'Back on route.' }); }
 
     // cues
     const cues = R.cues, cs = ride.cueState;
@@ -342,6 +332,84 @@
     $('#rRemain').textContent = ((R.line.length - at) / 1000).toFixed(1) + ' km to go';
     $('#pSub').textContent = $('#rRemain').textContent;
     if (Math.random() < 0.2) saveProgress();
+  }
+
+  // ---------- rerouting ----------
+  function handleOffRoute(p, ts, st) {
+    const d = ride.detour;
+    if (d) {
+      const ds = d.tracker.update(p, ts, st.heading, st.speed);
+      if (!ds.off || ds.dist < 45) { runDetour(d, ds); return; }
+    }
+    requestDetour(p, st);
+    if (!ride.detour || ride.detourFailed) {
+      // no reroute available (offline?) — fall back to "where is the route"
+      const brg = N.bearing(p, st.nearest.pt || R.line.pointAt(st.nearest.at));
+      const dirTxt = N.relDirection(st.heading, brg);
+      const dm = Math.round(st.dist / 10) * 10;
+      setCue('uturn', dm + ' m', 'Off route — the route is ' + dirTxt);
+      if (ride.detourFailed && Date.now() - ride.lastOffMsg > 30000) {
+        ride.lastOffMsg = Date.now();
+        speaker.say({ kind: 'nav', text: `You're off the route. It's about ${dm} metres ${dirTxt}.` });
+      }
+    }
+  }
+
+  async function requestDetour(p, st) {
+    if (ride.detourPending || Date.now() - (ride.lastDetourReq || 0) < 15000) return;
+    ride.detourPending = true; ride.lastDetourReq = Date.now();
+    const myRide = ride;
+    try {
+      const L0 = R.line, last = ride.tracker.at || 0;
+      // rejoin a little ahead of where the route is closest to us (never behind where we left it)
+      const near = L0.nearest(p, last - 50, last + 2000);
+      const targetAt = Math.min(L0.length - 5, Math.max(near.at, last) + 120);
+      const target = L0.pointAt(targetAt);
+      const res = await fetchTimeout(N.osrmUrl([p, target]), 10000);
+      if (!res.ok) throw new Error('HTTP ' + res.status);
+      const data = N.compactOsrm(await res.json());
+      if (ride !== myRide || !ride.wasOff) return; // already back on route
+      const line = new N.Line(N.decodePolyline(data.geometry));
+      const cues = N.buildCues(data, line).filter(c => c.kind === 'turn' || c.kind === 'roundabout');
+      const d = { line, cues, idx: 0, state: cues.map(() => ({ prep: false, now: false })), tracker: new N.Tracker(line, { offRouteM: 50 }) };
+      d.tracker.update(p, Date.now(), st.heading, st.speed);
+      // does the rider need to turn around first?
+      const startBrg = line.headingAt(8); let first = '';
+      if (st.heading != null && line.length > 20) {
+        const a = N.angleDiff(st.heading, startBrg);
+        if (Math.abs(a) > 120) first = 'Turn around';
+        else if (Math.abs(a) > 50) first = 'Turn ' + (a > 0 ? 'right' : 'left');
+      }
+      ride.detour = d; ride.detourFailed = false; ride.detourFirst = first;
+      let text = 'Off route. Rerouting. ';
+      const c0 = cues[0];
+      if (first && c0) { text += c0.at < 35 ? `${first}, then ${lc(c0.text)}.` : `${first}, then in ${N.fmtDist(c0.at)}, ${lc(c0.text)}.`; d.state[0].prep = true; }
+      else if (first) text += `${first}, and follow the road for ${N.fmtDist(line.length)} back to the route.`;
+      else if (c0) { text += `In ${N.fmtDist(c0.at)}, ${lc(c0.text)}.`; d.state[0].prep = true; }
+      else text += `Continue for ${N.fmtDist(line.length)} to rejoin the route.`;
+      alertTurn(first ? 'uturn' : (c0 ? c0.dir : 'other'));
+      speaker.say({ kind: 'nav', text });
+      setCue(first ? 'uturn' : (c0 ? c0.dir : 'straight'), c0 ? N.fmtDist(c0.at).replace(' metres', ' m') : N.fmtDist(line.length).replace(' metres', ' m'), first ? first : (c0 ? c0.text : 'Rejoin the route'));
+    } catch (e) {
+      if (ride === myRide) ride.detourFailed = true;
+    } finally { if (ride === myRide) ride.detourPending = false; }
+  }
+
+  function runDetour(d, ds) {
+    const at = ds.at || 0, cues = d.cues;
+    while (d.idx < cues.length && at > cues[d.idx].at + 12) d.idx++;
+    const cue = cues[d.idx];
+    if (!cue) { setCue('straight', N.fmtDist(Math.max(0, d.line.length - at)).replace(' metres', ' m'), 'Rejoin the route ahead'); return; }
+    const s = d.state[d.idx], dist = cue.at - at;
+    const nowM = Math.max(25, Math.min(50, (ds.speed || 4) * 5));
+    setCue(cue.dir, dist > 0 ? N.fmtDist(dist).replace(' metres', ' m') : 'now', cue.text + ' (back to route)');
+    if (!s.prep && !s.now && dist <= 150 && dist > nowM + 40) { s.prep = true; alertTurn(cue.dir); speaker.say({ kind: 'nav', text: 'In ' + N.fmtDist(dist) + ', ' + lc(cue.text) + '.' }); }
+    if (!s.now && dist <= nowM) {
+      s.now = true; s.prep = true; alertTurn(cue.dir, true);
+      let text = cue.text; const nxt = cues[d.idx + 1];
+      if (nxt && nxt.at - cue.at < 120) { text += ', then ' + lc(nxt.text); d.state[d.idx + 1].prep = true; }
+      speaker.say({ kind: 'nav', text: text + '.' });
+    }
   }
 
   function lc(s) { return s.charAt(0).toLowerCase() + s.slice(1); }
