@@ -1,0 +1,52 @@
+{
+  "id": "bavarian-quarter-test-loop",
+  "name": "Test Loop: Bavarian Quarter",
+  "city": "Berlin",
+  "description": "A short 2.8 km shakedown loop from home: Viktoria-Luise-Platz, down Martin-Luther-Straße, round Bayerischer Platz and back past Einstein's old address. Perfect for checking GPS, voice, music and pocket mode before the big ride.",
+  "distanceKmApprox": 2.8,
+  "lang": "en-GB",
+  "profile": "bike",
+  "start": { "name": "Bamberger Str. 8", "lat": 52.49553, "lon": 13.33701 },
+  "waypoints": [
+    [52.49553, 13.33701],
+    [52.4958, 13.3437],
+    [52.48858, 13.34054],
+    [52.4900, 13.3385],
+    [52.49553, 13.33701]
+  ],
+  "intro": "Welcome to the test loop. It's under three kilometres — about fifteen minutes — with five short stories and plenty of turns, so it's a good check that directions, music and pocket mode all work. Off we go.",
+  "outro": "That's the test loop done — welcome back. If the directions and stories came through clearly, you're ready for the big ride.",
+  "pois": [
+    {
+      "id": "viktoria-luise",
+      "name": "Viktoria-Luise-Platz",
+      "lat": 52.49618, "lon": 13.34319,
+      "text": "This is Viktoria-Luise-Platz, named after the only daughter of Kaiser Wilhelm the Second, and laid out around 1900 as a showpiece garden square. A young Billy Wilder lived at number eleven in the late 1920s, years before Hollywood and Some Like It Hot."
+    },
+    {
+      "id": "bavarian-quarter",
+      "name": "The Bavarian Quarter",
+      "lat": 52.49350, "lon": 13.34600,
+      "text": "Ahead is the Bavarian Quarter, built between about 1900 and 1914 by developers Salomon and Georg Haberland, with streets named after Bavarian towns and gabled houses meant to feel a little like old Nuremberg. So many Jewish doctors, lawyers and artists lived here that it was nicknamed the Jewish Switzerland."
+    },
+    {
+      "id": "places-of-remembrance",
+      "name": "Places of Remembrance",
+      "lat": 52.48900, "lon": 13.34420,
+      "text": "Watch the lampposts along here. Since 1993 about eighty small signs have hung around the quarter, each with a picture on one side and, on the other, one of the Nazi-era rules imposed on Jewish residents — such as a 1942 ban on Jews keeping pets. The artwork is called Places of Remembrance."
+    },
+    {
+      "id": "bayerischer-platz",
+      "name": "Bayerischer Platz U-Bahn",
+      "lat": 52.48870, "lon": 13.34000,
+      "text": "Under this square is Bayerischer Platz station on the U4, Berlin's shortest underground line. Schöneberg was still an independent city when it built the line itself, opening it in 1910 — ten years before Schöneberg became part of Greater Berlin."
+    },
+    {
+      "id": "einstein",
+      "name": "Haberlandstraße 5",
+      "lat": 52.49069, "lon": 13.33806,
+      "trigger": [52.49008, 13.33823],
+      "text": "Just here on Haberlandstraße, at number five, Albert Einstein lived from 1918 until he left Germany at the end of 1932. The building was destroyed in the war, but a plaque marks the spot where the century's most famous physicist came home every evening."
+    }
+  ]
+}
