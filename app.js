@@ -18,6 +18,14 @@
     const t = $('#toast'); t.textContent = msg; t.classList.remove('hidden');
     clearTimeout(toast._t); toast._t = setTimeout(() => t.classList.add('hidden'), ms);
   }
+  function fetchTimeout(url, ms, opts = {}) {
+    const ac = new AbortController(); const t = setTimeout(() => ac.abort(), ms);
+    return fetch(url, Object.assign({ cache: 'no-cache', signal: ac.signal }, opts))
+      .catch(e => { throw new Error(e.name === 'AbortError' ? 'timed out — no response from ' + new URL(url, location.href).host : e.message); })
+      .finally(() => clearTimeout(t));
+  }
+  window.addEventListener('error', e => toast('Error: ' + (e.message || e.error), 8000));
+  window.addEventListener('unhandledrejection', e => toast('Error: ' + ((e.reason && e.reason.message) || e.reason), 8000));
   function show(id) { document.querySelectorAll('.screen').forEach(s => s.classList.toggle('active', s.id === id)); }
 
   // ---------- speech ----------
@@ -81,7 +89,7 @@
       const u = new SpeechSynthesisUtterance(text);
       if (this.voice) { u.voice = this.voice; u.lang = this.voice.lang; } else u.lang = 'en-GB';
       u.rate = settings.rate; u.pitch = 1; u.volume = 1;
-      u.onend = finish; u.onerror = (e) => { if (e.error === 'interrupted' || e.error === 'canceled') return; finish(); };
+      u.onend = finish; u.onerror = (e) => { if (e.error === 'interrupted' || e.error === 'canceled') return; if (e.error) toast('Speech error: ' + e.error + (e.error === 'not-allowed' ? ' — tap Test voice once to unlock audio' : ''), 5000); finish(); };
       // guard against Chrome occasionally never firing onend
       this._guard = setTimeout(finish, 2500 + text.split(/\s+/).length * 600 / settings.rate);
       this.synth.speak(u);
@@ -113,7 +121,7 @@
   async function loadIndex() {
     const list = $('#routeList');
     try {
-      const res = await fetch('routes/index.json', { cache: 'no-cache' });
+      const res = await fetch('index.json', { cache: 'no-cache' });
       routesIndex = (await res.json()).routes;
       list.innerHTML = '';
       routesIndex.forEach(r => {
@@ -136,15 +144,15 @@
     $('#btnStart').disabled = true; $('#btnSim').disabled = true;
     const st = $('#dStatus'); st.className = 'status muted'; st.textContent = 'Loading route…';
     let meta;
-    try { meta = await (await fetch('routes/' + file, { cache: 'no-cache' })).json(); }
-    catch (e) { st.className = 'status err'; st.textContent = 'Could not load route file.'; return; }
+    try { const r = await fetchTimeout(file, 15000); if (!r.ok) throw new Error('HTTP ' + r.status); meta = await r.json(); }
+    catch (e) { st.className = 'status err'; st.textContent = 'Could not load route file (' + e.message + ').'; return; }
     meta.file = file;
     $('#dTitle').textContent = meta.name; $('#dCity').textContent = meta.city || ''; $('#dDesc').textContent = meta.description || '';
     if (meta.music) { music.key = ({ C: 48, D: 50, E: 52, F: 53, G: 55, A: 57 })[meta.music.key] || music.key; }
-    initDetailMap();
+    try { initDetailMap(); } catch (e) { toast('Map could not load (' + e.message + ') — directions and audio still work.', 6000); }
     st.textContent = 'Calculating bike route…';
     try {
-      const { data, source } = await N.loadRouteGeometry(meta, { force });
+      const { data, source } = await N.loadRouteGeometry(meta, { force, fetchImpl: (u) => fetchTimeout(u, 25000) });
       R = prepare(meta, data);
       st.textContent = source === 'network' ? 'Route downloaded and saved on this phone ✓' : 'Route ready (saved on this phone) ✓';
       $('#btnStart').disabled = false; $('#btnSim').disabled = false;
@@ -158,7 +166,7 @@
     $('#dStops').textContent = R.pois.length; $('#dTurns').textContent = R.cues.filter(c => c.kind === 'turn' || c.kind === 'roundabout').length;
     const ol = $('#dPois'); ol.innerHTML = '';
     R.pois.forEach(p => { const li = document.createElement('li'); li.innerHTML = '<span></span><small></small>'; li.firstChild.textContent = p.name; li.lastChild.textContent = `at ${(p.at / 1000).toFixed(1)} km`; ol.appendChild(li); });
-    drawRoute(detailMap, detailLayers, R);
+    if (detailMap) try { drawRoute(detailMap, detailLayers, R); } catch (e) {}
     const saved = store.get('bt:ride:' + meta.id, null);
     $('#resumeBox').classList.toggle('hidden', !(saved && Date.now() - saved.ts < 12 * 3600e3 && saved.fired && saved.fired.length));
   }
@@ -214,7 +222,7 @@
       watchId: null, simTimer: null, simAt: 0, lastState: null, wakeLock: null
     };
     show('ride');
-    initRideMap();
+    try { initRideMap(); } catch (e) { rideMap = null; }
     music.setVolume(settings.music);
     music.start().catch(() => {});
     $('#btnMusic').textContent = 'Music ✓';
@@ -429,7 +437,17 @@
     $('#sFacts').onchange = e => { settings.facts = e.target.checked; saveSettings(); };
     $('#sChime').onchange = e => { settings.chime = e.target.checked; saveSettings(); };
     $('#sSimSpeed').onchange = e => { settings.simSpeed = +e.target.value; saveSettings(); };
-    $('#btnTestVoice').onclick = () => { music.start().then(() => setTimeout(() => speaker.say({ kind: 'nav', text: 'In 200 metres, turn left onto Kastanienallee.' }), 600)); alertTurn('left'); setTimeout(() => music.stop(), 9000); };
+    $('#btnTestVoice').onclick = () => {
+      // speak straight away inside the tap — Chrome only allows speech that starts from a user gesture
+      if (!window.speechSynthesis) toast('This browser has no text-to-speech. Use Chrome.', 6000);
+      else {
+        const n = (speechSynthesis.getVoices() || []).length;
+        speaker.say({ kind: 'nav', text: 'Voice check. In 200 metres, turn left onto Kastanienallee.' });
+        toast(n ? `Speaking… (${n} voices on this phone)` : 'Speaking… If you hear nothing: phone media volume up, and check Android Settings → Text-to-speech output.', 6000);
+      }
+      try { music.start().catch(e => toast('Music could not start: ' + e.message)); } catch (e) { toast('Music could not start: ' + e.message); }
+      alertTurn('left'); setTimeout(() => music.stop(), 10000);
+    };
     $('#btnRefresh').onclick = () => { if (R) openRoute(R.meta.file, true); };
   }
   document.querySelectorAll('[data-back]').forEach(b => b.onclick = () => show('home'));
@@ -446,6 +464,13 @@
 
   initSettingsUI();
   loadIndex();
+  (function diagnostics() {
+    const bad = [];
+    if (!window.isSecureContext) bad.push('page is not HTTPS, so GPS will be blocked');
+    if (typeof L === 'undefined') bad.push('map library (leaflet.js) did not load');
+    if (!window.speechSynthesis) bad.push('no text-to-speech in this browser');
+    if (bad.length) { const p = document.createElement('p'); p.className = 'status err'; p.textContent = 'Problem: ' + bad.join('; ') + '.'; $('#routeList').before(p); }
+  })();
   if ('serviceWorker' in navigator && location.protocol === 'https:') navigator.serviceWorker.register('sw.js').catch(() => {});
 
   // test hooks

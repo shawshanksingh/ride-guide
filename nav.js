@@ -120,7 +120,7 @@
       try { const c = storage && storage.getItem(key); if (c) return { data: JSON.parse(c), source: 'cache' }; } catch (e) {}
     }
     const res = await fetchImpl(osrmUrl(route.waypoints));
-    if (!res.ok) throw new Error('Routing server error ' + res.status);
+    if (!res.ok) throw new Error('routing server replied ' + res.status);
     const j = await res.json();
     if (j.code !== 'Ok' || !j.routes || !j.routes.length) throw new Error('No route found (' + j.code + ')');
     const data = compactOsrm(j);

@@ -1,8 +1,8 @@
 // Service worker: app shell offline, route files network-first, map tiles + routing cached as you use them.
-const VERSION = 'v1';
+const VERSION = 'v3';
 const SHELL = `shell-${VERSION}`, DATA = `data-${VERSION}`, TILES = 'tiles-v1';
-const SHELL_FILES = ['./', 'index.html', 'css/app.css', 'js/nav.js', 'js/music.js', 'js/app.js', 'lib/leaflet.js', 'lib/leaflet.css',
-  'manifest.webmanifest', 'icons/icon-192.png', 'icons/icon-512.png', 'routes/index.json'];
+const SHELL_FILES = ['./', 'index.html', 'app.css', 'nav.js', 'music.js', 'app.js', 'leaflet.js', 'leaflet.css',
+  'manifest.webmanifest', 'icon-192.png', 'icon-512.png'];
 const MAX_TILES = 1500;
 
 self.addEventListener('install', e => {
@@ -36,7 +36,7 @@ self.addEventListener('fetch', e => {
     return;
   }
   if (url.origin === location.origin) {
-    if (url.pathname.includes('/routes/')) { // network-first so new routes show up
+    if (url.pathname.endsWith('.json')) { // route files: network-first so new routes show up
       e.respondWith(caches.open(DATA).then(async c => {
         try { const r = await fetch(e.request); if (r.ok) c.put(e.request, r.clone()); return r; }
         catch (err) { return (await c.match(e.request, { ignoreSearch: true })) || (await caches.match(e.request, { ignoreSearch: true })) || Response.error(); }

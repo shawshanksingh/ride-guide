@@ -23,7 +23,7 @@ p { margin: 0; }
 .top { display: flex; align-items: center; gap: 12px; padding: 16px; padding-top: calc(16px + env(safe-area-inset-top)); border-bottom: 1px solid var(--line); }
 .top.slim { padding-top: calc(10px + env(safe-area-inset-top)); padding-bottom: 10px; }
 .brand { display: flex; gap: 12px; align-items: center; }
-.logo { width: 40px; height: 40px; border-radius: 12px; background: var(--accent) url("../icons/icon-192.png") center/cover; }
+.logo { width: 40px; height: 40px; border-radius: 12px; background: var(--accent) url("icon-192.png") center/cover; }
 .icon-btn { background: var(--surface2); color: var(--text); border: 0; width: 40px; height: 40px; border-radius: 50%; font-size: 1.6rem; line-height: 1; }
 
 .section-title { font-size: .8rem; text-transform: uppercase; letter-spacing: .08em; color: var(--muted); margin: 20px 0 10px; font-weight: 600; }

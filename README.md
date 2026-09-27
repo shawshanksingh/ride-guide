@@ -7,7 +7,7 @@ A small web app (PWA) for Android Chrome. It gives spoken turn-by-turn direction
 Location access only works on an HTTPS site, so the app needs a free host. GitHub Pages is the easiest:
 
 1. Sign in at github.com and click **New repository**. Name it `ride-guide`, make it **Public**, and create it.
-2. On the new repo page, click **uploading an existing file**. Drag in *everything inside* this folder (`index.html`, `sw.js`, `manifest.webmanifest`, and the `css`, `js`, `lib`, `icons` and `routes` folders), then click **Commit changes**.
+2. On the new repo page, click **uploading an existing file**. Select **all the files** from the zip (there are no folders) and drag them in, then click **Commit changes**.
 3. Go to **Settings → Pages**. Under *Build and deployment*, choose **Deploy from a branch**, then **main** and **/ (root)**, and click **Save**.
 4. After about a minute the app is live at `https://<your-username>.github.io/ride-guide/`.
 
@@ -27,12 +27,15 @@ Tips: charge the phone first (the screen stays on). Use one earbud, or keep the 
 
 | Piece | File |
 |---|---|
-| UI, GPS, speech, pocket mode | `js/app.js` |
-| Route geometry, turn cues, progress tracking | `js/nav.js` |
-| Generated ambient music (Web Audio, no audio files) | `js/music.js` |
+| UI, GPS, speech, pocket mode | `app.js` |
+| Route geometry, turn cues, progress tracking | `nav.js` |
+| Generated ambient music (Web Audio, no audio files) | `music.js` |
 | Offline caching | `sw.js` |
-| Route list | `routes/index.json` |
-| One route | `routes/<id>.json` |
+| Map library | `leaflet.js`, `leaflet.css` (+ its png images) |
+| Route list | `index.json` |
+| One route | `<route-id>.json` |
+
+Everything lives in one flat folder, because GitHub's web upload drops folders when you drag in individual files.
 
 When a route is first opened, the app asks the free community bike router (OSRM at routing.openstreetmap.de) for the path and turn steps, then caches the result on the phone. It merges tiny sidewalk jogs into clean instructions ("In 200 metres, turn left onto Knaackstraße") and tracks how far along the route you are. That way a place you pass twice (such as the Victory Column) is announced on the correct pass. Stories wait until a turn instruction is done, and a turn instruction interrupts a story, which then picks up again at the sentence it was on.
 
@@ -40,10 +43,10 @@ When a route is first opened, the app asks the free community bike router (OSRM 
 
 Ask Claude: *"Add a Ride Guide route from A via B to C"*. Or do it by hand:
 
-1. Copy `routes/berlin-prenzlauer-berg-loop.json` to `routes/my-new-route.json` and change:
+1. Copy `berlin-prenzlauer-berg-loop.json` to `my-new-route.json` and change:
    - `id`, `name`, `city`, `description`, `intro`, `outro`
    - `waypoints`: `[lat, lon]` points in riding order. The first is the start, and the last equals the first for a loop. Put shaping points **on** the street you want to use, not beside it, or the router may make a little detour loop to reach them.
    - `pois`: `{ id, name, lat, lon, text }` in riding order. `text` is what gets spoken; keep it to about 60–90 words. You can add `"trigger": [lat, lon]` to fire a story at a specific point on the route.
    - `cueOverrides` (optional): `{ lat, lon, radius, text, dir }` replaces an awkward generated instruction near that point, and `{ lat, lon, radius, drop: true }` removes one.
-2. Add an entry to `routes/index.json`.
+2. Add an entry to `index.json`.
 3. Upload the changed files to the GitHub repo. The phone picks up the changes the next time you open the app online.
