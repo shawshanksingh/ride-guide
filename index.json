@@ -1,0 +1,12 @@
+{
+  "routes": [
+    {
+      "id": "berlin-prenzlauer-berg-loop",
+      "file": "berlin-prenzlauer-berg-loop.json",
+      "name": "Schöneberg → Prenzlauer Berg Loop",
+      "city": "Berlin",
+      "distanceKmApprox": 21.7,
+      "summary": "Tiergarten, Brandenburg Gate, Museum Island, Kollwitzplatz, Mauerpark and the Wall on Bernauer Straße — mixing landmarks with quiet backstreets and park paths."
+    }
+  ]
+}

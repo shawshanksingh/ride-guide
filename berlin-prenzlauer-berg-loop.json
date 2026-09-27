@@ -1,0 +1,356 @@
+{
+  "id": "berlin-prenzlauer-berg-loop",
+  "name": "Schöneberg → Prenzlauer Berg Loop",
+  "city": "Berlin",
+  "description": "Out through Tiergarten, the Brandenburg Gate, Museum Island and the quiet lanes of the Spandauer Vorstadt up to Kollwitzplatz; back through Mauerpark, along the Berlin Wall on Bernauer Straße, past the Reichstag and home through the western Tiergarten.",
+  "distanceKmApprox": 21.7,
+  "lang": "en-GB",
+  "profile": "bike",
+  "start": {
+    "name": "Bamberger Str. 8",
+    "lat": 52.49553,
+    "lon": 13.33701
+  },
+  "waypoints": [
+    [52.49553, 13.33701],
+    [52.496186, 13.343175],
+    [52.511, 13.3512],
+    [52.514811, 13.36037],
+    [52.516295, 13.379001],
+    [52.5205, 13.3955],
+    [52.532, 13.4032],
+    [52.5342, 13.4038],
+    [52.5362, 13.4163],
+    [52.54, 13.4146],
+    [52.542, 13.4024],
+    [52.5396, 13.3998],
+    [52.5357, 13.3905],
+    [52.5214, 13.375],
+    [52.5194, 13.37],
+    [52.5175, 13.36],
+    [52.5105, 13.3448],
+    [52.5075, 13.347],
+    [52.49553, 13.33701]
+  ],
+  "cueOverrides": [
+    {
+      "lat": 52.51374,
+      "lon": 13.3506,
+      "radius": 20,
+      "text": "At the Victory Column, turn right around the roundabout",
+      "dir": "right"
+    },
+    {
+      "lat": 52.51521,
+      "lon": 13.34883,
+      "radius": 20,
+      "text": "At the Victory Column, turn left around the roundabout",
+      "dir": "left"
+    },
+    {
+      "lat": 52.51457,
+      "lon": 13.34835,
+      "radius": 20,
+      "drop": true
+    },
+    {
+      "lat": 52.51423,
+      "lon": 13.3484,
+      "radius": 15,
+      "text": "Bear right, leaving the roundabout southwards into the park",
+      "dir": "slight-right"
+    }
+  ],
+  "intro": "Welcome to the Schöneberg to Prenzlauer Berg loop. It's about twenty-two kilometres, roughly an hour and a half at an easy pace, plus stops. We head north through the Tiergarten and the Brandenburg Gate, wander up through old Mitte to Kollwitzplatz, then come back along the line of the Berlin Wall and through the park. I'll tell you before every turn, and share a story whenever we pass something interesting. Enjoy the ride.",
+  "outro": "And that's the loop — welcome home. Nice riding. Stop the tour whenever you like to end the music.",
+  "pois": [
+    {
+      "id": "viktoria-luise",
+      "name": "Viktoria-Luise-Platz",
+      "lat": 52.49618,
+      "lon": 13.34319,
+      "text": "This is Viktoria-Luise-Platz, named after the only daughter of Kaiser Wilhelm the Second. Around 1900 it was laid out as a showpiece garden square for the new, rather posh neighbourhood. One famous former resident: a young Billy Wilder, who lived at number eleven in the late 1920s while working as a journalist and screenwriter — years before Hollywood and Some Like It Hot."
+    },
+    {
+      "id": "motzstrasse",
+      "name": "Motzstraße",
+      "lat": 52.4967,
+      "lon": 13.345,
+      "text": "Motzstraße runs east to Nollendorfplatz, the heart of one of the world's oldest gay neighbourhoods. In the early 1930s the British writer Christopher Isherwood rented a room just off the square, on Nollendorfstraße. His stories of that Berlin became the musical and film Cabaret. Every July this street fills up for the Lesbian and Gay City Festival."
+    },
+    {
+      "id": "urania",
+      "name": "Urania",
+      "lat": 52.50124,
+      "lon": 13.34806,
+      "text": "On your right is the Urania. It was founded in 1888 by astronomers who wanted to bring science to ordinary Berliners, and it originally had its own public observatory. More than a century later it's still running talks, lectures and films — one of the oldest popular-science institutions anywhere."
+    },
+    {
+      "id": "landwehrkanal",
+      "name": "Landwehrkanal",
+      "lat": 52.50476,
+      "lon": 13.35255,
+      "text": "We're crossing the Landwehrkanal. It was dug in the 1840s, partly to take barge traffic off the Spree, and landscape architect Peter Joseph Lenné gave it tree-lined banks. It runs for about eleven kilometres, and today its towpaths are some of the nicest places in the city to sit by the water."
+    },
+    {
+      "id": "nordic-embassies",
+      "name": "Nordic Embassies",
+      "lat": 52.50862,
+      "lon": 13.3508,
+      "text": "Just to your left, behind a long band of green copper louvres, are the Nordic Embassies. Denmark, Finland, Iceland, Norway and Sweden built their embassies together in one shared compound, opened in 1999, with a common house in the middle that anyone can visit. It's a very Scandinavian solution: five countries, one fence."
+    },
+    {
+      "id": "tiergarten",
+      "name": "Tiergarten",
+      "lat": 52.5105,
+      "lon": 13.3513,
+      "text": "Welcome to the Tiergarten — once a royal hunting ground, now Berlin's great central park. After the Second World War, freezing Berliners cut down almost every tree for firewood and turned the park into vegetable plots. Replanting began in 1949, when mayor Ernst Reuter planted a lime tree. Nearly everything you see around you has grown since then."
+    },
+    {
+      "id": "siegessaeule",
+      "name": "Victory Column",
+      "lat": 52.51451,
+      "lon": 13.35011,
+      "text": "That golden figure on the column is Victoria, known to Berliners as Goldelse. The Victory Column celebrates Prussian wins over Denmark, Austria and France in the 1860s and 70s. It originally stood in front of the Reichstag. In 1938 and 39 the Nazis moved it here and made it taller. If you climb its 285 steps, you'll be standing where the angels sat in the film Wings of Desire."
+    },
+    {
+      "id": "soviet-memorial",
+      "name": "Soviet War Memorial",
+      "lat": 52.51669,
+      "lon": 13.37192,
+      "text": "On the left of Straße des 17. Juni is the Soviet War Memorial, with two tanks out front. It was built in 1945 and around two thousand Red Army soldiers are buried here. The odd part is that it ended up inside the British sector, so throughout the Cold War, Soviet honour guards travelled into West Berlin every day to stand watch here."
+    },
+    {
+      "id": "brandenburg-gate",
+      "name": "Brandenburg Gate",
+      "lat": 52.51627,
+      "lon": 13.3777,
+      "text": "Ahead is the Brandenburg Gate, built between 1788 and 1791. The Quadriga on top, a chariot with four horses, has had quite a life. Napoleon took it to Paris in 1806 as war loot. When it came back eight years later, the goddess was given a new Iron Cross and eagle. During the Cold War the gate stood in no-man's-land, and it only reopened just before Christmas 1989. Ride through it — that's allowed now."
+    },
+    {
+      "id": "adlon",
+      "name": "Hotel Adlon",
+      "lat": 52.51558,
+      "lon": 13.38007,
+      "text": "On the right corner is the Hotel Adlon. The original was Berlin's grandest hotel and opened in 1907. It survived the bombing, only to burn down in the days after Berlin fell in 1945. The one you see is a 1997 rebuild. Its most famous moment of the modern era: in 2002 Michael Jackson dangled his baby son from one of those balconies."
+    },
+    {
+      "id": "humboldt",
+      "name": "Humboldt University",
+      "lat": 52.5184,
+      "lon": 13.3936,
+      "text": "On your right, behind the buildings, is Humboldt University, founded in 1810. Hegel lectured here, the Brothers Grimm taught here, and Karl Marx studied law here. Later Max Planck and Albert Einstein were on the staff. Few universities anywhere can match its list of Nobel laureates."
+    },
+    {
+      "id": "museum-island",
+      "name": "Museum Island & Am Kupfergraben",
+      "lat": 52.5203,
+      "lon": 13.3953,
+      "text": "Across the water is Museum Island: five great museums on one island in the Spree, and a UNESCO World Heritage Site since 1999. The Pergamon Museum is closed for a long renovation. Now look at the ordinary-looking apartment houses on your side of the canal. For decades Angela Merkel has lived here with her husband, and even as chancellor she came home to this street."
+    },
+    {
+      "id": "bode-museum",
+      "name": "Bode-Museum",
+      "lat": 52.52165,
+      "lon": 13.395,
+      "text": "The domed building at the tip of the island is the Bode-Museum. One night in 2017, thieves climbed through a window from the S-Bahn tracks up there. They carried out the Big Maple Leaf, a one-hundred-kilo gold coin worth millions, rolled it through the park on a wheelbarrow and vanished. The coin has never been found. It was almost certainly melted down."
+    },
+    {
+      "id": "monbijou",
+      "name": "Monbijoupark",
+      "lat": 52.5232,
+      "lon": 13.39698,
+      "text": "On the right is Monbijoupark. A small rococo palace stood here until it was wrecked in the war and cleared away in the 1950s. On summer evenings the park has an open-air riverside theatre playing Shakespeare and Molière, and people dance salsa and tango beside the Spree.",
+      "trigger": [52.5225, 13.3942]
+    },
+    {
+      "id": "neue-synagoge",
+      "name": "Neue Synagoge",
+      "lat": 52.52498,
+      "lon": 13.39432,
+      "text": "Look left along Oranienburger Straße for the golden dome of the New Synagogue, opened in 1866. On Kristallnacht in 1938, Nazi thugs tried to set it alight. The local police chief, Wilhelm Krützfeld, drew his pistol, chased them off and called the fire brigade, arguing the building was a protected monument. It was later bombed, and the front and dome were restored in the 1990s."
+    },
+    {
+      "id": "grosse-hamburger",
+      "name": "Große Hamburger Straße",
+      "lat": 52.52507,
+      "lon": 13.39849,
+      "text": "This quiet street carries a lot of history. On the left is Berlin's oldest Jewish cemetery, from 1672, where the philosopher Moses Mendelssohn is buried. In 1942 the Nazis turned the Jewish old people's home next to it into a deportation collection point. Opposite, look for a gap between two buildings with names on the walls. That's The Missing House, an artwork by Christian Boltanski. It lists the people who lived in the house that stood there before a bomb destroyed it."
+    },
+    {
+      "id": "clarchens",
+      "name": "Auguststraße",
+      "lat": 52.52661,
+      "lon": 13.39686,
+      "text": "We turn onto Auguststraße, which became the centre of Berlin's gallery scene after the Wall fell. Just behind you to the left is Clärchens Ballhaus, a dance hall that has been putting on dances since 1913. It came through two world wars and the GDR, and upstairs there's a faded mirror hall."
+    },
+    {
+      "id": "weinbergspark",
+      "name": "Weinbergspark",
+      "lat": 52.532,
+      "lon": 13.402,
+      "text": "The sloping park to your left is Weinbergspark, 'vineyard park'. In the seventeenth and eighteenth centuries Berliners really did grow grapes on this sunny hillside, which is where the street name Weinbergsweg comes from. By most accounts the wine was terrible. There's a statue of the poet Heinrich Heine hidden among the trees."
+    },
+    {
+      "id": "zionskirche",
+      "name": "Zionskirche",
+      "lat": 52.5346,
+      "lon": 13.4038,
+      "text": "This is the Zion Church. It was built as a thank-you after King Wilhelm survived an assassination attempt in 1861. In the early 1930s the young theologian Dietrich Bonhoeffer taught confirmation classes here. In the 1980s the basement held the Environmental Library, a hub of the East German opposition. The Stasi raided it one night in November 1987, and the protests that followed helped build the movement that brought down the Wall."
+    },
+    {
+      "id": "juedischer-friedhof",
+      "name": "Schönhauser Allee",
+      "lat": 52.5325,
+      "lon": 13.4125,
+      "text": "Schönhauser Allee is Prenzlauer Berg's main artery, with the U2 line running above the street on its iron viaduct. A block south along it is a hidden, overgrown Jewish cemetery from 1827. The painter Max Liebermann and the opera composer Giacomo Meyerbeer are buried there."
+    },
+    {
+      "id": "wasserturm",
+      "name": "Water Tower",
+      "lat": 52.5343,
+      "lon": 13.4155,
+      "text": "To your right, up on its little hill, is the Wasserturm, Berlin's oldest water tower, built in 1877. Locals call it Fat Hermann. People now live in round apartments inside it. It also has a dark chapter: in 1933 the SA used its machine house as one of the first improvised concentration camps."
+    },
+    {
+      "id": "kollwitzplatz",
+      "name": "Kollwitzplatz",
+      "lat": 52.53542,
+      "lon": 13.41735,
+      "text": "Kollwitzplatz is named after the artist Käthe Kollwitz. For about fifty years she lived on this corner with her husband Karl, a doctor who treated the working-class families of the neighbourhood. Her drawings and sculptures of hardship and grief grew out of what she saw in his waiting room. She sits in bronze in the square, and on Saturdays there's a lovely farmers' market around her."
+    },
+    {
+      "id": "kulturbrauerei",
+      "name": "Kulturbrauerei",
+      "lat": 52.53927,
+      "lon": 13.41398,
+      "text": "The fortress of red and yellow brick on your right is the Kulturbrauerei. It was once the Schultheiss brewery, among the biggest breweries in the world around 1900. Since the 1990s it's been a culture centre with clubs, a cinema, theatre, and a Christmas market in winter."
+    },
+    {
+      "id": "konnopke",
+      "name": "Eberswalder Straße & Konnopke's",
+      "lat": 52.54047,
+      "lon": 13.41222,
+      "text": "Under the elevated railway at the corner is Konnopke's Imbiss, selling sausages here since 1930. It claims to have served East Berlin's first currywurst. Berliners nicknamed the elevated line above it the Magistratsschirm, the 'city council umbrella', because shoppers used it to keep dry."
+    },
+    {
+      "id": "mauerpark",
+      "name": "Mauerpark",
+      "lat": 52.54372,
+      "lon": 13.40193,
+      "text": "Welcome to Mauerpark, 'Wall Park'. This strip was once the border's death zone, and you can still see a stretch of the inner wall on the hill. On Sundays the park fills with a huge flea market and open-air karaoke in the stone amphitheatre, where thousands cheer on complete strangers. The stadium next door was the home ground of BFC Dynamo, the Stasi's favourite football club."
+    },
+    {
+      "id": "vinetaplatz",
+      "name": "Vinetaplatz",
+      "lat": 52.54096,
+      "lon": 13.39915,
+      "text": "This little square is Vinetaplatz, named after Vineta, a legendary city said to lie sunken beneath the Baltic Sea, a sort of northern Atlantis. The streets around here are named after towns on the Baltic coast, like Swinemünde, now Świnoujście in Poland."
+    },
+    {
+      "id": "conrad-schumann",
+      "name": "Bernauer Straße – Conrad Schumann",
+      "lat": 52.53959,
+      "lon": 13.39861,
+      "text": "We're now riding along Bernauer Straße, the most dramatic stretch of the Berlin Wall. Right at this corner, on the fifteenth of August 1961, a nineteen-year-old East German border guard named Conrad Schumann leapt over the barbed wire into the West. The photo of his jump became one of the most famous images of the Cold War."
+    },
+    {
+      "id": "bernauer-windows",
+      "name": "Bernauer Straße – the windows",
+      "lat": 52.538,
+      "lon": 13.3953,
+      "text": "Here's what made this street so strange. The houses on one side were in East Berlin, but the pavement in front of them was in the West. When the Wall went up, people jumped from their windows to reach the West, while firemen held nets below. The first person to die at the Wall, Ida Siekmann, fell to her death jumping from her flat here on the twenty-second of August 1961. The rusty steel poles along the path trace the line of the old wall."
+    },
+    {
+      "id": "chapel-of-reconciliation",
+      "name": "Chapel of Reconciliation",
+      "lat": 52.53581,
+      "lon": 13.39191,
+      "text": "The small oval building is the Chapel of Reconciliation. The Church of Reconciliation stood here from 1894, and after 1961 it was trapped in the death strip where no one could use it. The GDR blew it up in 1985. After reunification this chapel was built on the same spot, with walls of rammed earth that has fragments of the old church mixed into it."
+    },
+    {
+      "id": "nordbahnhof",
+      "name": "Nordbahnhof ghost station",
+      "lat": 52.53227,
+      "lon": 13.38784,
+      "text": "Below us is Nordbahnhof, once a ghost station. During the Cold War some West Berlin train lines ran underground beneath East Berlin. The trains rolled through dimly lit, sealed-off stations like this one without stopping, while armed guards watched the empty platforms. There's a small free exhibition about it in the station."
+    },
+    {
+      "id": "naturkunde",
+      "name": "Museum für Naturkunde",
+      "lat": 52.53,
+      "lon": 13.3794,
+      "text": "The big building on your right is the Natural History Museum. Its main hall holds a Giraffatitan skeleton over thirteen metres tall, the tallest mounted dinosaur in the world according to Guinness."
+    },
+    {
+      "id": "charite",
+      "name": "Charité",
+      "lat": 52.52585,
+      "lon": 13.37776,
+      "text": "To your right is the Charité, one of Europe's most famous hospitals. It was founded in 1710 as a quarantine house for a plague epidemic, but the plague never reached Berlin. It became a hospital instead, and later Robert Koch, Rudolf Virchow and Paul Ehrlich all worked here."
+    },
+    {
+      "id": "kronprinzenbruecke",
+      "name": "Kronprinzenbrücke",
+      "lat": 52.5218,
+      "lon": 13.3755,
+      "text": "We're crossing the Spree on the Kronprinzenbrücke. This white steel bridge was designed by Santiago Calatrava and opened in 1996. Its predecessor stood right on the border and was demolished during the Cold War, so this new bridge became a symbolic link between East and West."
+    },
+    {
+      "id": "reichstag",
+      "name": "Reichstag",
+      "lat": 52.51865,
+      "lon": 13.3761,
+      "text": "Off to your left is the Reichstag, home of the German parliament. It burned in 1933 and was left a wreck after 1945. In 1995 the artists Christo and Jeanne-Claude wrapped the whole building in silver fabric for two weeks. Then Norman Foster added the glass dome, which you can visit for free if you book ahead. Inside, graffiti left by Soviet soldiers in 1945 has been deliberately preserved."
+    },
+    {
+      "id": "kanzleramt",
+      "name": "Federal Chancellery",
+      "lat": 52.52019,
+      "lon": 13.36913,
+      "text": "The huge white building is the Federal Chancellery, the chancellor's office, finished in 2001. Berliners call it the Washing Machine, and once you see the big round window in the middle you can see why. It's part of the Band des Bundes, a ribbon of government buildings that deliberately crosses the Spree, which once divided the city, twice."
+    },
+    {
+      "id": "hkw-carillon",
+      "name": "Carillon & Haus der Kulturen der Welt",
+      "lat": 52.51777,
+      "lon": 13.36696,
+      "text": "The black tower is the Carillon, with sixty-eight bells, one of the largest in Europe. There are concerts on summer Sunday afternoons. Beside it, with the swooping roof, is the Haus der Kulturen der Welt. America gave it to Berlin in 1957, and locals immediately named it the Pregnant Oyster. Its roof collapsed in 1980, and it was rebuilt in 1987."
+    },
+    {
+      "id": "bellevue",
+      "name": "Schloss Bellevue",
+      "lat": 52.51729,
+      "lon": 13.35243,
+      "text": "On the right is Schloss Bellevue, the white palace of the German Federal President. It was built in 1786 for the youngest brother of Frederick the Great. Glance at the roof: if the flag is flying, the president is in town."
+    },
+    {
+      "id": "rosa-luxemburg",
+      "name": "Lichtensteinbrücke",
+      "lat": 52.50903,
+      "lon": 13.34324,
+      "text": "At the bridge just here, a memorial marks a dark moment. In January 1919, during the revolutionary turmoil after the First World War, soldiers murdered the socialist leader Rosa Luxemburg and threw her body into the Landwehrkanal right here. It wasn't found until months later."
+    },
+    {
+      "id": "zoo",
+      "name": "Katharina-Heinroth-Ufer",
+      "lat": 52.508,
+      "lon": 13.3455,
+      "text": "Across the canal is Berlin Zoo, opened in 1844 and the oldest zoo in Germany. This path is named after Katharina Heinroth, who took over as director in 1945. Of thousands of animals, only ninety-one had survived the war, and she rebuilt the zoo almost from scratch."
+    },
+    {
+      "id": "kadewe",
+      "name": "KaDeWe",
+      "lat": 52.50158,
+      "lon": 13.341,
+      "text": "Just to the right, across Wittenbergplatz, is the KaDeWe, the Kaufhaus des Westens. It opened in 1907 and is the biggest department store in continental Europe. In 1943 an American bomber crashed straight into it. Today the sixth-floor food hall is the place for a treat, maybe after the ride."
+    },
+    {
+      "id": "bavarian-quarter",
+      "name": "Bavarian Quarter",
+      "lat": 52.497,
+      "lon": 13.339,
+      "text": "Nearly home. Keep an eye on the lampposts round here. The Bavarian Quarter has about eighty small signs, each with a Nazi-era rule against Jewish residents, installed in 1993 as a memorial called Places of Remembrance. This was a neighbourhood of Jewish professionals and artists, and Albert Einstein lived a few blocks south on Haberlandstraße until he left Germany at the end of 1932."
+    }
+  ]
+}
