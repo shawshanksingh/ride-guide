@@ -1,0 +1,205 @@
+{
+  "id": "tempelhof-airlift-trail",
+  "name": "Airlift Trail: Schöneberg → Tempelhofer Feld",
+  "city": "Berlin",
+  "description": "A one-way ride through Allied and aviation Berlin: Winterfeldtplatz market, the Kammergericht where the Allied Control Council sat, the Brothers Grimm's churchyard, the Kreuzberg and its waterfall, the Airlift Memorial and Tempelhof airport, then right across the old airfield to S+U Tempelhof.",
+  "distanceKmApprox": 9.5,
+  "lang": "en-GB",
+  "profile": "bike",
+  "start": {
+    "name": "Bamberger Str. 8",
+    "lat": 52.49553,
+    "lon": 13.33701
+  },
+  "waypoints": [
+    [
+      52.49553,
+      13.33701
+    ],
+    [
+      52.49589,
+      13.33958
+    ],
+    [
+      52.4969,
+      13.35409
+    ],
+    [
+      52.4928,
+      13.35655
+    ],
+    [
+      52.48935,
+      13.37593
+    ],
+    [
+      52.4898,
+      13.383
+    ],
+    [
+      52.4845,
+      13.3868
+    ],
+    [
+      52.4822,
+      13.40724
+    ],
+    [
+      52.479,
+      13.405
+    ],
+    [
+      52.4762,
+      13.3999
+    ],
+    [
+      52.47156,
+      13.38631
+    ],
+    [
+      52.4702,
+      13.3857
+    ]
+  ],
+  "cueOverrides": [
+    {
+      "lat": 52.49481,
+      "lon": 13.35418,
+      "radius": 25,
+      "text": "At the end of the road, turn left onto Pallasstraße",
+      "dir": "left"
+    },
+    {
+      "lat": 52.48984,
+      "lon": 13.38395,
+      "radius": 20,
+      "drop": true
+    },
+    {
+      "lat": 52.49007,
+      "lon": 13.38624,
+      "radius": 25,
+      "text": "Turn right onto Mehringdamm, using the cycle lane",
+      "dir": "right"
+    },
+    {
+      "lat": 52.48482,
+      "lon": 13.38582,
+      "radius": 25,
+      "text": "Turn left around Platz der Luftbrücke",
+      "dir": "left"
+    },
+    {
+      "lat": 52.48436,
+      "lon": 13.38728,
+      "radius": 25,
+      "text": "Keep straight on past the Airlift Memorial, onto the Columbiadamm cycle path",
+      "dir": "straight"
+    },
+    {
+      "lat": 52.48231,
+      "lon": 13.40725,
+      "radius": 30,
+      "text": "Turn right through the gate onto Tempelhofer Feld",
+      "dir": "right"
+    },
+    {
+      "lat": 52.47156,
+      "lon": 13.38554,
+      "radius": 30,
+      "text": "Leave the field through the gate and turn left along Tempelhofer Damm",
+      "dir": "left"
+    },
+    {
+      "lat": 52.47031,
+      "lon": 13.38551,
+      "radius": 20,
+      "drop": true
+    }
+  ],
+  "intro": "Welcome to the Airlift Trail, a one-way ride of about nine and a half kilometres — roughly forty minutes — past Schöneberg's market and courts, along the Kreuzberg, round the old Tempelhof airport and across its airfield to Tempelhof station. The field is open from sunrise to sunset. Head north up Bamberger Straße.",
+  "outro": "That's the end of the ride. Just ahead is Tempelhof station: the S-Bahn ring lines S41 and S42, plus the S45 and S46, and the U6 underground beneath Tempelhofer Damm. Thanks for riding with me.",
+  "pois": [
+    {
+      "id": "winterfeldtplatz",
+      "name": "Winterfeldtplatz",
+      "lat": 52.49653,
+      "lon": 13.35437,
+      "text": "On your left is Winterfeldtplatz, named in 1893 after the Prussian general Hans Karl von Winterfeldt. A weekly market has been held here since 1890, and today it's one of Berlin's biggest, filling the square every Wednesday and Saturday — on a busy Saturday with around two hundred and fifty stalls. The neo-Gothic church in the middle is Saint Matthias, consecrated in 1895. Its tall spire was cut right down after heavy damage in the war."
+    },
+    {
+      "id": "kammergericht",
+      "name": "Kammergericht & Kleistpark",
+      "lat": 52.49243,
+      "lon": 13.35752,
+      "text": "Look left at the grand neo-Baroque building behind the trees. This is the Kammergericht, Berlin's highest court, built in 1913 on the grounds of the old botanical garden. In August 1944 the Nazi People's Court tried the surviving July plotters here. After the war the four victorious powers made it the home of the Allied Control Council, until the Soviet delegation walked out in March 1948. And in 1971 the Four Power Agreement on Berlin was signed inside."
+    },
+    {
+      "id": "matthaeus-kirchhof",
+      "name": "Old St Matthew's Churchyard",
+      "lat": 52.491,
+      "lon": 13.367,
+      "text": "Behind the wall on your right is the Old Saint Matthew's Churchyard, opened in 1856. The Brothers Grimm are buried here — Wilhelm, who died in 1859, and Jacob four years later — the pair who collected Snow White, Rapunzel and Hansel and Gretel. The great pathologist Rudolf Virchow lies here too. And there's a gravestone for Claus von Stauffenberg: the SS dug up his body the day after his burial in July 1944, but the stone still stands."
+    },
+    {
+      "id": "kreuzberg-name",
+      "name": "Kreuzbergstraße",
+      "lat": 52.4887,
+      "lon": 13.3742,
+      "text": "You're on Kreuzbergstraße now, and the wooded hill rising on your right gave a whole district its name. In 1821 Karl Friedrich Schinkel's cast-iron monument to the wars of liberation against Napoleon was unveiled on its sixty-six-metre summit. The king then renamed the hill Kreuzberg — Cross Mountain — after the Iron Cross on top of the monument. When Berlin created a new borough here a century later, in 1921, it borrowed the name."
+    },
+    {
+      "id": "viktoriapark-waterfall",
+      "name": "Viktoriapark waterfall",
+      "lat": 52.489,
+      "lon": 13.3806,
+      "trigger": [
+        52.4896,
+        13.38
+      ],
+      "text": "Listen on your right for running water. Viktoriapark opened in 1894, named after Princess Victoria, and its showpiece is this artificial waterfall, tumbling twenty-four metres down the hillside. Before building it, the city's garden director and a sculptor travelled to the Giant Mountains to study real waterfalls. In the warmer months pumps push around thirteen thousand litres a minute over the rocks. It's well worth coming back on foot one day and climbing up to the monument for the view."
+    },
+    {
+      "id": "airlift-memorial",
+      "name": "Airlift Memorial",
+      "lat": 52.48414,
+      "lon": 13.3874,
+      "text": "Ahead is the Airlift Memorial, three concrete ribs curving up into the sky. Berliners call it the Hunger Rake. When the Soviets blockaded West Berlin in June 1948, Western aircraft kept the city alive from the air for more than a year, flying in over two million tonnes of food, coal and supplies. The three ribs stand for the three air corridors to the West. Designed by Eduard Ludwig and unveiled in 1951, it names those who died in airlift accidents."
+    },
+    {
+      "id": "airport-building",
+      "name": "Tempelhof Airport",
+      "lat": 52.4832,
+      "lon": 13.393,
+      "text": "On your right is the long arc of the old Tempelhof airport. Ernst Sagebiel designed it for the Nazi regime, and it was built between 1936 and 1941 as a vast quarter-circle about one point two kilometres long — once among the twenty largest buildings on earth. The architect Norman Foster later called it one of the really great buildings of the modern age. Tempelhof became an official airport in 1923, and the last flights left in October 2008."
+    },
+    {
+      "id": "columbia-haus",
+      "name": "Columbia concentration camp memorial",
+      "lat": 52.4839,
+      "lon": 13.3999,
+      "text": "At the corner with Golßener Straße, a steel sculpture by Georg Seibert, set up in 1994, recalls a darker chapter. Near here stood Columbia House, which from 1934 to 1936 was an official concentration camp. Around ten thousand prisoners were held there in all. In 1938 the building was torn down to make room for the growing airport, so nothing of it survives — which is exactly why the memorial is here."
+    },
+    {
+      "id": "tempelhofer-feld",
+      "name": "Tempelhofer Feld",
+      "lat": 52.48,
+      "lon": 13.4055,
+      "text": "And now you're on Tempelhofer Feld. At three hundred and fifty-five hectares, it's Berlin's largest park. Prussian soldiers drilled here from the seventeen-twenties right up to 1914. After the airport closed, the field opened to everyone in May 2010, and in a referendum in 2014 about sixty-four percent of voters chose to keep all of it free from building. So enjoy the space — kites, skaters and a huge open sky, right in the middle of the city."
+    },
+    {
+      "id": "candy-bomber",
+      "name": "The Candy Bomber",
+      "lat": 52.476,
+      "lon": 13.3995,
+      "text": "In July 1948, during the airlift, a young American pilot called Gail Halvorsen met about thirty children at the fence of this airfield. He gave them two sticks of gum and watched them share it in tiny pieces. He promised to drop sweets from his plane, and to wiggle his wings so they'd know him. Little handkerchief parachutes followed, and by May 1949 the Candy Bombers had dropped some twenty-three tons of sweets. Halvorsen lived to one hundred and one."
+    },
+    {
+      "id": "wright-flights",
+      "name": "Orville Wright on the field",
+      "lat": 52.4747,
+      "lon": 13.391,
+      "text": "Long before the airliners, this field was a stage for the very first flyers. In September 1909 Orville Wright came here to show off his aeroplane, setting a world altitude record of one hundred and seventy-two metres and making a passenger flight of more than an hour and a half. Just days earlier, the first Zeppelin to reach Berlin had landed here. And that same month the French pilot Hubert Latham took off from this field and flew across the city to Johannisthal."
+    }
+  ]
+}

@@ -1,12 +1,26 @@
 {
   "routes": [
     {
+      "id": "tempelhof-airlift-trail",
+      "file": "tempelhof-airlift-trail.json",
+      "name": "Airlift Trail: Schöneberg → Tempelhofer Feld",
+      "city": "Berlin",
+      "distanceKmApprox": 9.5,
+      "summary": "Allied and aviation Berlin: Winterfeldtplatz, the Allied Control Council building, the Grimms' churchyard, Viktoriapark's waterfall, the Airlift Memorial, then across the old runways of Tempelhofer Feld.",
+      "shape": "one-way",
+      "endName": "S+U Tempelhof",
+      "created": "2026-09-28"
+    },
+    {
       "id": "bavarian-quarter-test-loop",
       "file": "bavarian-quarter-test-loop.json",
       "name": "Test Loop: Bavarian Quarter",
       "city": "Berlin",
       "distanceKmApprox": 2.8,
-      "summary": "Short 2.8 km shakedown loop from home — try out voice, GPS, music and pocket mode before the big ride."
+      "summary": "Short 2.8 km shakedown loop from home — try out voice, GPS, music and pocket mode before the big ride.",
+      "pinned": true,
+      "shape": "loop",
+      "created": "2026-09-27"
     },
     {
       "id": "berlin-prenzlauer-berg-loop",
@@ -14,7 +28,10 @@
       "name": "Schöneberg → Prenzlauer Berg Loop",
       "city": "Berlin",
       "distanceKmApprox": 21.7,
-      "summary": "Tiergarten, Brandenburg Gate, Museum Island, Kollwitzplatz, Mauerpark and the Wall on Bernauer Straße — mixing landmarks with quiet backstreets and park paths."
+      "summary": "Tiergarten, Brandenburg Gate, Museum Island, Kollwitzplatz, Mauerpark and the Wall on Bernauer Straße — mixing landmarks with quiet backstreets and park paths.",
+      "pinned": true,
+      "shape": "loop",
+      "created": "2026-09-27"
     }
   ]
 }

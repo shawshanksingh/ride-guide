@@ -1,0 +1,26 @@
+HOW TO UPLOAD
+GitHub → shawshanksingh/ride-guide → Add file → Upload files → drag in tempelhof-airlift-trail.json and index.json → Commit.
+Then on the phone open the app, close it, open it again.
+
+ROUTE SUMMARY
+Name:   Airlift Trail: Schöneberg → Tempelhofer Feld
+Length: 9.5 km (bike route), about 40 minutes at 15 km/h
+Shape:  One-way — ends at S+U Tempelhof (S41, S42, S45, S46, U6)
+Theme:  Allied Berlin & aviation — the Airlift, Tempelhof airport and Tempelhofer Feld
+Note:   Tempelhofer Feld is only open sunrise to sunset (gates close in the evening).
+
+Stories:
+  1. Winterfeldtplatz
+  2. Kammergericht & Kleistpark
+  3. Old St Matthew's Churchyard
+  4. Kreuzbergstraße
+  5. Viktoriapark waterfall
+  6. Airlift Memorial
+  7. Tempelhof Airport
+  8. Columbia concentration camp memorial
+  9. Tempelhofer Feld
+  10. The Candy Bomber
+  11. Orville Wright on the field
+
+Validation: all 12 waypoints snapped within 7 m, no U-turns, no detour legs, POIs 6–76 m from the route and at least 420 m apart.
+Note: index.json keeps the two pinned routes exactly as in your 2026-09-27 folder (with pinned/shape/created fields).
