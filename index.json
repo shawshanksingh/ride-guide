@@ -1,6 +1,18 @@
 {
   "routes": [
     {
+      "id": "padel-lankwitz-ride",
+      "file": "padel-lankwitz-ride.json",
+      "name": "To Padel Lankwitz via Friedenau",
+      "city": "Berlin",
+      "distanceKmApprox": 7.2,
+      "summary": "Your padel commute: Bundesallee through literary Friedenau, over the Friedenauer Brücke, past the Stadtpark Steglitz to the courts on Leonorenstraße.",
+      "pinned": true,
+      "shape": "one-way",
+      "endName": "Padel Lankwitz",
+      "created": "2026-09-28"
+    },
+    {
       "id": "tempelhof-airlift-trail",
       "file": "tempelhof-airlift-trail.json",
       "name": "Airlift Trail: Schöneberg → Tempelhofer Feld",

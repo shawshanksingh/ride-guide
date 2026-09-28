@@ -1,0 +1,15 @@
+Ride Guide — extra route, 2026-09-28: To Padel Lankwitz via Friedenau
+
+Upload to GitHub (shawshanksingh/ride-guide → Add file → Upload files), then Commit:
+  - padel-lankwitz-ride.json   (the new route)
+  - index.json                 (route list — now includes BOTH today's Tempelhof route and this one)
+  - tempelhof-airlift-trail.json (only if you haven't uploaded it yet)
+Then on the phone: open the app, close it, open it again.
+
+Route: 7.2 km, one-way, ~30 min. Follows your Google Maps bike route:
+Bamberger Str → Nachodstraße → Bundesallee → Friedrich-Wilhelm-Platz → Schmiljanstraße → Saarstraße
+→ Friedenauer Brücke → Knausstraße → Bismarckstraße → Albrechtstraße → Padel Lankwitz (Leonorenstraße 37).
+Pinned at the top of the app's route list (it's a regular trip).
+
+Stories (6): Bundesallee (ex-Kaiserallee) · Friedenau, the "meadow of peace" · Friedrich-Wilhelm-Platz & Friedenau's writers
+· Stubenrauchstraße cemetery (Marlene Dietrich, Helmut Newton, Busoni) · Stadtpark Steglitz · Lankwitz, first recorded 1239

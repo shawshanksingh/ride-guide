@@ -1,0 +1,161 @@
+{
+  "id": "padel-lankwitz-ride",
+  "name": "To Padel Lankwitz via Friedenau",
+  "city": "Berlin",
+  "description": "One-way, 7.2 km: down Bundesallee through the planned villa suburb of Friedenau, over the Friedenauer Brücke into Steglitz, along Bismarckstraße and Albrechtstraße past the Stadtpark, finishing at Padel Lankwitz on Leonorenstraße. Follows the Google Maps bike route.",
+  "distanceKmApprox": 7.2,
+  "lang": "en-GB",
+  "profile": "bike",
+  "start": {
+    "name": "Bamberger Str. 8",
+    "lat": 52.49553,
+    "lon": 13.33701
+  },
+  "end": {
+    "name": "Padel Lankwitz",
+    "lat": 52.44219,
+    "lon": 13.34447
+  },
+  "waypoints": [
+    [
+      52.49553,
+      13.33701
+    ],
+    [
+      52.49521,
+      13.33351
+    ],
+    [
+      52.47212,
+      13.32873
+    ],
+    [
+      52.46865,
+      13.33331
+    ],
+    [
+      52.4671,
+      13.33778
+    ],
+    [
+      52.45864,
+      13.33929
+    ],
+    [
+      52.45051,
+      13.3375
+    ],
+    [
+      52.44551,
+      13.34518
+    ],
+    [
+      52.44219,
+      13.34447
+    ]
+  ],
+  "cueOverrides": [
+    {
+      "lat": 52.49494,
+      "lon": 13.33708,
+      "radius": 15,
+      "text": "Turn right onto Nachodstraße",
+      "dir": "right"
+    },
+    {
+      "lat": 52.495,
+      "lon": 13.33648,
+      "radius": 12,
+      "drop": true
+    },
+    {
+      "lat": 52.47466,
+      "lon": 13.32834,
+      "radius": 15,
+      "text": "Keep right on the side path towards Friedrich-Wilhelm-Platz",
+      "dir": "slight-right"
+    },
+    {
+      "lat": 52.46713,
+      "lon": 13.33733,
+      "radius": 15,
+      "text": "Cross onto the Friedenauer Brücke — walk the bike for a moment if it's busy",
+      "dir": "straight"
+    },
+    {
+      "lat": 52.46688,
+      "lon": 13.33813,
+      "radius": 15,
+      "text": "After the bridge, carry straight on along Knausstraße",
+      "dir": "straight"
+    },
+    {
+      "lat": 52.44412,
+      "lon": 13.3461,
+      "radius": 15,
+      "text": "Continue straight — almost there",
+      "dir": "straight"
+    },
+    {
+      "lat": 52.44255,
+      "lon": 13.34476,
+      "radius": 15,
+      "text": "Bear right — Padel Lankwitz is on your left",
+      "dir": "slight-right"
+    }
+  ],
+  "intro": "Off to padel! This is a one-way ride of just over seven kilometres, about half an hour at an easy pace. We head down Bundesallee through the writers' suburb of Friedenau, cross into Steglitz, pass the Stadtpark and finish at the courts in Lankwitz. First, a short hop south along Bamberger Straße.",
+  "outro": "You've arrived at Padel Lankwitz, right beside the ice rink on Leonorenstraße. Lock up the bike, and have a great game.",
+  "pois": [
+    {
+      "id": "bundesallee",
+      "name": "Bundesallee",
+      "lat": 52.49357,
+      "lon": 13.33067,
+      "text": "We're now on Bundesallee. For most of its life this was the Kaiserallee, named in 1888, just a week after the death of Kaiser Wilhelm the First. In July 1950 Chancellor Konrad Adenauer renamed it Bundesallee, the Federal Avenue, when he opened the Bundeshaus a little way north of here, a symbol that West Berlin belonged to the new Federal Republic."
+    },
+    {
+      "id": "friedenau",
+      "name": "Friedenau",
+      "lat": 52.47679,
+      "lon": 13.32841,
+      "text": "Welcome to Friedenau. It was founded in 1871 as a smart commuter suburb, and its name, meaning 'meadow of peace', celebrates the peace treaty that ended the Franco-Prussian War. The developers laid it out as a neat geometric plan, a central avenue cutting through a ring road with four town squares, and it stayed an independent town until it joined Greater Berlin in 1920."
+    },
+    {
+      "id": "friedrich-wilhelm-platz",
+      "name": "Friedrich-Wilhelm-Platz",
+      "lat": 52.47207,
+      "lon": 13.32869,
+      "text": "This is Friedrich-Wilhelm-Platz, with the Church of the Good Shepherd. Friedenau has an astonishing literary pedigree: Erich Kästner, Kurt Tucholsky, Max Frisch, Uwe Johnson and the Nobel laureate Günter Grass all lived in these quiet streets. The artist Hannah Höch and the composer Max Bruch lived in Friedenau too."
+    },
+    {
+      "id": "stubenrauch-cemetery",
+      "name": "Stubenrauchstraße cemetery",
+      "lat": 52.469,
+      "lon": 13.3278,
+      "text": "A few blocks away, on Stubenrauchstraße, is a small city cemetery with some very famous residents. Marlene Dietrich, who was born in Schöneberg, chose to be buried here in her home city in 1992. The photographer Helmut Newton lies close by, and so does the composer and pianist Ferruccio Busoni.",
+      "trigger": [
+        52.46892,
+        13.33254
+      ]
+    },
+    {
+      "id": "stadtpark-steglitz",
+      "name": "Stadtpark Steglitz",
+      "lat": 52.447,
+      "lon": 13.337,
+      "text": "The green on your right is the edge of the Stadtpark Steglitz, laid out between 1912 and 1914. Hidden inside are several ponds, one with two little islands, and a rose garden from 1917 that was restored to its original design in 2014. It's a lovely spot for a cool-down after the game.",
+      "trigger": [
+        52.44837,
+        13.33942
+      ]
+    },
+    {
+      "id": "lankwitz",
+      "name": "Lankwitz",
+      "lat": 52.4454,
+      "lon": 13.34578,
+      "text": "We're entering Lankwitz. It was first recorded in 1239, the oldest written mention of any village in today's Berlin. The name comes from an old Slavic word for a place by the riverside meadows. Lankwitz suffered terribly in the war: air raids in late summer 1943 destroyed around eighty-five percent of it, which is why so much of what you see is post-war."
+    }
+  ]
+}
