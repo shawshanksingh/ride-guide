@@ -1,0 +1,226 @@
+{
+  "id": "seattle-ballard-to-pioneer-square",
+  "name": "Seattle: Ballard → Pioneer Square Commute",
+  "city": "Seattle",
+  "description": "A fun one-way commute from Ballard to the Delta E office in Pioneer Square: Bergen Place and historic Ballard Avenue, over the Ballard Bridge past Fishermen's Terminal, down the Elliott Bay Trail through Interbay and Myrtle Edwards Park, past the Olympic Sculpture Park and along the new waterfront to Yesler Way.",
+  "distanceKmApprox": 12.7,
+  "lang": "en-US",
+  "profile": "bike",
+  "start": {
+    "name": "NW 65th St & 11th Ave NW, Ballard",
+    "lat": 47.67593,
+    "lon": -122.3703
+  },
+  "waypoints": [
+    [
+      47.67593,
+      -122.3703
+    ],
+    [
+      47.6687,
+      -122.38474
+    ],
+    [
+      47.66446,
+      -122.38089
+    ],
+    [
+      47.65933,
+      -122.37623
+    ],
+    [
+      47.648,
+      -122.38193
+    ],
+    [
+      47.61066,
+      -122.34744
+    ],
+    [
+      47.59889,
+      -122.33438
+    ]
+  ],
+  "cueOverrides": [
+    {
+      "lat": 47.6615,
+      "lon": -122.37602,
+      "radius": 30,
+      "text": "Turn right onto the Ballard Bridge sidewalk",
+      "dir": "right"
+    },
+    {
+      "lat": 47.65422,
+      "lon": -122.37589,
+      "radius": 25,
+      "text": "At the end of the bridge, bear left down the ramp",
+      "dir": "slight-left"
+    },
+    {
+      "lat": 47.64846,
+      "lon": -122.38187,
+      "radius": 30,
+      "text": "Turn left onto the 20th Avenue West cycle track",
+      "dir": "left"
+    },
+    {
+      "lat": 47.60178,
+      "lon": -122.33665,
+      "radius": 30,
+      "text": "Turn left onto Yesler Way",
+      "dir": "left"
+    }
+  ],
+  "intro": "Hi, and welcome to the Ballard to Pioneer Square commute, the fun way! It's a one-way ride of about twelve and a half kilometers, just under eight miles, so roughly fifty minutes at an easy pace. We'll cross the Ballard Bridge, cruise the Elliott Bay Trail and the waterfront, with sixteen stories along the way. Head west on Northwest Sixty-Fifth Street.",
+  "outro": "And that's the ride! The Delta E office is right here at 411 First Avenue South. Sixteen stories and nearly eight miles from Ballard. Lock up your bike, grab a coffee, and have a great day.",
+  "pois": [
+    {
+      "id": "ballard-city",
+      "name": "Ballard, the city",
+      "lat": 47.6735,
+      "lon": -122.37366,
+      "text": "Fun fact to start: Ballard used to be its own city. It incorporated in 1889, and it was known as the Shingle Capital of America, thanks to mills turning western red cedar into roof shingles. What ended its independence? Water. Ballard couldn't supply enough fresh water, so residents voted to join Seattle, and the annexation took effect on May the twenty-ninth, 1907, at a quarter to four in the morning."
+    },
+    {
+      "id": "bergen-place",
+      "name": "Bergen Place",
+      "lat": 47.66844,
+      "lon": -122.3845,
+      "text": "Right here at the corner is Bergen Place, named after Bergen in Norway, one of Seattle's sister cities. Ballard grew up as the heart of Seattle's Scandinavian community, drawn by salmon fishing and the mills, and this little park was inaugurated in 1975 by none other than King Olav the Fifth of Norway. Ballard still celebrates Norwegian Constitution Day every May, so if you hear a brass band in spring, now you know why."
+    },
+    {
+      "id": "ballard-avenue",
+      "name": "Ballard Avenue",
+      "lat": 47.664,
+      "lon": -122.38,
+      "text": "You're now riding Ballard Avenue, the old main street of the mill town. Its brick buildings were listed as a historic district on the National Register of Historic Places in 1976. Today the old storefronts are full of bars, restaurants and boutiques. And every Sunday, rain or shine, the Ballard Farmers Market fills the blocks just behind you. It was Seattle's first year-round neighborhood farmers market, selling only Washington-grown produce."
+    },
+    {
+      "id": "ballard-bridge",
+      "name": "Ballard Bridge",
+      "lat": 47.661,
+      "lon": -122.3761,
+      "text": "Here comes the Ballard Bridge, opened in 1917. It's a double-leaf bascule bridge, which means the two halves of the middle span tilt up like drawbridges to let tall boats through. It's almost nine hundred meters long, and it once carried a streetcar on wooden approaches, replaced in 1939. The local soccer club, Ballard FC, even put the bridge on its crest, and its supporters call themselves the Bridge Keepers."
+    },
+    {
+      "id": "ballard-locks",
+      "name": "Ballard Locks",
+      "lat": 47.66602,
+      "lon": -122.39775,
+      "trigger": [
+        47.6584,
+        -122.37613
+      ],
+      "text": "Look right, west along the water. About a mile away are the Ballard Locks, which opened in 1917 to connect Lake Union and Lake Washington with Puget Sound. They carry more boat traffic than any other locks in the United States, lifting boats about twenty-six feet from salt water up to fresh. There's a fish ladder too, where Chinook, Coho and Sockeye salmon make their way upstream to spawn."
+    },
+    {
+      "id": "fishermens-terminal",
+      "name": "Fishermen's Terminal",
+      "lat": 47.65716,
+      "lon": -122.37978,
+      "trigger": [
+        47.6558,
+        -122.37613
+      ],
+      "text": "Down to your right, all those masts belong to Fishermen's Terminal, open since 1914. More than seven hundred vessels are based here, including some of the boats from the TV show Deadliest Catch, and every fall the terminal throws a festival to welcome home the North Pacific fishing fleet. At the Seattle Fishermen's Memorial, plaques remember more than six hundred and seventy local fishermen and women lost at sea."
+    },
+    {
+      "id": "interbay",
+      "name": "Interbay",
+      "lat": 47.64847,
+      "lon": -122.379,
+      "text": "Welcome to Interbay, the low valley between Queen Anne Hill to the east and Magnolia to the west. The name tells you where you are: between the bays, with Salmon Bay behind you and Elliott Bay ahead. Its first name was Boulevard, changed to Interbay by 1894. A lot of this ground is filled-in tideland, built up with material dredged for the ship canal, and the big rail yard alongside is BNSF's Balmer Yard."
+    },
+    {
+      "id": "magnolia",
+      "name": "Magnolia",
+      "lat": 47.64,
+      "lon": -122.3818,
+      "text": "The hill rising on your right is Magnolia, and it's named after a mistake. In 1856, Captain George Davidson of the US Coast Survey saw the bluff covered in madrona trees, with their peeling red bark, and mistook them for magnolias. The name stuck anyway. Much of the headland today is Discovery Park, Seattle's largest park, on the grounds of the old Fort Lawton army post."
+    },
+    {
+      "id": "smith-cove",
+      "name": "Smith Cove",
+      "lat": 47.63223,
+      "lon": -122.3861,
+      "trigger": [
+        47.6325,
+        -122.3781
+      ],
+      "text": "Off to your right are the long piers of Smith Cove, named after Doctor Henry Smith, a physician and poet who settled here in 1853. In the 1890s, James J. Hill's Great Northern Railway made this cove its Pacific terminus, and one pier here became the largest on the Pacific Coast, believed at the time to be the world's biggest concrete pier. During World War Two, the Navy ran a huge supply depot here."
+    },
+    {
+      "id": "expedia",
+      "name": "Expedia campus",
+      "lat": 47.628,
+      "lon": -122.379,
+      "trigger": [
+        47.6279,
+        -122.37772
+      ],
+      "text": "The modern campus on your left is the headquarters of the travel company Expedia. It moved here from Bellevue, into buildings first put up for the biotech company Amgen. The trail threads right between the offices and the water, which has to be one of the better commutes in the city. Give a friendly wave, you might be passing someone planning your next vacation."
+    },
+    {
+      "id": "myrtle-edwards",
+      "name": "Myrtle Edwards Park",
+      "lat": 47.61858,
+      "lon": -122.36023,
+      "text": "You're rolling through Myrtle Edwards Park, a ribbon of green along Elliott Bay with a path about a mile and a quarter long. It was first called Elliott Bay Park, and in 1976 it was renamed for Myrtle Edwards, a Seattle city councilwoman. Fun twist: Gas Works Park on Lake Union was first going to carry her name, but her family withdrew it, because that park's design centered on an old gas plant."
+    },
+    {
+      "id": "sculpture-park",
+      "name": "Olympic Sculpture Park",
+      "lat": 47.6162,
+      "lon": -122.3543,
+      "trigger": [
+        47.6155,
+        -122.3559
+      ],
+      "text": "Look left at the Olympic Sculpture Park, opened in 2007 on land that once held oil storage for Unocal. It's free and open from sunrise to sunset. Watch for Alexander Calder's big red steel Eagle up the slope, and near the water, Jaume Plensa's Echo, a huge pale head with its eyes closed. Richard Serra's rusty steel Wake is here too. The rule for that one: look, but please don't touch."
+    },
+    {
+      "id": "pike-place",
+      "name": "Pike Place Market",
+      "lat": 47.6094,
+      "lon": -122.34141,
+      "trigger": [
+        47.6097,
+        -122.3458
+      ],
+      "text": "Up the hill to your left is Pike Place Market, open since August 1907, when the city set up a place for farmers to sell straight to shoppers. In the 1960s there were plans to tear it down, but in 1971 voters saved it. Up there, fishmongers famously throw fish over the counter, and Rachel, a five-hundred-and-fifty-pound bronze piggy bank, collects thousands of dollars a year for the market's foundation."
+    },
+    {
+      "id": "great-wheel",
+      "name": "Seattle Great Wheel",
+      "lat": 47.60617,
+      "lon": -122.3425,
+      "trigger": [
+        47.6067,
+        -122.3411
+      ],
+      "text": "On your right is the Seattle Great Wheel, opened in June 2012. At one hundred and seventy-five feet, it was the tallest Ferris wheel on the West Coast when it opened. It has forty-two climate-controlled gondolas and reaches forty feet out over Elliott Bay. Just behind you is the Seattle Aquarium, open since 1977, home to sea otters and harbor seals, and since 2024 a new Ocean Pavilion full of sharks and rays."
+    },
+    {
+      "id": "skid-road",
+      "name": "Yesler Way, the original Skid Road",
+      "lat": 47.60178,
+      "lon": -122.3362,
+      "trigger": [
+        47.60178,
+        -122.3366
+      ],
+      "text": "You're now on Yesler Way, the original Skid Road. In the 1850s, oxen, horses and mules skidded logs down this steep street to Henry Yesler's sawmill on the bay, and back then it was called Mill Street. Over time Skid Road came to mean the rough side of town, other cities borrowed the phrase, and that's how the English language got the expression skid row."
+    },
+    {
+      "id": "pioneer-square",
+      "name": "Pioneer Square",
+      "lat": 47.60186,
+      "lon": -122.33392,
+      "trigger": [
+        47.6003,
+        -122.33425
+      ],
+      "text": "This is Pioneer Square, where Seattle began. On June the sixth, 1889, glue boiled over in a cabinet shop and started the Great Seattle Fire, which destroyed twenty-nine city blocks. The city rebuilt in brick and stone and raised the streets, burying the old storefronts: that's the Seattle Underground you can tour today. Back at Yesler Way is the iron pergola from 1909, and a block up, Smith Tower, the tallest building west of the Mississippi when it opened in 1914."
+    }
+  ]
+}

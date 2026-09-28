@@ -1,6 +1,17 @@
 {
   "routes": [
     {
+      "id": "seattle-ballard-to-pioneer-square",
+      "file": "seattle-ballard-to-pioneer-square.json",
+      "name": "Seattle: Ballard → Pioneer Square Commute",
+      "city": "Seattle",
+      "distanceKmApprox": 12.7,
+      "summary": "A colleague's commute made fun: Bergen Place, Ballard Avenue, the Ballard Bridge and Fishermen's Terminal, the Elliott Bay Trail through Interbay, the Sculpture Park, Pike Place, the Great Wheel and Pioneer Square.",
+      "shape": "one-way",
+      "endName": "Delta E Consulting, 411 1st Ave S",
+      "created": "2026-09-28"
+    },
+    {
       "id": "padel-lankwitz-ride",
       "file": "padel-lankwitz-ride.json",
       "name": "To Padel Lankwitz via Friedenau",

@@ -1,0 +1,32 @@
+HOW TO UPLOAD
+GitHub → shawshanksingh/ride-guide → Add file → Upload files → drag in seattle-ballard-to-pioneer-square.json and index.json → Commit.
+Then on the phone open the app, close it, open it again.
+
+ROUTE SUMMARY
+Name:   Seattle: Ballard → Pioneer Square Commute
+Length: 12.7 km (7.9 miles) bike route, about 50 minutes at 15 km/h
+Shape:  One-way, NW 65th St & 11th Ave NW (Ballard) to Delta E Consulting, 411 1st Ave S
+Theme:  Seattle history & fun facts along the Ballard → Elliott Bay Trail → waterfront commute
+Note:   Starts at the street corner, not the home address, since route files on GitHub are public.
+        The app speaks directions in metres/kilometres.
+
+Stories:
+  1. Ballard, the city
+  2. Bergen Place
+  3. Ballard Avenue
+  4. Ballard Bridge
+  5. Ballard Locks
+  6. Fishermen's Terminal
+  7. Interbay
+  8. Magnolia
+  9. Smith Cove
+  10. Expedia campus
+  11. Myrtle Edwards Park
+  12. Olympic Sculpture Park
+  13. Pike Place Market
+  14. Seattle Great Wheel
+  15. Yesler Way, the original Skid Road
+  16. Pioneer Square
+
+Validation: all 7 waypoints snapped within 7 m, no U-turns, no detour legs, every story trigger within 20 m of the route, stories at least 289 m apart.
+index.json = the current GitHub list (4 Berlin routes, unchanged) + this route at the top.
