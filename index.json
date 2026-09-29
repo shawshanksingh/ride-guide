@@ -1,6 +1,16 @@
 {
   "routes": [
     {
+      "id": "charlottenburg-palace-loop",
+      "file": "charlottenburg-palace-loop.json",
+      "name": "Charlottenburg Loop: Palace, Lake & Ku'damm",
+      "city": "Berlin",
+      "distanceKmApprox": 11.6,
+      "summary": "Old Charlottenburg: the Literaturhaus, Savignyplatz, the Deutsche Oper and 2 June 1967, the town hall, Charlottenburg Palace, the Lietzensee park, the Schaubühne and the Ku'damm.",
+      "shape": "loop",
+      "created": "2026-09-29"
+    },
+    {
       "id": "seattle-ballard-to-pioneer-square",
       "file": "seattle-ballard-to-pioneer-square.json",
       "name": "Seattle: Ballard → Pioneer Square Commute",

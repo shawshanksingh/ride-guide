@@ -1,26 +1,29 @@
-HOW TO UPLOAD
-GitHub → shawshanksingh/ride-guide → Add file → Upload files → drag in tempelhof-airlift-trail.json and index.json → Commit.
+UPLOAD STEPS
+GitHub → shawshanksingh/ride-guide → Add file → Upload files → drag in charlottenburg-palace-loop.json and index.json → Commit.
 Then on the phone open the app, close it, open it again.
 
 ROUTE SUMMARY
-Name:   Airlift Trail: Schöneberg → Tempelhofer Feld
-Length: 9.5 km (bike route), about 40 minutes at 15 km/h
-Shape:  One-way — ends at S+U Tempelhof (S41, S42, S45, S46, U6)
-Theme:  Allied Berlin & aviation — the Airlift, Tempelhof airport and Tempelhofer Feld
-Note:   Tempelhofer Feld is only open sunrise to sunset (gates close in the evening).
+Name:   Charlottenburg Loop: Palace, Lake & Ku'damm
+Length: 11.6 km (about 45 min at 15 km/h)
+Shape:  Loop — starts and ends at Bamberger Str. 8
+Theme:  Old Charlottenburg — palace, bohemian West Berlin, 1920s modernism and the Ku'damm
 
-Stories:
-  1. Winterfeldtplatz
-  2. Kammergericht & Kleistpark
-  3. Old St Matthew's Churchyard
-  4. Kreuzbergstraße
-  5. Viktoriapark waterfall
-  6. Airlift Memorial
-  7. Tempelhof Airport
-  8. Columbia concentration camp memorial
-  9. Tempelhofer Feld
-  10. The Candy Bomber
-  11. Orville Wright on the field
+Stories (13):
+ 1. Literaturhaus Berlin (Fasanenstraße 23)
+ 2. Fasanenstraße Synagogue site / Jewish Community Centre
+ 3. Savignyplatz
+ 4. Kant-Garagen
+ 5. Deutsche Oper & Benno Ohnesorg (2 June 1967)
+ 6. Rathaus Charlottenburg
+ 7. Charlottenburg Palace
+ 8. Stüler Buildings (Berggruen, Scharf-Gerstenberg, Kollwitz Museum)
+ 9. Kaiserdamm
+10. Lietzensee
+11. Schaubühne am Lehniner Platz
+12. Kurfürstendamm
+13. St Ludwig's Church, Ludwigkirchplatz
 
-Validation: all 12 waypoints snapped within 7 m, no U-turns, no detour legs, POIs 6–76 m from the route and at least 420 m apart.
-Note: index.json keeps the two pinned routes exactly as in your 2026-09-27 folder (with pinned/shape/created fields).
+Validation notes: 11,596 m bike route; all waypoints snapped within 17 m; no U-turns or detour legs;
+all POIs within 78 m of the route and at least 273 m apart. 15 cue overrides added (Fasanenstraße turn,
+Krumme Straße / Bismarckstraße crossing, Schloßstraße, Lietzensee park paths, Ku'damm, Bundesallee crossing).
+Cues were checked with an independent re-implementation of the app's cue rules (see summary), not nav.js itself.

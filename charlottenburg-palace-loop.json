@@ -1,0 +1,278 @@
+{
+  "id": "charlottenburg-palace-loop",
+  "name": "Charlottenburg Loop: Palace, Lake & Ku'damm",
+  "city": "Berlin",
+  "description": "An 11.6 km loop through old Charlottenburg: the Literaturhaus and the lost Fasanenstraße synagogue, Savignyplatz and the Kant Garages, the Deutsche Oper and the story of the second of June 1967, the town hall, Charlottenburg Palace and the Stüler buildings, the Lietzensee park, the Schaubühne and the Kurfürstendamm.",
+  "distanceKmApprox": 11.6,
+  "lang": "en-GB",
+  "profile": "bike",
+  "start": {
+    "name": "Bamberger Str. 8",
+    "lat": 52.49553,
+    "lon": 13.33701
+  },
+  "waypoints": [
+    [
+      52.49553,
+      13.33701
+    ],
+    [
+      52.5005,
+      13.3274
+    ],
+    [
+      52.5058,
+      13.3227
+    ],
+    [
+      52.50922,
+      13.30981
+    ],
+    [
+      52.5105,
+      13.3095
+    ],
+    [
+      52.5172,
+      13.3075
+    ],
+    [
+      52.51965,
+      13.2975
+    ],
+    [
+      52.5076,
+      13.287
+    ],
+    [
+      52.4987,
+      13.299
+    ],
+    [
+      52.499,
+      13.315
+    ],
+    [
+      52.4972,
+      13.3222
+    ],
+    [
+      52.49553,
+      13.33701
+    ]
+  ],
+  "cueOverrides": [
+    {
+      "lat": 52.50025,
+      "lon": 13.32717,
+      "radius": 20,
+      "text": "Turn right into Fasanenstraße",
+      "dir": "right"
+    },
+    {
+      "lat": 52.51036,
+      "lon": 13.30972,
+      "radius": 15,
+      "text": "Keep left, then right, following Krumme Straße north",
+      "dir": "slight-left"
+    },
+    {
+      "lat": 52.51049,
+      "lon": 13.30945,
+      "radius": 10,
+      "drop": true
+    },
+    {
+      "lat": 52.51168,
+      "lon": 13.30919,
+      "radius": 20,
+      "text": "Turn right, then cross Bismarckstraße onto Krumme Straße",
+      "dir": "right"
+    },
+    {
+      "lat": 52.51954,
+      "lon": 13.29565,
+      "radius": 20,
+      "text": "Turn left into Schloßstraße, opposite the palace",
+      "dir": "left"
+    },
+    {
+      "lat": 52.50904,
+      "lon": 13.28828,
+      "radius": 20,
+      "text": "Bear left into Lietzensee Park",
+      "dir": "slight-left"
+    },
+    {
+      "lat": 52.50685,
+      "lon": 13.28645,
+      "radius": 20,
+      "text": "Turn left along the lakeside path",
+      "dir": "left"
+    },
+    {
+      "lat": 52.50676,
+      "lon": 13.28923,
+      "radius": 20,
+      "text": "Carry straight on along Neue Kantstraße, across the lake",
+      "dir": "straight"
+    },
+    {
+      "lat": 52.4987,
+      "lon": 13.29904,
+      "radius": 20,
+      "text": "Turn left onto the Kurfürstendamm",
+      "dir": "left"
+    },
+    {
+      "lat": 52.49889,
+      "lon": 13.3002,
+      "radius": 15,
+      "drop": true
+    },
+    {
+      "lat": 52.49599,
+      "lon": 13.32976,
+      "radius": 12,
+      "drop": true
+    },
+    {
+      "lat": 52.49592,
+      "lon": 13.33025,
+      "radius": 15,
+      "text": "Turn right along Bundesallee, then cross at the lights",
+      "dir": "right"
+    },
+    {
+      "lat": 52.4955,
+      "lon": 13.33035,
+      "radius": 12,
+      "drop": true
+    },
+    {
+      "lat": 52.49551,
+      "lon": 13.33129,
+      "radius": 15,
+      "text": "Turn left up the far side of Bundesallee",
+      "dir": "left"
+    },
+    {
+      "lat": 52.49594,
+      "lon": 13.33711,
+      "radius": 20,
+      "text": "Turn right into Bamberger Straße, nearly home",
+      "dir": "right"
+    }
+  ],
+  "intro": "Welcome to the Charlottenburg Loop. It's about eleven and a half kilometres, roughly forty-five minutes at an easy pace, and it brings you back home. On the way: a literary villa, a lost synagogue, Savignyplatz, the opera, Charlottenburg Palace, a quiet lake and the Kurfürstendamm, with thirteen stories in all. Head north up Bamberger Straße.",
+  "outro": "And that's the loop. You're back on Bamberger Straße, with a palace, a lake, a boulevard and a few ghosts of old Charlottenburg behind you. Thanks for riding with me.",
+  "pois": [
+    {
+      "id": "literaturhaus",
+      "name": "Literaturhaus Berlin",
+      "lat": 52.50214,
+      "lon": 13.32687,
+      "text": "Now you're on Fasanenstraße. Just ahead on your left, at number twenty-three, is a pale villa built in 1889 as a wedding present from the industrialist Hermann Gruson to his daughter. Over the years it has been a soup kitchen, a dance school, and a nightclub that once kept an elephant called Berolina in its cellar. Since 1986 it has been the Literaturhaus, with readings upstairs and a lovely garden café. For decades, the villa next door was the Käthe Kollwitz Museum.",
+      "trigger": [
+        52.501,
+        13.3272
+      ]
+    },
+    {
+      "id": "fasanenstrasse-synagogue",
+      "name": "Fasanenstraße Synagogue site",
+      "lat": 52.50426,
+      "lon": 13.32821,
+      "text": "Across the Kurfürstendamm now, and on your right is the Jewish Community Centre. On this site stood the Fasanenstraße synagogue, a domed building opened in 1912 with room for more than seventeen hundred worshippers. In the pogrom of November 1938 it was set on fire, and bombing in 1943 did the rest. The centre you see opened in 1959, and the old synagogue's main portal was kept and built into its front as a memorial."
+    },
+    {
+      "id": "savignyplatz",
+      "name": "Savignyplatz",
+      "lat": 52.5058,
+      "lon": 13.3222,
+      "text": "Welcome to Savignyplatz, named in 1887 after the legal scholar Friedrich Carl von Savigny. Kantstraße cuts the square in two, and its gardens were redesigned in 1926 by the city's garden director, Erwin Barth. Just to the north, the S-Bahn has run over brick arches since 1896, and the arches now hold bookshops and bars. In the late 1920s, the journalist Carl von Ossietzky, later a Nobel Peace laureate, edited his magazine, the Weltbühne, in this neighbourhood."
+    },
+    {
+      "id": "kant-garagen",
+      "name": "Kant-Garagen",
+      "lat": 52.50602,
+      "lon": 13.31209,
+      "text": "On your left, look for the glass-fronted building at number one hundred and twenty-seven. These are the Kant Garages, built in 1929 and 1930 in the modern New Objectivity style. Inside, cars climbed and descended on a double-helix ramp, and it is Europe's oldest surviving multi-storey garage of its kind. After years of argument over plans to demolish it, it now hosts events, galleries and offices, and the famous spiral ramp has become a stage."
+    },
+    {
+      "id": "deutsche-oper",
+      "name": "Deutsche Oper & Benno Ohnesorg",
+      "lat": 52.51214,
+      "lon": 13.30838,
+      "text": "Just ahead on your left, across Bismarckstraße, is the Deutsche Oper, rebuilt in 1961 after the first opera house of 1912 was bombed. On the second of June 1967, the Shah of Iran came here to hear Mozart. Students protested outside, and in a courtyard on this very street, Krumme Straße, a policeman shot the student Benno Ohnesorg. His death fired up West Germany's student movement. In 2009 it emerged that the officer had also been an informer for the East German Stasi.",
+      "trigger": [
+        52.5112,
+        13.3093
+      ]
+    },
+    {
+      "id": "rathaus-charlottenburg",
+      "name": "Rathaus Charlottenburg",
+      "lat": 52.51758,
+      "lon": 13.3088,
+      "text": "On your right is Charlottenburg Town Hall, with an eighty-eight-metre tower, taller than the dome of the palace you're heading for. It was opened in 1905, for the town's two hundredth birthday. Back then Charlottenburg was a proud, wealthy city in its own right, growing from about twenty thousand people in 1871 to around one hundred and eighty thousand by 1910, until it was absorbed into Greater Berlin in 1920."
+    },
+    {
+      "id": "schloss-charlottenburg",
+      "name": "Charlottenburg Palace",
+      "lat": 52.52064,
+      "lon": 13.29271,
+      "text": "Up to your right is Charlottenburg Palace. It began as a summer residence called Lietzenburg for Sophie Charlotte, wife of the Elector Frederick, and was inaugurated in 1699. When she died in 1705, Frederick, by then King in Prussia, renamed it Charlottenburg in her memory. Look up at the dome, crowned by a gilded Fortuna that turns in the wind as a weathervane. Badly damaged by bombs in 1943, the palace was painstakingly restored after the war.",
+      "trigger": [
+        52.5196,
+        13.2985
+      ]
+    },
+    {
+      "id": "stuler-buildings",
+      "name": "Stüler Buildings",
+      "lat": 52.5191,
+      "lon": 13.2953,
+      "text": "Now down Schloßstraße, between two matching domed buildings. They were built in the 1850s by Friedrich August Stüler, to designs by King Frederick William the Fourth, as barracks for the officers of the Gardes du Corps. Today both are museums. On your right, the Berggruen, with Heinz Berggruen's Picassos, Klees and Matisses; on your left, the Scharf-Gerstenberg Collection. And the Käthe Kollwitz Museum from Fasanenstraße moved into the palace's theatre wing in 2022.",
+      "trigger": [
+        52.5189,
+        13.2961
+      ]
+    },
+    {
+      "id": "kaiserdamm",
+      "name": "Kaiserdamm",
+      "lat": 52.5108,
+      "lon": 13.2915,
+      "text": "This is Kaiserdamm, a fifty-metre-wide boulevard opened in 1906 and named after Kaiser Wilhelm the Second. In the 1930s it became part of the Nazis' grand East-West Axis, and the tall street lamps were designed for that axis by Albert Speer. Beneath you runs the U2 underground line. Enjoy the view briefly, because in a moment we leave the traffic behind for a lake."
+    },
+    {
+      "id": "lietzensee",
+      "name": "Lietzensee",
+      "lat": 52.50642,
+      "lon": 13.28805,
+      "text": "Welcome to the Lietzensee, a crescent-shaped lake left behind in an Ice Age meltwater valley. Its name may come from the old village of Lietzow, or from an old Berlin word for the coot, so see if you can spot one. In 1904 Neue Kantstraße was built straight across it on a dam, splitting it in two. The park was laid out from 1918 by Erwin Barth, the same garden director who redesigned Savignyplatz."
+    },
+    {
+      "id": "schaubuehne",
+      "name": "Schaubühne am Lehniner Platz",
+      "lat": 52.49866,
+      "lon": 13.30227,
+      "text": "On your right, the long, curved building is the Schaubühne. Erich Mendelsohn designed it as the Universum cinema, which opened in 1928, insisting there should be no Baroque palaces for Buster Keaton. Rebuilt after the war, it was turned into a theatre between 1978 and 1981 for the Schaubühne company, made famous by the director Peter Stein and led since 1999 by Thomas Ostermeier."
+    },
+    {
+      "id": "kurfuerstendamm",
+      "name": "Kurfürstendamm",
+      "lat": 52.4995,
+      "lon": 13.3085,
+      "text": "You're riding the Kurfürstendamm, which began in the fifteen-forties as a bridle path for the Elector's trips to his hunting lodge in the Grunewald. From 1875, Bismarck pushed to turn it into a grand boulevard, fifty-three metres wide and three and a half kilometres long, lined with four rows of plane trees. It was the heart of Berlin's Golden Twenties, and later the glittering shop window of West Berlin."
+    },
+    {
+      "id": "st-ludwig",
+      "name": "St Ludwig's Church",
+      "lat": 52.49756,
+      "lon": 13.32267,
+      "text": "On your left is St Ludwig's, a red-brick Gothic-style church built between 1895 and 1897, with a seventy-metre tower over its crossing. It is dedicated to Saint Louis of France, and it also honours the Catholic politician Ludwig Windthorst. Unusually for Berlin, it stands free on all sides in its own square, which was renamed Ludwigkirchplatz after it. It's a lovely spot to come back to for a coffee."
+    }
+  ]
+}
