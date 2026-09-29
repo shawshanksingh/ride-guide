@@ -1,0 +1,14 @@
+Ride Guide — extra route, 2026-09-29: Seattle: Mount Baker → Pioneer Square Commute
+
+Upload to GitHub (shawshanksingh/ride-guide → Add file → Upload files), then Commit:
+  - seattle-mount-baker-to-pioneer-square.json   (the new route)
+  - index.json                                   (route list, includes today's Charlottenburg route too)
+Then on the phone: open the app, close it, open it again.
+
+Route: 5.8 km / 3.6 mi, one-way, ~25 min. Follows your Google Maps bike route (via S Dearborn St):
+35th Ave S → S Mount Baker Blvd → McClellan → 34th Ave S → Bayview → 30th Ave S → College → 28th Ave S
+→ S Massachusetts → 25th Ave S → I-90 Trail → Hiawatha Pl S → S Dearborn → Rainier Ave S → S King St
+→ 5th Ave S → S Jackson → 1st Ave S (411, Delta E office). Pinned at the top of the list.
+
+Stories (7): Mount Baker Boulevard (1903, Olmsted Brothers) · Sam Smith Park · Jimi Hendrix Park & NW African American Museum
+· Little Saigon · Wing Luke Museum · Historic Chinatown Gate · Union Station & King Street Station

@@ -1,6 +1,18 @@
 {
   "routes": [
     {
+      "id": "seattle-mount-baker-to-pioneer-square",
+      "file": "seattle-mount-baker-to-pioneer-square.json",
+      "name": "Seattle: Mount Baker → Pioneer Square Commute",
+      "city": "Seattle",
+      "distanceKmApprox": 5.8,
+      "summary": "3.6-mile commute to the office: Mount Baker Boulevard, Jimi Hendrix Park and the Northwest African American Museum, the I-90 Trail, Little Saigon, Chinatown–ID and the old railway stations.",
+      "pinned": true,
+      "shape": "one-way",
+      "endName": "411 1st Ave S",
+      "created": "2026-09-29"
+    },
+    {
       "id": "charlottenburg-palace-loop",
       "file": "charlottenburg-palace-loop.json",
       "name": "Charlottenburg Loop: Palace, Lake & Ku'damm",

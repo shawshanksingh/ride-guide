@@ -1,0 +1,76 @@
+{
+  "id": "seattle-mount-baker-to-pioneer-square",
+  "name": "Seattle: Mount Baker → Pioneer Square Commute",
+  "city": "Seattle",
+  "description": "A one-way commute of about 3.6 miles (5.8 km) from 35th Ave S in Mount Baker to the Delta E office at 411 1st Ave S: the Olmsted-era Mount Baker Boulevard, past Jimi Hendrix Park and the Northwest African American Museum, along the I-90 Trail, then west on King Street through Little Saigon and Chinatown–International District to the old railway stations and Pioneer Square. Follows your Google Maps bike route.",
+  "distanceKmApprox": 5.8,
+  "lang": "en-US",
+  "profile": "bike",
+  "start": { "name": "3115 35th Ave S", "lat": 47.5764713, "lon": -122.2890801 },
+  "end": { "name": "411 1st Ave S (Delta E office)", "lat": 47.5988909, "lon": -122.3343842 },
+  "waypoints": [
+    [47.5764713, -122.2890801],
+    [47.5790573, -122.2898153],
+    [47.5824002, -122.2941409],
+    [47.5912747, -122.305904],
+    [47.5990033, -122.3276713],
+    [47.5992105, -122.3279327],
+    [47.5992053, -122.3289106],
+    [47.5988909, -122.3343842]
+  ],
+  "cueOverrides": [
+    { "lat": 47.59003, "lon": -122.30004, "radius": 15, "text": "Turn left onto the I-90 Trail", "dir": "left" },
+    { "lat": 47.59032, "lon": -122.30231, "radius": 15, "text": "Turn right to stay on the I-90 Trail", "dir": "right" },
+    { "lat": 47.59072, "lon": -122.30231, "radius": 15, "text": "Bear left to stay on the I-90 Trail", "dir": "slight-left" },
+    { "lat": 47.59922, "lon": -122.33432, "radius": 15, "text": "Turn left onto 1st Avenue South — the office is just ahead", "dir": "left" }
+  ],
+  "intro": "Good morning, and welcome to the Mount Baker to Pioneer Square commute. It's a one-way ride of about three and a half miles, so roughly twenty-five minutes at an easy pace. We'll roll down Mount Baker Boulevard, pick up the I-90 Trail, and head west along King Street through Chinatown to the office, with seven stories along the way.",
+  "outro": "And you've made it! This is 411 First Avenue South, right in historic Pioneer Square. Lock up your bike, grab a coffee, and have a great day at the office.",
+  "pois": [
+    {
+      "id": "mount-baker-boulevard",
+      "name": "Mount Baker Boulevard",
+      "lat": 47.57741, "lon": -122.28836,
+      "text": "You're on Mount Baker Boulevard, with its double roadway and tree-lined median. The neighborhood takes its name from the view of Mount Baker, far to the north across Lake Washington. The park and this boulevard were laid out in 1903, and a few years later the developers brought in the famous Olmsted Brothers firm to help shape the landscape. In 2020 both were added to the National Register of Historic Places."
+    },
+    {
+      "id": "sam-smith-park",
+      "name": "Sam Smith Park",
+      "lat": 47.5899, "lon": -122.2955,
+      "trigger": [47.58831, -122.29784],
+      "text": "Just north of here, up on the lid over Interstate 90, is Sam Smith Park. It's named after Sam Smith, a civil rights champion who became the first Black member of the Seattle City Council, and served five terms there and five in the state legislature. Look out for the Urban Peace Circle sculpture by Gerard Tsutakawa, dedicated to young people lost to gun violence in the city."
+    },
+    {
+      "id": "hendrix-naam",
+      "name": "Jimi Hendrix Park & Northwest African American Museum",
+      "lat": 47.58897, "lon": -122.30086,
+      "text": "Right beside you is Jimi Hendrix Park, honoring Seattle's most famous guitarist. Next to it stands the old Colman School, built in 1909, now home to the Northwest African American Museum. When the school was abandoned, activists occupied the building from 1985 to claim it for a Black history museum. The occupation lasted eight years, and the museum finally opened here in 2008, with affordable apartments on the floors above."
+    },
+    {
+      "id": "little-saigon",
+      "name": "Little Saigon",
+      "lat": 47.5993, "lon": -122.3169,
+      "trigger": [47.59835, -122.31842],
+      "text": "You're riding through Little Saigon. After the fall of Saigon in 1975, Vietnamese and Southeast Asian refugees settled here, east of Interstate 5, and built a busy commercial district centered on Twelfth and Jackson. Some of its landmarks go back decades, like the Viet Wah grocery, open since 1981, and the Pho Bac restaurant, open since 1982."
+    },
+    {
+      "id": "wing-luke",
+      "name": "Wing Luke Museum",
+      "lat": 47.59825, "lon": -122.32287,
+      "text": "On King Street at Seventh is the Wing Luke Museum. It's named for Wing Luke, the first Asian American elected to public office in the Pacific Northwest, who served on the Seattle City Council until he died in a plane crash in 1965. Since 2008 the museum has been in the East Kong Yick Building, built in 1910 by about a hundred and seventy Chinese immigrants."
+    },
+    {
+      "id": "chinatown-gate",
+      "name": "Historic Chinatown Gate",
+      "lat": 47.59842, "lon": -122.32768,
+      "text": "Look up at the Historic Chinatown Gate at the west end of King Street. It's forty-five feet tall and was unveiled in February 2008, a symbolic entrance to Chinatown–International District. The neighborhood was listed as a historic district on the National Register in 1986, and a couple of blocks north, Main Street was once the heart of Seattle's Japantown."
+    },
+    {
+      "id": "railway-stations",
+      "name": "Union Station & King Street Station",
+      "lat": 47.59845, "lon": -122.3299,
+      "trigger": [47.59921, -122.32985],
+      "text": "Two grand railway stations face each other here on Jackson Street. Union Station opened in 1911. King Street Station opened in 1906, and its two-hundred-and-forty-two-foot clock tower was modeled on the bell tower of Saint Mark's in Venice. During a restoration in 2010, crews pulled down a suspended ceiling from the 1960s and found the original hand-carved details of 1906 hidden above it."
+    }
+  ]
+}
