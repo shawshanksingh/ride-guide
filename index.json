@@ -1,6 +1,16 @@
 {
   "routes": [
     {
+      "id": "rails-and-red-island-loop",
+      "file": "rails-and-red-island-loop.json",
+      "name": "Rails & the Red Island: Gleisdreieck Loop",
+      "city": "Berlin",
+      "distanceKmApprox": 12.8,
+      "summary": "Railway Schöneberg: Nollendorfplatz, the Sportpalast site, Park am Gleisdreieck, the Anhalter Bahnhof ruin, the Technikmuseum, the Yorck Bridges, Bowie's flat, the Red Island with Julius Leber and Marlene Dietrich, and the gasometer.",
+      "shape": "loop",
+      "created": "2026-09-30"
+    },
+    {
       "id": "seattle-mount-baker-to-pioneer-square",
       "file": "seattle-mount-baker-to-pioneer-square.json",
       "name": "Seattle: Mount Baker → Pioneer Square Commute",

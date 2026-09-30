@@ -1,29 +1,26 @@
 UPLOAD STEPS
-GitHub → shawshanksingh/ride-guide → Add file → Upload files → drag in charlottenburg-palace-loop.json and index.json → Commit.
+GitHub → shawshanksingh/ride-guide → Add file → Upload files → drag in rails-and-red-island-loop.json and index.json → Commit.
 Then on the phone open the app, close it, open it again.
 
 ROUTE SUMMARY
-Name:   Charlottenburg Loop: Palace, Lake & Ku'damm
-Length: 11.6 km (about 45 min at 15 km/h)
-Shape:  Loop — starts and ends at Bamberger Str. 8
-Theme:  Old Charlottenburg — palace, bohemian West Berlin, 1920s modernism and the Ku'damm
+Name:   Rails & the Red Island: Gleisdreieck Loop
+Length: 12.8 km (about 50 min at 15 km/h)
+Shape:  Loop, back to Bamberger Str. 8
+Theme:  Railway & industrial Schöneberg/Kreuzberg: freight yards turned parks, the Red Island, the gasometer
 
 Stories (13):
- 1. Literaturhaus Berlin (Fasanenstraße 23)
- 2. Fasanenstraße Synagogue site / Jewish Community Centre
- 3. Savignyplatz
- 4. Kant-Garagen
- 5. Deutsche Oper & Benno Ohnesorg (2 June 1967)
- 6. Rathaus Charlottenburg
- 7. Charlottenburg Palace
- 8. Stüler Buildings (Berggruen, Scharf-Gerstenberg, Kollwitz Museum)
- 9. Kaiserdamm
-10. Lietzensee
-11. Schaubühne am Lehniner Platz
-12. Kurfürstendamm
-13. St Ludwig's Church, Ludwigkirchplatz
+ 1. Schöneberg's boom (Fuggerstraße)
+ 2. Nollendorfplatz station & the pink-triangle memorial
+ 3. Sportpalast site / Pallasseum
+ 4. Park am Gleisdreieck (West Park)
+ 5. Anhalter Bahnhof portico
+ 6. German Museum of Technology
+ 7. Gleisdreieck East Park
+ 8. Yorck Bridges
+ 9. Bowie's flat, Hauptstraße 155
+10. Rote Insel & Julius Leber
+11. Marlene Dietrich's birthplace, Leberstraße 65
+12. Gasometer Schöneberg
+13. Hauptstraße & the millionaire farmers
 
-Validation notes: 11,596 m bike route; all waypoints snapped within 17 m; no U-turns or detour legs;
-all POIs within 78 m of the route and at least 273 m apart. 15 cue overrides added (Fasanenstraße turn,
-Krumme Straße / Bismarckstraße crossing, Schloßstraße, Lietzensee park paths, Ku'damm, Bundesallee crossing).
-Cues were checked with an independent re-implementation of the app's cue rules (see summary), not nav.js itself.
+Validation note: routed with the same OSRM bike router the app uses; 12,811 m, all waypoints snapped within 12 m, no U-turns, no detour legs, all stories within 136 m of the route and at least 250 m apart. The app's own nav.js could not be loaded in the test browser this run, so the cueOverrides were written from the OSRM step list — give the turn-by-turn cues a quick look on the first ride.

@@ -1,0 +1,383 @@
+{
+  "id": "rails-and-red-island-loop",
+  "name": "Rails & the Red Island: Gleisdreieck Loop",
+  "city": "Berlin",
+  "description": "A 12.8 km loop through railway Schöneberg and Kreuzberg: Nollendorfplatz and its pink-triangle memorial, the site of the Sportpalast, both halves of Park am Gleisdreieck, the Anhalter Bahnhof ruin, the German Museum of Technology, the Yorck Bridges, Bowie's flat on Hauptstraße, the Rote Insel with Julius Leber and Marlene Dietrich's birthplace, the Schöneberg gasometer and the millionaire farmers.",
+  "distanceKmApprox": 12.8,
+  "lang": "en-GB",
+  "profile": "bike",
+  "start": {
+    "name": "Bamberger Str. 8",
+    "lat": 52.49553,
+    "lon": 13.33701
+  },
+  "waypoints": [
+    [
+      52.49553,
+      13.33701
+    ],
+    [
+      52.499,
+      13.3406
+    ],
+    [
+      52.49783,
+      13.35208
+    ],
+    [
+      52.4985,
+      13.358
+    ],
+    [
+      52.49555,
+      13.36388
+    ],
+    [
+      52.4975,
+      13.369
+    ],
+    [
+      52.50326,
+      13.37972
+    ],
+    [
+      52.50447,
+      13.38226
+    ],
+    [
+      52.50249,
+      13.38273
+    ],
+    [
+      52.4926,
+      13.3745
+    ],
+    [
+      52.48925,
+      13.3595
+    ],
+    [
+      52.4816,
+      13.36145
+    ],
+    [
+      52.47989,
+      13.35368
+    ],
+    [
+      52.48323,
+      13.35621
+    ],
+    [
+      52.48952,
+      13.35299
+    ],
+    [
+      52.49553,
+      13.33701
+    ]
+  ],
+  "cueOverrides": [
+    {
+      "lat": 52.49757,
+      "lon": 13.33966,
+      "radius": 10,
+      "drop": true
+    },
+    {
+      "lat": 52.49913,
+      "lon": 13.3542,
+      "radius": 20,
+      "text": "Turn right along Bülowstraße, under the elevated railway",
+      "dir": "right"
+    },
+    {
+      "lat": 52.49621,
+      "lon": 13.36132,
+      "radius": 10,
+      "drop": true
+    },
+    {
+      "lat": 52.49782,
+      "lon": 13.36792,
+      "radius": 15,
+      "text": "Turn right into Park am Gleisdreieck",
+      "dir": "right"
+    },
+    {
+      "lat": 52.49775,
+      "lon": 13.36827,
+      "radius": 10,
+      "drop": true
+    },
+    {
+      "lat": 52.49754,
+      "lon": 13.36935,
+      "radius": 10,
+      "drop": true
+    },
+    {
+      "lat": 52.49768,
+      "lon": 13.36944,
+      "radius": 10,
+      "drop": true
+    },
+    {
+      "lat": 52.49746,
+      "lon": 13.37056,
+      "radius": 20,
+      "text": "Turn left onto the main park path, heading north",
+      "dir": "left"
+    },
+    {
+      "lat": 52.5006,
+      "lon": 13.37412,
+      "radius": 8,
+      "drop": true
+    },
+    {
+      "lat": 52.49925,
+      "lon": 13.38044,
+      "radius": 15,
+      "text": "Turn right along the canal, then left into the park",
+      "dir": "right"
+    },
+    {
+      "lat": 52.49928,
+      "lon": 13.38029,
+      "radius": 8,
+      "drop": true
+    },
+    {
+      "lat": 52.49867,
+      "lon": 13.38008,
+      "radius": 8,
+      "drop": true
+    },
+    {
+      "lat": 52.49237,
+      "lon": 13.37332,
+      "radius": 15,
+      "text": "Turn sharp left, then right along the path beside the railway bridges",
+      "dir": "sharp-left"
+    },
+    {
+      "lat": 52.49228,
+      "lon": 13.37338,
+      "radius": 8,
+      "drop": true
+    },
+    {
+      "lat": 52.49226,
+      "lon": 13.37337,
+      "radius": 8,
+      "drop": true
+    },
+    {
+      "lat": 52.4935,
+      "lon": 13.36734,
+      "radius": 15,
+      "text": "Cross Yorckstraße into Mansteinstraße",
+      "dir": "straight"
+    },
+    {
+      "lat": 52.49343,
+      "lon": 13.3673,
+      "radius": 8,
+      "drop": true
+    },
+    {
+      "lat": 52.49345,
+      "lon": 13.36717,
+      "radius": 8,
+      "drop": true
+    },
+    {
+      "lat": 52.48618,
+      "lon": 13.3612,
+      "radius": 8,
+      "drop": true
+    },
+    {
+      "lat": 52.48614,
+      "lon": 13.36137,
+      "radius": 8,
+      "drop": true
+    },
+    {
+      "lat": 52.48618,
+      "lon": 13.36142,
+      "radius": 8,
+      "drop": true
+    },
+    {
+      "lat": 52.48615,
+      "lon": 13.36149,
+      "radius": 8,
+      "drop": true
+    },
+    {
+      "lat": 52.48614,
+      "lon": 13.36153,
+      "radius": 12,
+      "text": "Turn right into Leberstraße",
+      "dir": "right"
+    },
+    {
+      "lat": 52.48383,
+      "lon": 13.36145,
+      "radius": 10,
+      "drop": true
+    },
+    {
+      "lat": 52.48607,
+      "lon": 13.356,
+      "radius": 8,
+      "drop": true
+    },
+    {
+      "lat": 52.48954,
+      "lon": 13.35328,
+      "radius": 15,
+      "text": "At the end of Akazienstraße, turn left into Grunewaldstraße",
+      "dir": "left"
+    },
+    {
+      "lat": 52.48953,
+      "lon": 13.35315,
+      "radius": 8,
+      "drop": true
+    },
+    {
+      "lat": 52.48971,
+      "lon": 13.35305,
+      "radius": 8,
+      "drop": true
+    },
+    {
+      "lat": 52.48987,
+      "lon": 13.35301,
+      "radius": 8,
+      "drop": true
+    },
+    {
+      "lat": 52.49493,
+      "lon": 13.3372,
+      "radius": 8,
+      "drop": true
+    },
+    {
+      "lat": 52.49494,
+      "lon": 13.33708,
+      "radius": 8,
+      "drop": true
+    }
+  ],
+  "intro": "Welcome to Rails and the Red Island. It's a loop of about thirteen kilometres, roughly fifty minutes, back to home. We'll follow the railways past Nollendorfplatz, the lost Sportpalast, Park am Gleisdreieck, the Anhalter station ruin, the Yorck Bridges, Bowie's old flat, Marlene Dietrich's birthplace and the gasometer, with thirteen stories in all. Head north up Bamberger Straße.",
+  "outro": "And that's the loop. You're back on Bamberger Straße, with freight yards turned into parks, a gasometer turned into offices and a red island full of stories behind you. Thanks for riding with me.",
+  "pois": [
+    {
+      "id": "schoeneberg-boom",
+      "name": "Schöneberg's boom",
+      "lat": 52.49885,
+      "lon": 13.3456,
+      "text": "You're on Fuggerstraße, and almost everything around you is less than a hundred and fifty years old. Around 1870 Schöneberg was a farming village of about four and a half thousand people. Then the railways and the city arrived, and by 1900 more than seventy thousand lived here. Schöneberg became a city in its own right in 1898 and stayed independent until it joined Greater Berlin in 1920. Today's ride follows the tracks that made that boom."
+    },
+    {
+      "id": "nollendorfplatz-pink-triangle",
+      "name": "Nollendorfplatz memorial",
+      "lat": 52.49945,
+      "lon": 13.3542,
+      "text": "Ahead is Nollendorfplatz station, whose elevated platforms opened in 1902 on Berlin's very first U-Bahn line. On the station's south wall is a square granite slab set with a pink triangle, the badge the Nazis forced on gay prisoners in the camps. Unveiled in 1989, it says: beaten to death, silenced to death, to the homosexual victims of National Socialism. It belongs here, because this neighbourhood was the heart of queer Berlin in the 1920s, and still is."
+    },
+    {
+      "id": "sportpalast",
+      "name": "Sportpalast site",
+      "lat": 52.4947,
+      "lon": 13.3609,
+      "trigger": [
+        52.496,
+        13.3613
+      ],
+      "text": "Look ahead and to your right, down Potsdamer Straße, at the huge housing block. That's the Pallasseum, and it stands on the site of the Sportpalast, a hall opened in 1910 that held up to fourteen thousand people for boxing, ice skating and six-day cycle races. It's remembered for a darker night: on the eighteenth of February 1943, Joseph Goebbels stood here and demanded total war. The hall was pulled down in 1973."
+    },
+    {
+      "id": "gleisdreieck-westpark",
+      "name": "Park am Gleisdreieck",
+      "lat": 52.4985,
+      "lon": 13.371,
+      "text": "Welcome to Park am Gleisdreieck, the railway triangle. For generations this was where the freight yards of two great terminals, the Anhalter and Potsdamer stations, sprawled across the land. After the war they fell silent and became an overgrown wilderness of rusting track. The park was finally built in stages, and this western half opened in 2013. Keep an eye out for old rails, signals and sleepers, left in the grass on purpose as reminders."
+    },
+    {
+      "id": "anhalter-bahnhof",
+      "name": "Anhalter Bahnhof portico",
+      "lat": 52.50348,
+      "lon": 13.38127,
+      "text": "Just beside you is all that's left of the Anhalter Bahnhof: one brick portico. Behind it stood a vast terminal, opened in 1880 by Kaiser Wilhelm the First and Bismarck, with trains to Prague, Vienna, Rome and even Athens. It has a terrible chapter too. Between 1941 and 1945 about nine thousand six hundred Jewish Berliners were deported from here in small groups. Badly bombed, the station closed in 1952, and demolition in 1960 spared only this fragment."
+    },
+    {
+      "id": "technikmuseum",
+      "name": "German Museum of Technology",
+      "lat": 52.4972,
+      "lon": 13.3785,
+      "trigger": [
+        52.49739,
+        13.37944
+      ],
+      "text": "To your right, behind the trees, are the grounds of the German Museum of Technology. It sits on the Anhalter station's old freight yard, and its railway collection fills the original locomotive sheds, which lay derelict for about thirty years before the museum brought them back to life. Look up at the museum's newer building and you may spot a Douglas C-47 perched on the roof, one of the raisin bombers of the Berlin Airlift."
+    },
+    {
+      "id": "gleisdreieck-ostpark",
+      "name": "Gleisdreieck East Park",
+      "lat": 52.494,
+      "lon": 13.3775,
+      "text": "This is the eastern half of the park, the first part to open, in September 2011. The designers kept it wide and open, with long lawns and benches, and they left patches of deliberately wild vegetation where plants and insects had already reclaimed the railway land. Altogether the park now covers more than thirty hectares, all of it carved from what used to be nothing but sidings, tracks and freight sheds."
+    },
+    {
+      "id": "yorck-bridges",
+      "name": "Yorck Bridges",
+      "lat": 52.49217,
+      "lon": 13.37432,
+      "text": "Look around at the old iron railway bridges spanning Yorckstraße. There were once about forty-five of them here, carrying the tracks into the Anhalter and Potsdamer stations, built between the 1870s and the 1880s. Only nine still carry trains today. Twenty-four stand unused, and several have been restored as paths for walkers and cyclists, stitching the two halves of the park together."
+    },
+    {
+      "id": "bowie-hauptstrasse",
+      "name": "Bowie's flat, Hauptstraße 155",
+      "lat": 52.48925,
+      "lon": 13.3595,
+      "text": "Right here is Hauptstraße 155. From 1976 to 1978 David Bowie lived in a flat in this building, at first sharing it with Iggy Pop. His Berlin years gave the world the albums Low, Heroes and Lodger. A few doors along is the Neues Ufer, one of Berlin's oldest gay cafés, opened in the early 1970s, where Bowie was a regular. Look out for the plaque with a line from Heroes."
+    },
+    {
+      "id": "rote-insel-julius-leber",
+      "name": "Rote Insel and Julius Leber",
+      "lat": 52.48627,
+      "lon": 13.36101,
+      "text": "You're crossing onto the Rote Insel, the Red Island: a neighbourhood fenced in by railway lines, and red for its politics, a working-class district that voted solidly left. This bridge is named after Julius Leber, a Social Democrat who, after years in Nazi camps, ran a coal business on nearby Torgauer Straße. Its little office became a secret meeting place for the resistance. Leber was arrested there in July 1944 and executed in January 1945."
+    },
+    {
+      "id": "marlene-dietrich-birthplace",
+      "name": "Marlene Dietrich's birthplace",
+      "lat": 52.48086,
+      "lon": 13.36159,
+      "text": "Just ahead, a few doors further down Leberstraße on the left, at number sixty-five, Marlene Dietrich was born on the twenty-seventh of December 1901, when the street was still called Sedanstraße. The Blue Angel made her an international star in 1930. In the late 1930s she turned down lucrative offers from the Nazis to come home and make films, and in 1939 she became an American citizen instead."
+    },
+    {
+      "id": "gasometer-schoeneberg",
+      "name": "Gasometer Schöneberg",
+      "lat": 52.4814,
+      "lon": 13.35726,
+      "trigger": [
+        52.4802,
+        13.3575
+      ],
+      "text": "On your right towers the Gasometer Schöneberg, a seventy-eight-metre steel skeleton built between 1908 and 1910. It once held up to a hundred and sixty thousand cubic metres of town gas for cooking, heating and street lamps, and it was only switched off in 1995. From 2011 to 2015 Günther Jauch's political talk show was broadcast from a dome inside it. Since 2024 a brand-new office tower has filled the old frame."
+    },
+    {
+      "id": "millionaire-farmers",
+      "name": "Hauptstraße and the millionaire farmers",
+      "lat": 52.48618,
+      "lon": 13.35588,
+      "text": "You're crossing Hauptstraße, the old village street of Schöneberg and once part of the road to Potsdam, the first paved highway in Prussia, opened in 1792. When the city spread out after 1871, local farmers sold their fields to developers and became extraordinarily rich. Berliners called them the millionaire farmers. Some of their villas still stand along this street, and their ornate family tombs fill the churchyard of the old village church, a little way south."
+    }
+  ]
+}
