@@ -1,6 +1,17 @@
 {
   "routes": [
     {
+      "id": "grunewald-lakes-and-villas",
+      "file": "grunewald-lakes-and-villas.json",
+      "name": "Lakes & Villas: Schöneberg → Grunewald",
+      "city": "Berlin",
+      "distanceKmApprox": 7.8,
+      "summary": "Villas, lakes and Weimar history: Prager Platz, God's Power Station, Fehrbelliner Platz, the Thai Meadow, Max Planck's house, the Grunewald lake chain, the Rathenau memorial, the Hare's Leap and Track 17 at Grunewald station.",
+      "shape": "one-way",
+      "endName": "S Grunewald",
+      "created": "2026-10-01"
+    },
+    {
       "id": "rails-and-red-island-loop",
       "file": "rails-and-red-island-loop.json",
       "name": "Rails & the Red Island: Gleisdreieck Loop",

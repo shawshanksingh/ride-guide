@@ -1,26 +1,24 @@
-UPLOAD STEPS
-GitHub → shawshanksingh/ride-guide → Add file → Upload files → drag in rails-and-red-island-loop.json and index.json → Commit.
+HOW TO UPLOAD
+GitHub → shawshanksingh/ride-guide → Add file → Upload files → drag in grunewald-lakes-and-villas.json and index.json → Commit.
 Then on the phone open the app, close it, open it again.
 
 ROUTE SUMMARY
-Name:   Rails & the Red Island: Gleisdreieck Loop
-Length: 12.8 km (about 50 min at 15 km/h)
-Shape:  Loop, back to Bamberger Str. 8
-Theme:  Railway & industrial Schöneberg/Kreuzberg: freight yards turned parks, the Red Island, the gasometer
+Name: Lakes & Villas: Schöneberg → Grunewald
+Distance: 7.8 km (about 35 min at 15 km/h)
+Shape: one-way, ends at S Grunewald (S7) beside the Track 17 memorial
+Theme: Grunewald villa colony, lakes and Weimar-era history
 
-Stories (13):
- 1. Schöneberg's boom (Fuggerstraße)
- 2. Nollendorfplatz station & the pink-triangle memorial
- 3. Sportpalast site / Pallasseum
- 4. Park am Gleisdreieck (West Park)
- 5. Anhalter Bahnhof portico
- 6. German Museum of Technology
- 7. Gleisdreieck East Park
- 8. Yorck Bridges
- 9. Bowie's flat, Hauptstraße 155
-10. Rote Insel & Julius Leber
-11. Marlene Dietrich's birthplace, Leberstraße 65
-12. Gasometer Schöneberg
-13. Hauptstraße & the millionaire farmers
+Stories:
+1. Prager Platz (Kästner, Nabokov, the Prager Diele)
+2. Church on Hohenzollernplatz ("God's Power Station")
+3. Fehrbelliner Platz
+4. Preußenpark and the Thai Meadow
+5. Paulsborner Bridge, the Ringbahn and the lost Luna Park
+6. Max Planck's house, Wangenheimstraße 21
+7. Hubertussee and the Grunewald lake chain
+8. Rathenau memorial stone, Koenigsallee
+9. Hasensprung (the Hare's Leap) and Felix Koenigs
+10. The Grunewald villa colony
+11. Platform 17 memorial, Grunewald station
 
-Validation note: routed with the same OSRM bike router the app uses; 12,811 m, all waypoints snapped within 12 m, no U-turns, no detour legs, all stories within 136 m of the route and at least 250 m apart. The app's own nav.js could not be loaded in the test browser this run, so the cueOverrides were written from the OSRM step list — give the turn-by-turn cues a quick look on the first ride.
+Validated with the app's nav.js + OSRM bike router: 7,755 m, all waypoints snapped within 19 m, no U-turns or detour legs, all stories within 90 m of the route (Hubertussee about 115 m, using a trigger on the route), at least 250 m apart.

@@ -1,0 +1,244 @@
+{
+  "id": "grunewald-lakes-and-villas",
+  "name": "Lakes & Villas: Schöneberg → Grunewald",
+  "city": "Berlin",
+  "description": "A one-way 7.8 km ride from home into the Grunewald villa colony: Prager Platz, the brick 'God's Power Station' on Hohenzollernplatz, Fehrbelliner Platz, the Thai Meadow in Preußenpark, Max Planck's street, the little Grunewald lakes, the Rathenau memorial and the Hare's Leap, ending at the Track 17 memorial at S Grunewald.",
+  "distanceKmApprox": 7.8,
+  "lang": "en-GB",
+  "profile": "bike",
+  "start": {
+    "name": "Bamberger Str. 8",
+    "lat": 52.49553,
+    "lon": 13.33701
+  },
+  "waypoints": [
+    [
+      52.49553,
+      13.33701
+    ],
+    [
+      52.4958,
+      13.3355
+    ],
+    [
+      52.4931,
+      13.333
+    ],
+    [
+      52.4938,
+      13.3262
+    ],
+    [
+      52.4913,
+      13.3117
+    ],
+    [
+      52.4948,
+      13.3007
+    ],
+    [
+      52.4895,
+      13.2881
+    ],
+    [
+      52.4873,
+      13.2819
+    ],
+    [
+      52.4898,
+      13.2756
+    ],
+    [
+      52.48653,
+      13.27124
+    ],
+    [
+      52.4882,
+      13.2628
+    ]
+  ],
+  "cueOverrides": [
+    {
+      "lat": 52.49587,
+      "lon": 13.3371,
+      "radius": 12,
+      "text": "Turn left onto Regensburger Straße",
+      "dir": "left"
+    },
+    {
+      "lat": 52.4934,
+      "lon": 13.33326,
+      "radius": 12,
+      "text": "At Prager Platz, turn left round the square",
+      "dir": "left"
+    },
+    {
+      "lat": 52.49293,
+      "lon": 13.33306,
+      "radius": 12,
+      "text": "Bear right onto Trautenaustraße",
+      "dir": "slight-right"
+    },
+    {
+      "lat": 52.4917,
+      "lon": 13.32645,
+      "radius": 10,
+      "drop": true
+    },
+    {
+      "lat": 52.4938,
+      "lon": 13.32624,
+      "radius": 10,
+      "drop": true
+    },
+    {
+      "lat": 52.49468,
+      "lon": 13.32582,
+      "radius": 15,
+      "text": "At Hohenzollernplatz, turn left onto Hohenzollerndamm",
+      "dir": "left"
+    },
+    {
+      "lat": 52.49127,
+      "lon": 13.31659,
+      "radius": 10,
+      "drop": true
+    },
+    {
+      "lat": 52.49048,
+      "lon": 13.31423,
+      "radius": 12,
+      "text": "Turn right into Fehrbelliner Platz",
+      "dir": "right"
+    },
+    {
+      "lat": 52.4912,
+      "lon": 13.3132,
+      "radius": 10,
+      "text": "Turn left, then right onto Westfälische Straße",
+      "dir": "left"
+    },
+    {
+      "lat": 52.49104,
+      "lon": 13.31284,
+      "radius": 8,
+      "drop": true
+    },
+    {
+      "lat": 52.49188,
+      "lon": 13.30958,
+      "radius": 12,
+      "text": "Cross Konstanzer Straße and carry on along Westfälische Straße",
+      "dir": "straight"
+    },
+    {
+      "lat": 52.49483,
+      "lon": 13.30068,
+      "radius": 12,
+      "text": "Bear left onto Paulsborner Straße",
+      "dir": "slight-left"
+    },
+    {
+      "lat": 52.49167,
+      "lon": 13.28834,
+      "radius": 12,
+      "text": "Turn left onto Wangenheimstraße",
+      "dir": "left"
+    },
+    {
+      "lat": 52.48808,
+      "lon": 13.26269,
+      "radius": 8,
+      "drop": true
+    }
+  ],
+  "intro": "Welcome to Lakes and Villas, a one-way ride of nearly eight kilometres, about thirty-five minutes, from home to Grunewald station. We'll pass Prager Platz, God's Power Station, the Thai Meadow, Max Planck's street, the little Grunewald lakes and the place where Walther Rathenau was murdered, with eleven stories in all. Head north up Bamberger Straße.",
+  "outro": "That's the end of the ride. Grunewald station is right here, on the S-Bahn line S7, east into the city centre or west to Wannsee and Potsdam. Thanks for riding with me.",
+  "pois": [
+    {
+      "id": "prager",
+      "name": "Prager Platz",
+      "lat": 52.4931,
+      "lon": 13.333,
+      "text": "Welcome to Prager Platz. It was named in 1888 after the Peace of Prague, which ended the war between Prussia and Austria in 1866. In the 1920s this was a literary corner: Erich Kästner lived a few steps away and mentions the view of the square in the opening of Emil and the Detectives. A restaurant here, the Prager Diele, drew Russian émigré writers, among them a young Vladimir Nabokov. Almost all of it was bombed in the war and rebuilt from the 1980s."
+    },
+    {
+      "id": "church",
+      "name": "Church on Hohenzollernplatz",
+      "lat": 52.49425,
+      "lon": 13.32713,
+      "text": "Look up on your right at the dark brick tower, sixty-six metres tall. This is the Church on Hohenzollernplatz, built between 1930 and 1933 by Ossip Klarwein, working in the office of the Hamburg architect Fritz Höger. With its concrete frame, ribbed clinker brick and tall narrow windows, Berliners nicknamed it God's Power Station. Klarwein emigrated to Palestine soon after it opened, and decades later helped design Israel's parliament building, the Knesset."
+    },
+    {
+      "id": "fehrbelliner",
+      "name": "Fehrbelliner Platz",
+      "lat": 52.4907,
+      "lon": 13.3142,
+      "text": "Now we swing into Fehrbelliner Platz. The name recalls the Battle of Fehrbellin in 1675, when Brandenburg beat the Swedish army. The horseshoe of stern stone office blocks around you was built from the mid-1930s for Nazi-era ministries and organisations. The largest, finished in 1943 for the German Labour Front, is now Wilmersdorf's town hall. Below ground, the U-Bahn station has a startling 1970s entrance building that Berliners nicknamed the oil rig."
+    },
+    {
+      "id": "preussenpark",
+      "name": "Preußenpark",
+      "lat": 52.4928,
+      "lon": 13.31,
+      "text": "On your right is Preußenpark, laid out in 1904 by the garden architect Richard Thieme. From the mid-1990s its big sunbathing lawn became the Thai Meadow, where families from Thailand and across Southeast Asia met on summer weekends, cooking and selling street food from picnic blankets. After years of arguments over permits it was banned at the end of 2021, and since spring 2022 it has run as an official market organised by Berlin's Thai association."
+    },
+    {
+      "id": "ringbahn",
+      "name": "Paulsborner Bridge and the Ringbahn",
+      "lat": 52.49213,
+      "lon": 13.29533,
+      "text": "We're crossing the Ringbahn, the railway loop around inner Berlin, closed into a full circle in 1877. Its outline on the map earned it the nickname the dog's head, and today the S41 and S42 trains circle its thirty-seven kilometres in opposite directions in about an hour. About a kilometre north of here, where the Kurfürstendamm meets the Halensee, stood Luna Park, before the war one of Europe's biggest amusement parks, with roller coasters, water slides and a huge wave pool."
+    },
+    {
+      "id": "planck",
+      "name": "Max Planck's house",
+      "lat": 52.49096,
+      "lon": 13.28816,
+      "text": "This is Wangenheimstraße. At number twenty-one, on your right, Max Planck, the father of quantum theory, lived from 1905. He was a gifted pianist, and his home was famous for musical evenings: Planck at the keyboard, the great violinist Joseph Joachim or Albert Einstein on violin, and the chemist Otto Hahn singing tenor. The villa was destroyed by bombing during the war, along with his papers. His son Erwin was executed in 1945 for his part in the plot against Hitler."
+    },
+    {
+      "id": "lakes",
+      "name": "Hubertussee",
+      "lat": 52.4866,
+      "lon": 13.2809,
+      "text": "On your left is the Hubertussee, one of a little chain of lakes lying in a channel cut by meltwater at the end of the last ice age. When the villa colony was laid out in 1889, the boggy ground here was dug out to make four neat lakes, the Hubertussee, Herthasee, Koenigssee and Dianasee, giving the new plots their waterfront. No stream feeds them: they live on groundwater and rain, and most of the surrounding streets drain into them.",
+      "trigger": [
+        52.48718,
+        13.2823
+      ]
+    },
+    {
+      "id": "rathenau",
+      "name": "Rathenau memorial stone",
+      "lat": 52.4899,
+      "lon": 13.2758,
+      "text": "Here, on the bend of Koenigsallee by Erdener Straße, Germany's foreign minister Walther Rathenau was murdered on the twenty-fourth of June 1922. He was being driven from his villa further down this avenue to the Foreign Office when a car overtook his. Young right-wing extremists from the Organisation Consul opened fire and threw a grenade. Rathenau, a Jewish industrialist who had led the electrical giant AEG, died almost at once. A memorial stone stands by the road."
+    },
+    {
+      "id": "hasensprung",
+      "name": "Hasensprung",
+      "lat": 52.4874,
+      "lon": 13.2713,
+      "text": "On your right, between the Koenigssee and the Dianasee, is the Hasensprung, the Hare's Leap. This little promenade was laid out in 1898 as a shortcut, and in the 1920s the sculptor Eberhard Encke gave its bridge two leaping hares, one running towards you and one running away. The lake and this avenue are named after Felix Koenigs, a banker who helped finance the villa colony. The bridge is for walkers only, so we'll stay on the road."
+    },
+    {
+      "id": "villas",
+      "name": "Grunewald villa colony",
+      "lat": 52.484,
+      "lon": 13.2668,
+      "text": "All around you is the Grunewald villa colony. In 1889 a company led by Deutsche Bank was allowed to build on two hundred and thirty-four hectares of state forest, in return for turning the Kurfürstendamm into a grand boulevard. Bismarck had backed the idea, hoping the Grunewald would become Berlin's Bois de Boulogne. Plots had to be at least twelve hundred square metres, so this was a place for bankers, professors and publishers. Rathenau's own villa, number sixty-five, is a little further along Koenigsallee."
+    },
+    {
+      "id": "gleis17",
+      "name": "Platform 17 memorial",
+      "lat": 52.48861,
+      "lon": 13.26376,
+      "text": "This is Grunewald station, opened in 1879. Its darkest chapter began on the eighteenth of October 1941, when the first train carrying Berlin's Jews to the ghettos in the East left from the freight tracks here. Many more followed. Since 1998 a memorial called Track Seventeen has lined the old platform: one hundred and eighty-six steel plates, each giving the date of a transport, the number of people on it and its destination. Grass grows between the rails; no train will ever leave from this track again.",
+      "trigger": [
+        52.48775,
+        13.26314
+      ]
+    }
+  ]
+}
