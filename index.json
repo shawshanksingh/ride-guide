@@ -1,6 +1,16 @@
 {
   "routes": [
     {
+      "id": "canal-markets-generals-loop",
+      "file": "canal-markets-generals-loop.json",
+      "name": "Canal, Markets & Generals: Kreuzberg Loop",
+      "city": "Berlin",
+      "distanceKmApprox": 14.9,
+      "summary": "Canal and market Kreuzberg: Lützowplatz, the Bauhaus Archive, the Shell House, the New National Gallery, Möckernbrücke, the America Memorial Library, the Admiral Bridge, the Graefekiez, Südstern, Marheineke market hall, the generals of Yorckstraße and the Akazienkiez.",
+      "shape": "loop",
+      "created": "2026-10-02"
+    },
+    {
       "id": "grunewald-lakes-and-villas",
       "file": "grunewald-lakes-and-villas.json",
       "name": "Lakes & Villas: Schöneberg → Grunewald",

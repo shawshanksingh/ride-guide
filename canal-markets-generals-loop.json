@@ -1,0 +1,239 @@
+{
+  "id": "canal-markets-generals-loop",
+  "name": "Canal, Markets & Generals: Kreuzberg Loop",
+  "city": "Berlin",
+  "description": "A 14.9 km loop from home along the Landwehr Canal and through Kreuzberg's market streets: Lützowplatz, the Bauhaus Archive, the Shell House, the New National Gallery, the first U-Bahn at Möckernbrücke, the America Memorial Library, Carl-Herz-Ufer, the Admiral Bridge and Fraenkelufer synagogue, the doctors' streets of the Graefekiez, Südstern, the Marheineke market hall, the generals of Yorckstraße, Leydicke and the Apostle Paul Church.",
+  "distanceKmApprox": 14.9,
+  "lang": "en-GB",
+  "profile": "bike",
+  "start": {
+    "name": "Bamberger Str. 8",
+    "lat": 52.49553,
+    "lon": 13.33701
+  },
+  "waypoints": [
+    [
+      52.49553,
+      13.33701
+    ],
+    [
+      52.5032,
+      13.3458
+    ],
+    [
+      52.5063,
+      13.358
+    ],
+    [
+      52.5035,
+      13.3732
+    ],
+    [
+      52.498,
+      13.387
+    ],
+    [
+      52.4975,
+      13.393
+    ],
+    [
+      52.495,
+      13.406
+    ],
+    [
+      52.4953,
+      13.416
+    ],
+    [
+      52.4945,
+      13.419
+    ],
+    [
+      52.491,
+      13.411
+    ],
+    [
+      52.48884,
+      13.4054
+    ],
+    [
+      52.489,
+      13.395
+    ],
+    [
+      52.49157,
+      13.37665
+    ],
+    [
+      52.4917,
+      13.364
+    ],
+    [
+      52.48861,
+      13.35375
+    ],
+    [
+      52.49553,
+      13.33701
+    ]
+  ],
+  "cueOverrides": [
+    {
+      "lat": 52.50297,
+      "lon": 13.35013,
+      "radius": 30,
+      "text": "Turn left into the green strip of Lützowplatz",
+      "dir": "left"
+    },
+    {
+      "lat": 52.50522,
+      "lon": 13.35225,
+      "radius": 30,
+      "text": "Bear right and follow the path down to the canal",
+      "dir": "slight-right"
+    },
+    {
+      "lat": 52.4951,
+      "lon": 13.40754,
+      "radius": 30,
+      "text": "Bear right onto the waterside path along the old Urbanhafen",
+      "dir": "slight-right"
+    },
+    {
+      "lat": 52.48914,
+      "lon": 13.40791,
+      "radius": 30,
+      "text": "At the end of Körtestraße, turn right towards the big church",
+      "dir": "right"
+    },
+    {
+      "lat": 52.49157,
+      "lon": 13.36466,
+      "radius": 30,
+      "text": "Bear left to stay on Großgörschenstraße",
+      "dir": "slight-left"
+    }
+  ],
+  "intro": "Welcome to Canal, Markets and Generals, a loop of just under fifteen kilometres, about an hour at an easy pace. Head north on Bamberger Straße. We'll follow the Landwehr Canal from the Bauhaus Archive to the Admiral Bridge, wander through Kreuzberg's doctors' streets and market halls, then ride home past Napoleonic generals and Schöneberg's Akazienkiez. Fourteen stories along the way.",
+  "outro": "And that's the loop: canal banks, market halls and a parade of Napoleonic generals, all in about fifteen kilometres. You're back on Bamberger Straße. Thanks for riding with me, and see you on the next one.",
+  "pois": [
+    {
+      "id": "lutzow",
+      "name": "Lützowplatz and the black-red-gold",
+      "lat": 52.50476,
+      "lon": 13.35255,
+      "text": "You're rolling through Lützowplatz, named after Major Adolf von Lützow. In 1813 he raised a volunteer corps to fight Napoleon. Prussia couldn't afford proper uniforms, so the volunteers dyed whatever clothes they had black, trimmed them with red and fastened them with brass buttons. Black, red and gold went on to become the colours of German liberals and republicans, and in the end of the German flag. Keep your ears open: more of those Napoleonic-era heroes are waiting on today's street signs.",
+      "trigger": [
+        52.50303,
+        13.35018
+      ]
+    },
+    {
+      "id": "bauhaus",
+      "name": "Bauhaus Archive",
+      "lat": 52.50634,
+      "lon": 13.35383,
+      "text": "On your left, set back behind the trees, look for a white building with a row of curved, sawtooth roofs. That's the Bauhaus Archive, the museum of the famous design school. Walter Gropius, the Bauhaus founder, drew the first plans in the sixties for a site in Darmstadt. The design was adapted for this flat plot beside the canal and finished in 1979. It's closed for building works at the moment, with a reopening planned for 2027.",
+      "trigger": [
+        52.50599,
+        13.35518
+      ]
+    },
+    {
+      "id": "shell",
+      "name": "Shell House",
+      "lat": 52.50628,
+      "lon": 13.3637,
+      "text": "Look across the water to your left. That long pale building whose front ripples back in a series of rounded steps is the Shell House, opened in 1932 to designs by Emil Fahrenkamp. It was one of the first steel-framed high-rise buildings in Berlin, and its facade rises in waves from six storeys to ten. In the war the navy's high command worked here. Afterwards the city's electricity company moved in, and today it belongs to the gas supplier GASAG.",
+      "trigger": [
+        52.50549,
+        13.36184
+      ]
+    },
+    {
+      "id": "nng",
+      "name": "New National Gallery",
+      "lat": 52.50704,
+      "lon": 13.36762,
+      "text": "Still across the canal, that flat black steel roof floating on just eight slender columns belongs to the New National Gallery by Ludwig Mies van der Rohe. It opened in September 1968, the year before he died, and the roof reaches out as far as eighteen metres beyond its glass walls. After a careful restoration by the British architect David Chipperfield, which started in 2015, the gallery reopened in 2021 with a show of Alexander Calder's sculptures."
+    },
+    {
+      "id": "mock",
+      "name": "Möckernbrücke and the first U-Bahn",
+      "lat": 52.49869,
+      "lon": 13.38312,
+      "text": "Overhead runs one of the oldest stretches of the Berlin U-Bahn, which here is not underground at all. This elevated line opened in February 1902 as part of the network's very first route. The station above the canal, Möckernbrücke, soon became too small and was rebuilt in 1937. In 1966 a second line arrived in a tunnel under the south bank, and a glazed bridge over the water now links the two platforms."
+    },
+    {
+      "id": "agb",
+      "name": "America Memorial Library",
+      "lat": 52.49657,
+      "lon": 13.39249,
+      "text": "Coming up on your right at Blücherplatz is the America Memorial Library. After the Berlin Blockade of 1948 and 1949, the United States gave West Berlin five million dollars in recognition of how the city had held out, and part of that gift built this library, which opened in September 1954. It was run on the American open-shelf model, letting readers browse the books for themselves, which was a real novelty in Berlin back then."
+    },
+    {
+      "id": "carlherz",
+      "name": "Carl-Herz-Ufer and the Urbanhafen",
+      "lat": 52.495,
+      "lon": 13.407,
+      "text": "You're now on Carl-Herz-Ufer. Carl Herz became Kreuzberg's Social Democratic mayor in 1923. On the tenth of March 1933, because he was Jewish, the Nazis violently threw him out of the town hall and humiliated him in public. He escaped to London and died in Israel in 1951. To your right lies the old Urbanhafen, a busy freight harbour built in the 1890s. It was filled in during the sixties, and a V-shaped hospital wing now stands on part of it.",
+      "trigger": [
+        52.49508,
+        13.40545
+      ]
+    },
+    {
+      "id": "admiral",
+      "name": "Admiral Bridge and the Fraenkelufer synagogue",
+      "lat": 52.49527,
+      "lon": 13.41514,
+      "text": "On your left is the Admiral Bridge, built between 1880 and 1882 and today the oldest iron bridge over the Landwehr Canal. Closed to through traffic, it has become Kreuzberg's favourite summer-evening sofa, with buskers and sunsets, and since 2010 the police have asked people to leave from ten at night. Just beyond it, across the water, stands the synagogue on Fraenkelufer. It was set alight in the pogrom of November 1938, and its surviving side wing was reconsecrated in 1959."
+    },
+    {
+      "id": "graefe",
+      "name": "The doctors' streets",
+      "lat": 52.4945,
+      "lon": 13.419,
+      "text": "This is Graefestraße, and the streets around here are full of doctors. Albrecht von Graefe was a pioneer of eye medicine who brought the new ophthalmoscope into everyday practice and became famous for treating glaucoma. Nearby Dieffenbachstraße remembers Johann Friedrich Dieffenbach, the Charité surgeon who helped to develop plastic surgery and corrected squints with an operation. Both streets were given their names at the end of 1875. Today this quarter is better known for its cafés and bars.",
+      "trigger": [
+        52.49416,
+        13.41878
+      ]
+    },
+    {
+      "id": "suedstern",
+      "name": "Church at Südstern",
+      "lat": 52.48923,
+      "lon": 13.40632,
+      "text": "Ahead rises the ninety-metre spire of the church at Südstern. It was built between 1894 and 1897 as the Protestant garrison church, and Kaiser Wilhelm the Second came to its consecration in May 1897. The square itself used to be called Kaiser-Friedrich-Platz. Since then the church has passed through several congregations, including a Serbian Orthodox one, and its original organ by Wilhelm Sauer from 1897 survives, although in damaged and altered form."
+    },
+    {
+      "id": "marheineke",
+      "name": "Marheineke Market Hall",
+      "lat": 52.48929,
+      "lon": 13.39469,
+      "text": "Here at Marheinekeplatz is one of Berlin's old municipal market halls, known as Market Hall Eleven. It opened in March 1892 with nearly three hundred tiny stalls. Wartime bombing left little more than its western end and cellars standing. The city decided in 1952 to rebuild it, and a big makeover in 2007 added new glass, extra entrances from Bergmannstraße and a gallery where you can watch the bustle below. If you're hungry, this is the place to stop."
+    },
+    {
+      "id": "katzbach",
+      "name": "Yorckstraße and the generals",
+      "lat": 52.49157,
+      "lon": 13.37665,
+      "text": "Turning onto Yorckstraße, notice the names around you: Yorck, Katzbach, Großbeeren, Möckern, Gneisenau. Together they form a map of the wars against Napoleon. On the twenty-sixth of August 1813, in a thunderstorm by the swollen Katzbach river in Silesia, Blücher, with Gneisenau as his chief of staff, beat Marshal Macdonald's army. The planner Peter Joseph Lenné imagined a grand chain of boulevards here named after these generals, but railway yards later cut it in two."
+    },
+    {
+      "id": "leydicke",
+      "name": "Leydicke",
+      "lat": 52.49258,
+      "lon": 13.36661,
+      "text": "Here on Mansteinstraße, at number four, is one of Berlin's classic old pubs, E and M Leydicke. It was founded in 1877 as a distillery and bar, and it still pours its own fruit wines and liqueurs made to the old family recipes. It only opens in the evening, so save it for another night, when there's often swing, blues or rock and roll playing."
+    },
+    {
+      "id": "apostel",
+      "name": "Apostle Paul Church",
+      "lat": 52.48916,
+      "lon": 13.35275,
+      "text": "Ahead of you, where Akazienstraße meets Grunewaldstraße, stands the Apostle Paul Church. It was designed by Franz Schwechten, the architect of the Kaiser Wilhelm Memorial Church, and consecrated just after Christmas 1894 with the Kaiser and Kaiserin present. In the Nazi years its congregation sided with the Confessing Church against the regime-friendly German Christians. Incendiary bombs badly damaged it in January 1944, and it was consecrated again in May 1949."
+    }
+  ]
+}

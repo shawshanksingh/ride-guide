@@ -1,24 +1,23 @@
-HOW TO UPLOAD
-GitHub → shawshanksingh/ride-guide → Add file → Upload files → drag in grunewald-lakes-and-villas.json and index.json → Commit.
+GitHub → shawshanksingh/ride-guide → Add file → Upload files → drag in canal-markets-generals-loop.json and index.json → Commit.
 Then on the phone open the app, close it, open it again.
 
-ROUTE SUMMARY
-Name: Lakes & Villas: Schöneberg → Grunewald
-Distance: 7.8 km (about 35 min at 15 km/h)
-Shape: one-way, ends at S Grunewald (S7) beside the Track 17 memorial
-Theme: Grunewald villa colony, lakes and Weimar-era history
+Route: Canal, Markets & Generals: Kreuzberg Loop
+Distance: 14.9 km (about 1 hour at 15 km/h)
+Shape: loop back to Bamberger Str. 8
+Theme: Landwehr Canal, Kreuzberg market streets and the Napoleonic-war street names
 
-Stories:
-1. Prager Platz (Kästner, Nabokov, the Prager Diele)
-2. Church on Hohenzollernplatz ("God's Power Station")
-3. Fehrbelliner Platz
-4. Preußenpark and the Thai Meadow
-5. Paulsborner Bridge, the Ringbahn and the lost Luna Park
-6. Max Planck's house, Wangenheimstraße 21
-7. Hubertussee and the Grunewald lake chain
-8. Rathenau memorial stone, Koenigsallee
-9. Hasensprung (the Hare's Leap) and Felix Koenigs
-10. The Grunewald villa colony
-11. Platform 17 memorial, Grunewald station
-
-Validated with the app's nav.js + OSRM bike router: 7,755 m, all waypoints snapped within 19 m, no U-turns or detour legs, all stories within 90 m of the route (Hubertussee about 115 m, using a trigger on the route), at least 250 m apart.
+Stories (14):
+1. Lützowplatz and the black-red-gold
+2. Bauhaus Archive
+3. Shell House
+4. New National Gallery
+5. Möckernbrücke and the first U-Bahn
+6. America Memorial Library
+7. Carl-Herz-Ufer and the Urbanhafen
+8. Admiral Bridge and the Fraenkelufer synagogue
+9. The doctors' streets
+10. Church at Südstern
+11. Marheineke Market Hall
+12. Yorckstraße and the generals
+13. Leydicke
+14. Apostle Paul Church
