@@ -1,23 +1,17 @@
-GitHub → shawshanksingh/ride-guide → Add file → Upload files → drag in canal-markets-generals-loop.json and index.json → Commit.
+GitHub → shawshanksingh/ride-guide → Add file → Upload files → drag in moabit-turbines-and-prison-walls-loop.json and index.json → Commit.
 Then on the phone open the app, close it, open it again.
 
-Route: Canal, Markets & Generals: Kreuzberg Loop
-Distance: 14.9 km (about 1 hour at 15 km/h)
-Shape: loop back to Bamberger Str. 8
-Theme: Landwehr Canal, Kreuzberg market streets and the Napoleonic-war street names
-
-Stories (14):
-1. Lützowplatz and the black-red-gold
-2. Bauhaus Archive
-3. Shell House
-4. New National Gallery
-5. Möckernbrücke and the first U-Bahn
-6. America Memorial Library
-7. Carl-Herz-Ufer and the Urbanhafen
-8. Admiral Bridge and the Fraenkelufer synagogue
-9. The doctors' streets
-10. Church at Südstern
-11. Marheineke Market Hall
-12. Yorckstraße and the generals
-13. Leydicke
-14. Apostle Paul Church
+Route: Turbines & Prison Walls: Moabit Island Loop
+Distance: 14.8 km (about 1 hour at 15 km/h)
+Shape: loop from Bamberger Str. 8 back to Bamberger Str. 8
+Theme: industrial Moabit - Berlin's river island of factories, markets, courts and prisons
+Stories:
+  1. Zoo station
+  2. Gotzkowsky Bridge and the island of Moabit
+  3. AEG Turbine Factory
+  4. Arminius Market Hall
+  5. Moabit Criminal Court
+  6. Moabit Prison Historical Park
+  7. The Bolle dairy
+  8. Hansaviertel and Interbau
+  9. Elephant Gate

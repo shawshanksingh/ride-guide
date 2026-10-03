@@ -1,0 +1,153 @@
+{
+  "id": "moabit-turbines-and-prison-walls-loop",
+  "name": "Turbines & Prison Walls: Moabit Island Loop",
+  "city": "Berlin",
+  "description": "A 14.8 km loop from home onto the island of Moabit, Berlin's old industrial quarter: Zoo station, the Gotzkowsky Bridge over the Spree, Peter Behrens' AEG Turbine Factory, the Arminius Market Hall, the Moabit Criminal Court, the Moabit Prison Historical Park, the old Bolle dairy, the Hansaviertel's Interbau housing and the Elephant Gate of Berlin Zoo.",
+  "distanceKmApprox": 14.8,
+  "lang": "en-GB",
+  "profile": "bike",
+  "start": {
+    "name": "Bamberger Str. 8",
+    "lat": 52.49553,
+    "lon": 13.33701
+  },
+  "waypoints": [
+    [
+      52.49553,
+      13.33701
+    ],
+    [
+      52.52257,
+      13.32909
+    ],
+    [
+      52.5272,
+      13.3245
+    ],
+    [
+      52.52775,
+      13.32651
+    ],
+    [
+      52.52847,
+      13.33766
+    ],
+    [
+      52.5264,
+      13.3528
+    ],
+    [
+      52.5262,
+      13.365
+    ],
+    [
+      52.5227,
+      13.3419
+    ],
+    [
+      52.518,
+      13.342
+    ],
+    [
+      52.5058,
+      13.341
+    ],
+    [
+      52.49553,
+      13.33701
+    ]
+  ],
+  "cueOverrides": [
+    {
+      "lat": 52.514566,
+      "lon": 13.34835,
+      "radius": 30,
+      "text": "Turn left onto the cycle path around the Victory Column roundabout",
+      "dir": "left"
+    },
+    {
+      "lat": 52.514217,
+      "lon": 13.348403,
+      "radius": 20,
+      "drop": true
+    },
+    {
+      "lat": 52.513683,
+      "lon": 13.350005,
+      "radius": 30,
+      "text": "Bear right off the roundabout onto the path heading south towards the zoo",
+      "dir": "slight-right"
+    }
+  ],
+  "intro": "Welcome to Turbines and Prison Walls, a loop of just under fifteen kilometres, about an hour at an easy pace. Head north on Bamberger Straße. We cross the Spree to Moabit, Berlin's industrial island, for a turbine temple, a market hall, a courthouse and a prison park, then ride home past the zoo. Nine stories ahead.",
+  "outro": "And that's the loop: a turbine temple, a market hall, a courthouse and a prison turned park, all on Berlin's island of Moabit. You're back on Bamberger Straße. Thanks for riding with me, and see you on the next one.",
+  "pois": [
+    {
+      "id": "zoo-station",
+      "name": "Zoo station",
+      "lat": 52.507,
+      "lon": 13.3326,
+      "text": "Right here, above and beside you, is Zoo station. It opened in 1882 on the new city railway, and while Berlin was divided it was West Berlin's only long-distance station, with just two platforms for trains to the rest of the world. In the late seventies its back corners were a hangout for teenage runaways and addicts, made famous by the book and film about Christiane F. In 2006 the new central station took over its long-distance trains."
+    },
+    {
+      "id": "moabit-island",
+      "name": "Gotzkowsky Bridge and the island of Moabit",
+      "lat": 52.52257,
+      "lon": 13.32909,
+      "text": "You're crossing the Spree on the Gotzkowsky Bridge, and riding onto an island. Moabit is ringed by the river and three canals, and twenty-six bridges link it to the rest of Berlin. The name most likely comes from French Huguenot refugees who settled here from 1717 and called their new home the land of Moab, after the biblical place of refuge. In 1847 August Borsig opened an iron works here, and Moabit soon became a district of factories and workers' flats."
+    },
+    {
+      "id": "aeg-turbine-factory",
+      "name": "AEG Turbine Factory",
+      "lat": 52.52859,
+      "lon": 13.32452,
+      "trigger": [
+        52.52717,
+        13.3245
+      ],
+      "text": "Straight ahead, across Huttenstraße, rises the great gable of the AEG Turbine Factory, designed by Peter Behrens with the engineer Karl Bernhard and finished in 1909. The glass walls down its side are fifteen metres tall. Critics have called it a temple of power, and it's often named as the moment factory buildings became modern architecture. More than a century later, Siemens still builds gas turbines inside. Turn right and look up as you pass."
+    },
+    {
+      "id": "arminius-market-hall",
+      "name": "Arminius Market Hall",
+      "lat": 52.5278,
+      "lon": 13.3386,
+      "text": "On your right is the Arminius Market Hall. It opened in 1891 as Market Hall number ten, one of fourteen covered halls Berlin built to move food off its unhygienic open markets. The architect Hermann Blankenstein gave it more than four hundred stalls. Badly damaged in the war, it was rebuilt in the fifties and restored for its hundredth birthday in 1991. Today it's full of small traders and lunch counters, a good place for a coffee another day."
+    },
+    {
+      "id": "criminal-court",
+      "name": "Moabit Criminal Court",
+      "lat": 52.5262,
+      "lon": 13.3528,
+      "text": "The vast baroque-style building on your right is the Moabit Criminal Court, finished in 1906 and often called the largest criminal court in Europe. Its grand entrance hall, with curving staircases, was built to impress anyone summoned here. In December 1906 it tried Wilhelm Voigt, the cobbler who dressed as an army captain, arrested the mayor of Köpenick and walked off with the town's cash. Much later, East Germany's Erich Honecker and Erich Mielke faced proceedings here too."
+    },
+    {
+      "id": "prison-park",
+      "name": "Moabit Prison Historical Park",
+      "lat": 52.5265,
+      "lon": 13.3655,
+      "text": "Behind the old wall on your left is the Moabit Prison Historical Park. A star-shaped cell prison stood here, laid out so guards at the centre could watch every wing. It was pulled down in the late fifties, and in 2006 the site became this park, with the wings traced in the grass and a full-size cell you can step into. In the winter of 1944 the writer Albrecht Haushofer, arrested after the plot against Hitler, wrote his Moabit Sonnets in a cell here."
+    },
+    {
+      "id": "bolle-dairy",
+      "name": "The Bolle dairy",
+      "lat": 52.52477,
+      "lon": 13.3465,
+      "text": "The old buildings on your left, down by the river, were once the Bolle dairy. Carl Bolle founded it in 1879, and soon his horse-drawn milk carts were rolling all over Berlin, each with a young driver and a uniformed Bolle girl collecting the money in a leather purse. At its peak around two hundred and fifty carts were out on the streets. Today the old dairy holds a riverside hotel and event halls."
+    },
+    {
+      "id": "hansaviertel",
+      "name": "Hansaviertel and Interbau",
+      "lat": 52.518,
+      "lon": 13.342,
+      "text": "Welcome to the Hansaviertel. Bombing almost wiped it out in the Second World War, and from 1957 West Berlin rebuilt it as Interbau, an international exhibition of modern social housing. Famous architects took part, among them Alvar Aalto, Walter Gropius, Egon Eiermann and Oscar Niemeyer, whose block stands just ahead on Altonaer Straße. The streets are named after old Hanseatic trading towns, and with only around six thousand residents, this is Berlin's smallest neighbourhood."
+    },
+    {
+      "id": "elephant-gate",
+      "name": "Elephant Gate",
+      "lat": 52.50562,
+      "lon": 13.33976,
+      "text": "On your right, two stone elephants hold up a pagoda roof. This is the Elephant Gate of Berlin Zoo, Germany's oldest surviving zoo, which opened in 1844. The gate first went up in 1899, was destroyed by bombs in November 1943, and was rebuilt in the early 1980s. Each resting elephant is made of twenty-six blocks of Saxon sandstone. Nearly home now: just a few quiet streets back to Bamberger Straße."
+    }
+  ]
+}

@@ -1,6 +1,16 @@
 {
   "routes": [
     {
+      "id": "moabit-turbines-and-prison-walls-loop",
+      "file": "moabit-turbines-and-prison-walls-loop.json",
+      "name": "Turbines & Prison Walls: Moabit Island Loop",
+      "city": "Berlin",
+      "distanceKmApprox": 14.8,
+      "summary": "Industrial Moabit: Zoo station, the island of Moabit, Peter Behrens' AEG Turbine Factory, the Arminius Market Hall, the Moabit Criminal Court, the prison park, the Bolle dairy, the Hansaviertel and the zoo's Elephant Gate.",
+      "shape": "loop",
+      "created": "2026-10-03"
+    },
+    {
       "id": "canal-markets-generals-loop",
       "file": "canal-markets-generals-loop.json",
       "name": "Canal, Markets & Generals: Kreuzberg Loop",
