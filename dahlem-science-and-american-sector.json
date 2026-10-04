@@ -1,0 +1,303 @@
+{
+  "id": "dahlem-science-and-american-sector",
+  "name": "Science and the American Sector",
+  "city": "Berlin",
+  "description": "A one-way ride from home through the Volkspark Wilmersdorf and the Rheingau quarter into Dahlem: Germany's would-be Oxford, the old village estate, the American headquarters on Clayallee, the Allied Museum, Kennedy at the Free University and the building where nuclear fission was discovered. Ends at U Freie Universität (Thielplatz).",
+  "distanceKmApprox": 11.7,
+  "lang": "en-GB",
+  "profile": "bike",
+  "start": {
+    "name": "Bamberger Str. 8",
+    "lat": 52.49553,
+    "lon": 13.33701
+  },
+  "waypoints": [
+    [
+      52.49553,
+      13.33701
+    ],
+    [
+      52.4958,
+      13.3355
+    ],
+    [
+      52.4931,
+      13.333
+    ],
+    [
+      52.49317,
+      13.33236
+    ],
+    [
+      52.489,
+      13.32875
+    ],
+    [
+      52.48276,
+      13.324
+    ],
+    [
+      52.484,
+      13.3165
+    ],
+    [
+      52.47325,
+      13.31442
+    ],
+    [
+      52.46059,
+      13.29139
+    ],
+    [
+      52.45856,
+      13.28439
+    ],
+    [
+      52.45571,
+      13.27361
+    ],
+    [
+      52.44804,
+      13.27692
+    ],
+    [
+      52.4469,
+      13.2847
+    ],
+    [
+      52.45101,
+      13.28178
+    ]
+  ],
+  "cueOverrides": [
+    {
+      "lat": 52.49587,
+      "lon": 13.3371,
+      "radius": 12,
+      "text": "Turn left onto Regensburger Straße",
+      "dir": "left"
+    },
+    {
+      "lat": 52.4934,
+      "lon": 13.33326,
+      "radius": 12,
+      "text": "At Prager Platz, turn left round the square",
+      "dir": "left"
+    },
+    {
+      "lat": 52.49293,
+      "lon": 13.33306,
+      "radius": 12,
+      "text": "Bear right onto Trautenaustraße",
+      "dir": "slight-right"
+    },
+    {
+      "lat": 52.48686,
+      "lon": 13.32882,
+      "radius": 8,
+      "text": "At Berliner Straße, go right for a few metres, then cross left towards Badensche Straße",
+      "dir": "right"
+    },
+    {
+      "lat": 52.48683,
+      "lon": 13.32868,
+      "radius": 5,
+      "drop": true
+    },
+    {
+      "lat": 52.48385,
+      "lon": 13.32033,
+      "radius": 10,
+      "text": "Turn left onto the path beside the Fennsee",
+      "dir": "left"
+    },
+    {
+      "lat": 52.48376,
+      "lon": 13.32002,
+      "radius": 6,
+      "drop": true
+    },
+    {
+      "lat": 52.474175,
+      "lon": 13.314435,
+      "radius": 7,
+      "drop": true
+    },
+    {
+      "lat": 52.47222,
+      "lon": 13.3143,
+      "radius": 10,
+      "text": "At the end of the square, jog right, then turn left onto Rüdesheimer Straße",
+      "dir": "left"
+    },
+    {
+      "lat": 52.46777,
+      "lon": 13.31005,
+      "radius": 10,
+      "text": "At Breitenbachplatz, bear right and follow the path across the square",
+      "dir": "slight-right"
+    },
+    {
+      "lat": 52.46762,
+      "lon": 13.30915,
+      "radius": 8,
+      "drop": true
+    },
+    {
+      "lat": 52.46743,
+      "lon": 13.30865,
+      "radius": 8,
+      "text": "Turn left along the square towards Schorlemerallee",
+      "dir": "left"
+    },
+    {
+      "lat": 52.46459,
+      "lon": 13.29686,
+      "radius": 10,
+      "text": "At the end of Schorlemerallee, bear right, then follow the path left onto Franz-Grothe-Weg",
+      "dir": "slight-right"
+    },
+    {
+      "lat": 52.46452,
+      "lon": 13.29645,
+      "radius": 10,
+      "drop": true
+    },
+    {
+      "lat": 52.46429,
+      "lon": 13.29556,
+      "radius": 8,
+      "drop": true
+    },
+    {
+      "lat": 52.45561,
+      "lon": 13.27357,
+      "radius": 10,
+      "text": "Turn right towards Clayallee",
+      "dir": "right"
+    },
+    {
+      "lat": 52.45567,
+      "lon": 13.2731,
+      "radius": 10,
+      "text": "Turn left onto the cycle path along Clayallee, heading south",
+      "dir": "left"
+    },
+    {
+      "lat": 52.44953,
+      "lon": 13.2744,
+      "radius": 10,
+      "text": "Turn left onto Garystraße",
+      "dir": "left"
+    },
+    {
+      "lat": 52.45056,
+      "lon": 13.28128,
+      "radius": 10,
+      "text": "At the end of Faradayweg, follow the path left and right to the station",
+      "dir": "left"
+    },
+    {
+      "lat": 52.45044,
+      "lon": 13.281,
+      "radius": 6,
+      "drop": true
+    }
+  ],
+  "intro": "Welcome to Science and the American Sector, a one-way ride of about eleven and a half kilometres, roughly forty-seven minutes, from home to Freie Universität station in Dahlem. We'll pass a Swedish church, a park in an Ice Age channel, a wine fountain, the Allied Museum and the birthplace of nuclear fission, with twelve stories in all. Head north up Bamberger Straße.",
+  "outro": "That's the end of the ride. Freie Universität station, on the U3, is right here, with trains back towards the city and Warschauer Straße, or out to Krumme Lanke. Thanks for riding with me.",
+  "pois": [
+    {
+      "id": "swedish",
+      "name": "The Swedish Church",
+      "lat": 52.48763,
+      "lon": 13.3291,
+      "text": "On your left is the church of the Swedish Victoria congregation, consecrated in June 1922. During the Nazi years this quiet address became a lifeline. Pastor Birger Forell helped the persecuted until the Gestapo pressed for his return to Sweden in 1942. His successors, Erik Perwe and Erik Myrgren, carried on, sheltering and helping people in danger. Long after the war, Yad Vashem honoured both of them as Righteous Among the Nations."
+    },
+    {
+      "id": "volkspark",
+      "name": "Volkspark Wilmersdorf",
+      "lat": 52.4828,
+      "lon": 13.324,
+      "text": "To your right is the Volkspark Wilmersdorf, laid out in a low glacial channel left behind by the Ice Age. The city's head gardener, Richard Thieme, took charge of the project in 1904, and the first sections were laid out in 1912 and 1913. Together with Rudolph Wilde Park further east, it forms a green ribbon about two and a half kilometres long, but only around a hundred and fifty metres wide."
+    },
+    {
+      "id": "fennsee",
+      "name": "The Fennsee and the lost lake",
+      "lat": 52.48412,
+      "lon": 13.31547,
+      "text": "Now you're beside the Fennsee, the long lake at the western end of the park. This channel once held another lake too, the Wilmersdorfer See, a popular place to bathe. It slowly silted up and was finally filled in during the early 1920s, and sports grounds took its place. Somewhere in this park stands the bronze Javelin Thrower: the original was melted down for the war in 1944 and recast in 1954."
+    },
+    {
+      "id": "ruedesheimer",
+      "name": "Rüdesheimer Platz",
+      "lat": 52.47311,
+      "lon": 13.31521,
+      "text": "Welcome to Rüdesheimer Platz, the heart of the Rheingau quarter. Around 1905 the developer Georg Haberland planned it, inspired by English reform architecture, and the houses went up around 1910 in a country-house style, with gables and terraced front gardens. The fountain from 1911 shows Siegfried taming a horse, flanked by Father Rhine and a wine queen. Every summer since 1967, Rheingau winemakers have poured their wine right here."
+    },
+    {
+      "id": "breitenbach",
+      "name": "Breitenbachplatz",
+      "lat": 52.46703,
+      "lon": 13.30887,
+      "text": "This is Breitenbachplatz. It took its name in August 1913, when the new underground line to Dahlem opened, in honour of Paul von Breitenbach, the Prussian minister of public works who helped get that line built. In the 1970s a concrete motorway bridge was laid right across the square. Its demolition began at the end of 2024, giving the square the chance to become a proper square again."
+    },
+    {
+      "id": "oxford",
+      "name": "Dahlem, a German Oxford",
+      "lat": 52.46409,
+      "lon": 13.29503,
+      "text": "You're now riding into Dahlem. In 1841 the village was sold to the Prussian state and became a royal estate. A law of March 1901 split the land up, and by 1915 more than five hundred plots had been sold for villas. The education official Friedrich Althoff dreamed of a German Oxford here, and from around 1911 the Kaiser Wilhelm research institutes began to arrive. You'll meet some of their scientists shortly."
+    },
+    {
+      "id": "domaene",
+      "name": "Domäne Dahlem",
+      "lat": 52.45917,
+      "lon": 13.28921,
+      "text": "On your right is the Domäne Dahlem, the old estate at the heart of this district. Its half-timbered manor house was built in 1560 and is called Berlin's oldest residential building. Today the estate is a working organic farm and an open-air museum of farming and food. Nearby, Dahlem-Dorf underground station, opened in 1913, wears a thatched roof modelled on a north German farmhouse.",
+      "trigger": [
+        52.45876,
+        13.29061
+      ]
+    },
+    {
+      "id": "stanne",
+      "name": "St Anne's Church",
+      "lat": 52.45868,
+      "lon": 13.28659,
+      "text": "On your right, on its little hill, stands St Anne's, Dahlem's village church. Its first stone church probably went up around 1300. In the Nazi years the Dahlem congregation under pastor Martin Niemöller became a centre of the Confessing Church, which resisted Nazi control of the Protestant church. Niemöller was arrested on the first of July 1937 and held in Sachsenhausen and Dachau until 1945. The student leader Rudi Dutschke is buried in the churchyard.",
+      "trigger": [
+        52.45833,
+        13.28632
+      ]
+    },
+    {
+      "id": "allied",
+      "name": "Allied Museum",
+      "lat": 52.45569,
+      "lon": 13.27232,
+      "text": "On your right is the Allied Museum. It moved into the Outpost, a cinema built for the American forces in 1953, and opened in 1998, fifty years after the Berlin Airlift. Look for the big British Hastings transport plane that flew in the Airlift. The museum also keeps the last guard hut from Checkpoint Charlie, a rebuilt East German watchtower, a French military railway carriage and a reconstructed piece of a spy tunnel from 1955."
+    },
+    {
+      "id": "clay",
+      "name": "Clay Headquarters",
+      "lat": 52.45231,
+      "lon": 13.2726,
+      "text": "You're riding down Clayallee, renamed on the first of June 1949 for General Lucius D. Clay, the American military governor remembered as the father of the Airlift. On your right is the complex at numbers 170 and 172, built from 1936 to 1938 for a Luftwaffe air command. From 1945 to 1994 it was the headquarters of the American forces in Berlin, and the key Airlift decisions were taken here. President Clinton closed it in July 1994."
+    },
+    {
+      "id": "ford",
+      "name": "Henry Ford Building",
+      "lat": 52.44784,
+      "lon": 13.27842,
+      "text": "Here is the Henry Ford Building of the Free University. The university was founded in December 1948 in the Titania Palace cinema, after students protested against communist control of the old university in the Soviet sector. The Ford Foundation paid for this lecture hall and library, built between 1952 and 1954. On the twenty-sixth of June 1963, John F. Kennedy spoke in front of it to around twenty thousand people and was made an honorary citizen of the university."
+    },
+    {
+      "id": "hahn",
+      "name": "Hahn-Meitner Building",
+      "lat": 52.44799,
+      "lon": 13.2843,
+      "text": "On your left is the Hahn-Meitner Building, once the Kaiser Wilhelm Institute for Chemistry. Otto Hahn and Lise Meitner worked here for more than two decades, until Meitner had to flee the Nazis in the summer of 1938. That December, Hahn and Fritz Strassmann discovered nuclear fission here, and Meitner, in exile, showed it was physically possible. Hahn alone received the Nobel Prize. Ahead on Faradayweg is the Fritz Haber Institute, founded in 1911."
+    }
+  ]
+}

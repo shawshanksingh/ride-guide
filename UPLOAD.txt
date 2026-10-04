@@ -1,17 +1,26 @@
-GitHub → shawshanksingh/ride-guide → Add file → Upload files → drag in moabit-turbines-and-prison-walls-loop.json and index.json → Commit.
+UPLOAD STEPS
+GitHub → shawshanksingh/ride-guide → Add file → Upload files → drag in dahlem-science-and-american-sector.json and index.json → Commit.
 Then on the phone open the app, close it, open it again.
 
-Route: Turbines & Prison Walls: Moabit Island Loop
-Distance: 14.8 km (about 1 hour at 15 km/h)
-Shape: loop from Bamberger Str. 8 back to Bamberger Str. 8
-Theme: industrial Moabit - Berlin's river island of factories, markets, courts and prisons
-Stories:
-  1. Zoo station
-  2. Gotzkowsky Bridge and the island of Moabit
-  3. AEG Turbine Factory
-  4. Arminius Market Hall
-  5. Moabit Criminal Court
-  6. Moabit Prison Historical Park
-  7. The Bolle dairy
-  8. Hansaviertel and Interbau
-  9. Elephant Gate
+ROUTE SUMMARY
+Name: Science and the American Sector
+Distance: 11.7 km (about 47 minutes at 15 km/h)
+Shape: one-way, ends at U Freie Universität (Thielplatz), line U3
+Theme: Dahlem science and Cold War West Berlin — from Wilmersdorf's parks and the Rheingau quarter into the American sector's university and research district.
+
+Stories (12):
+1. The Swedish Church (Landhausstraße)
+2. Volkspark Wilmersdorf
+3. The Fennsee and the lost lake
+4. Rüdesheimer Platz
+5. Breitenbachplatz
+6. Dahlem, a German Oxford
+7. Domäne Dahlem
+8. St Anne's Church
+9. Allied Museum
+10. Clay Headquarters (Clayallee)
+11. Henry Ford Building (Free University, Kennedy 1963)
+12. Hahn-Meitner Building (nuclear fission)
+
+Validated with the OSRM bike router: 11,701 m, all waypoints snapped within 19 m, no U-turns, no detour legs, all POIs within 103 m of the route and at least 350 m apart.
+Note: the app's nav.js could not be run in the browser this time (blocked by a safety check), so the gates were checked with an independent script against the same OSRM bike router. Worth a quick look at the turn cues on first ride.

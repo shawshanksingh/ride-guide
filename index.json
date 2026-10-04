@@ -1,6 +1,17 @@
 {
   "routes": [
     {
+      "id": "dahlem-science-and-american-sector",
+      "file": "dahlem-science-and-american-sector.json",
+      "name": "Science and the American Sector",
+      "city": "Berlin",
+      "distanceKmApprox": 11.7,
+      "summary": "Science and Cold War Dahlem: the Swedish Church, Volkspark Wilmersdorf and the Fennsee, Rüdesheimer Platz, Breitenbachplatz, Dahlem's 'German Oxford', the Domäne and St Anne's, the Allied Museum, Clay's headquarters, Kennedy at the Free University and the birthplace of nuclear fission.",
+      "shape": "one-way",
+      "endName": "U Freie Universität (Thielplatz)",
+      "created": "2026-10-04"
+    },
+    {
       "id": "moabit-turbines-and-prison-walls-loop",
       "file": "moabit-turbines-and-prison-walls-loop.json",
       "name": "Turbines & Prison Walls: Moabit Island Loop",
