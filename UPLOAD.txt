@@ -1,26 +1,23 @@
-UPLOAD STEPS
-GitHub → shawshanksingh/ride-guide → Add file → Upload files → drag in dahlem-science-and-american-sector.json and index.json → Commit.
+HOW TO UPLOAD
+GitHub → shawshanksingh/ride-guide → Add file → Upload files → drag in radio-tower-and-olympic-ride.json, writers-friedenau-loop.json (from the 2026-10-05 folder – not uploaded yet) and index.json → Commit.
 Then on the phone open the app, close it, open it again.
 
 ROUTE SUMMARY
-Name: Science and the American Sector
-Distance: 11.7 km (about 47 minutes at 15 km/h)
-Shape: one-way, ends at U Freie Universität (Thielplatz), line U3
-Theme: Dahlem science and Cold War West Berlin — from Wilmersdorf's parks and the Rheingau quarter into the American sector's university and research district.
-
-Stories (12):
-1. The Swedish Church (Landhausstraße)
-2. Volkspark Wilmersdorf
-3. The Fennsee and the lost lake
-4. Rüdesheimer Platz
-5. Breitenbachplatz
-6. Dahlem, a German Oxford
-7. Domäne Dahlem
-8. St Anne's Church
-9. Allied Museum
-10. Clay Headquarters (Clayallee)
-11. Henry Ford Building (Free University, Kennedy 1963)
-12. Hahn-Meitner Building (nuclear fission)
-
-Validated with the OSRM bike router: 11,701 m, all waypoints snapped within 19 m, no U-turns, no detour legs, all POIs within 103 m of the route and at least 350 m apart.
-Note: the app's nav.js could not be run in the browser this time (blocked by a safety check), so the gates were checked with an independent script against the same OSRM bike router. Worth a quick look at the turn cues on first ride.
+Name: Radio Tower & Olympic Stadium: Westend Ride
+Distance: about 12.1 km (around 50 minutes at 15 km/h)
+Shape: one-way, from Bamberger Str. 8 to U Olympia-Stadion (U2)
+Theme: radio, racing and sport in Berlin's west – Wilmersdorf, Halensee, the trade-fair grounds and Westend
+Stories:
+  1. Meierottostraße and the Joachimsthal school
+  2. Olivaer Platz
+  3. Erich Kästner, Roscherstraße 16
+  4. The world's first trolleybus
+  5. Lunapark Halensee
+  6. The AVUS race track
+  7. Radio Tower and ICC
+  8. Haus des Rundfunks
+  9. Theodor-Heuss-Platz
+  10. Steubenplatz
+  11. Georg Kolbe Museum
+  12. Corbusierhaus
+  13. Olympic Stadium

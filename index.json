@@ -1,6 +1,27 @@
 {
   "routes": [
     {
+      "id": "radio-tower-and-olympic-ride",
+      "file": "radio-tower-and-olympic-ride.json",
+      "name": "Radio Tower & Olympic Stadium: Westend Ride",
+      "city": "Berlin",
+      "distanceKmApprox": 12.1,
+      "summary": "Radio, racing and sport in the west: Olivaer Platz, Erich Kästner's Roscherstraße, the world's first trolleybus, Lunapark, the AVUS, the Radio Tower and ICC, the Haus des Rundfunks, Theodor-Heuss-Platz, Steubenplatz, the Kolbe Museum, the Corbusierhaus and the Olympic Stadium.",
+      "shape": "one-way",
+      "endName": "U Olympia-Stadion",
+      "created": "2026-10-06"
+    },
+    {
+      "id": "writers-friedenau-loop",
+      "file": "writers-friedenau-loop.json",
+      "name": "Writers' Friedenau: Benjamin to Benn Loop",
+      "city": "Berlin",
+      "distanceKmApprox": 11.9,
+      "summary": "Literary Friedenau and Steglitz: Walter Benjamin and the Prinzregentenstraße synagogue, Max Frisch, Grass and Johnson on Niedstraße, Tucholsky, Kafka's two Steglitz homes, the Bierpinsel, Feuerbachstraße station, Rosa Luxemburg, the Ceciliengärten, Zuckmayer's bridge and Gottfried Benn.",
+      "shape": "loop",
+      "created": "2026-10-05"
+    },
+    {
       "id": "dahlem-science-and-american-sector",
       "file": "dahlem-science-and-american-sector.json",
       "name": "Science and the American Sector",

@@ -1,0 +1,198 @@
+{
+  "id": "radio-tower-and-olympic-ride",
+  "name": "Radio Tower & Olympic Stadium: Westend Ride",
+  "city": "Berlin",
+  "description": "A one-way ride from Schöneberg through Wilmersdorf and Halensee to Westend: Erich Kästner's home, the world's first trolleybus, Lunapark and the AVUS race track, the Radio Tower, ICC and Haus des Rundfunks, Theodor-Heuss-Platz, Steubenplatz, the Georg Kolbe Museum, the Corbusierhaus and the Olympic Stadium, ending at U Olympia-Stadion.",
+  "distanceKmApprox": 12.1,
+  "lang": "en-GB",
+  "profile": "bike",
+  "start": {
+    "name": "Bamberger Str. 8",
+    "lat": 52.49553,
+    "lon": 13.33701
+  },
+  "waypoints": [
+    [
+      52.49553,
+      13.33701
+    ],
+    [
+      52.49862,
+      13.31787
+    ],
+    [
+      52.49701,
+      13.30841
+    ],
+    [
+      52.50133,
+      13.30224
+    ],
+    [
+      52.4982,
+      13.29606
+    ],
+    [
+      52.49753,
+      13.28407
+    ],
+    [
+      52.50774,
+      13.27644
+    ],
+    [
+      52.50999,
+      13.27222
+    ],
+    [
+      52.51667,
+      13.2609
+    ],
+    [
+      52.50994,
+      13.2549
+    ],
+    [
+      52.50907,
+      13.24211
+    ],
+    [
+      52.51312,
+      13.24431
+    ],
+    [
+      52.51478,
+      13.24423
+    ],
+    [
+      52.5165,
+      13.24923
+    ]
+  ],
+  "cueOverrides": [
+    {
+      "lat": 52.51635,
+      "lon": 13.26084,
+      "radius": 15,
+      "text": "At Steubenplatz, follow the square round to the right and leave it on Preußenallee, heading south",
+      "dir": "right"
+    },
+    {
+      "lat": 52.51671,
+      "lon": 13.26111,
+      "radius": 15,
+      "drop": true
+    },
+    {
+      "lat": 52.5167,
+      "lon": 13.26053,
+      "radius": 15,
+      "drop": true
+    },
+    {
+      "lat": 52.51648,
+      "lon": 13.26012,
+      "radius": 15,
+      "drop": true
+    }
+  ],
+  "intro": "Welcome to the Radio Tower and Olympic Stadium ride, a one-way trip of about twelve kilometres, roughly fifty minutes at an easy pace. We'll cross Wilmersdorf and Halensee, past Erich Kästner's home and the birthplace of the trolleybus, then follow the old Lunapark and AVUS race track to the Radio Tower, and on through leafy Westend to the Olympic Stadium.",
+  "outro": "You've arrived at U Olympia-Stadion, on the U2. Trains run back east through Theodor-Heuss-Platz and Zoologischer Garten towards home. Thanks for riding, and enjoy the trip back.",
+  "pois": [
+    {
+      "id": "meierotto",
+      "name": "Meierottostraße and the Joachimsthal school",
+      "lat": 52.49658,
+      "lon": 13.33005,
+      "text": "You've just turned into Meierottostraße, named after Johann Heinrich Ludwig Meierotto, a geographer and teacher who ran Berlin's elite Joachimsthal Gymnasium from 1775 to 1800. The school, founded back in 1607, moved into the grand arcaded building just to your right, up on Bundesallee, in 1880. It left for the town of Templin in 1912, and today those old classrooms ring with music students from the University of the Arts."
+    },
+    {
+      "id": "olivaer",
+      "name": "Olivaer Platz",
+      "lat": 52.49945,
+      "lon": 13.31463,
+      "text": "Just to your right is Olivaer Platz, named after the Peace of Oliva, signed in 1660, which confirmed the Elector of Brandenburg as fully sovereign ruler of Prussia, a step on the road to the Prussian kingdom. Around 1910 the garden designer Richard Thieme gave the square a sunken garden with a vast carpet of flowers. After the war much of it became a car park, and a long argued-over makeover was only finished in 2021.",
+      "trigger": [
+        52.49876,
+        13.31633
+      ]
+    },
+    {
+      "id": "kaestner",
+      "name": "Erich Kästner, Roscherstraße 16",
+      "lat": 52.50133,
+      "lon": 13.30224,
+      "text": "Here on Roscherstraße, at number sixteen, lived Erich Kästner, the author of Emil and the Detectives. He moved in in 1929 and stayed for fifteen years, and while living here he published Fabian, his biting novel of Berlin's last Weimar years. When the Nazis burned his books in May 1933, Kästner went along and watched in person. He chose to stay in Berlin, and in February 1944 a bomb burned out this house and his flat with it."
+    },
+    {
+      "id": "electromote",
+      "name": "The world's first trolleybus",
+      "lat": 52.4983,
+      "lon": 13.2961,
+      "text": "You're crossing the Kurfürstendamm on Joachim-Friedrich-Straße, and right here, in April 1882, Werner Siemens tested the Elektromote, the world's first trolleybus. A little carriage for eight passengers ran along a test track five hundred and forty metres long, drawing its power from two overhead wires hung on fifty poles, with a small contact cart rolling along the wires above. Bumpy roads made it unreliable, and after about six weeks the experiment ended."
+    },
+    {
+      "id": "lunapark",
+      "name": "Lunapark Halensee",
+      "lat": 52.497,
+      "lon": 13.2845,
+      "text": "This road was built across the site of Lunapark, which from just before the First World War was one of Europe's largest amusement parks, on the slope above the Halensee lake off to your left. Tens of thousands came each day for water slides, rides and fireworks, and in August 1926 a young Max Schmeling won the German light heavyweight title here with a first round knockout. The park closed in 1933 and was cleared for a new road to the Olympic grounds."
+    },
+    {
+      "id": "avus",
+      "name": "The AVUS race track",
+      "lat": 52.4995,
+      "lon": 13.28,
+      "text": "Off to your left, where the motorways meet, was the northern end of the AVUS, a racing road of two long straights opened with a motor race in September 1921, and now part of the city motorway. In the mid nineteen thirties its north curve was rebuilt as a brick bank sloping at forty-three degrees, with no barrier at the top, and nicknamed the wall of death. In 1937 Hermann Lang won here at an average of around two hundred and seventy-six kilometres an hour."
+    },
+    {
+      "id": "funkturm",
+      "name": "Radio Tower and ICC",
+      "lat": 52.50503,
+      "lon": 13.27814,
+      "text": "On your left rises the Radio Tower, the steel lattice landmark Berliners call the lanky lad. It opened in September 1926 for the Great German Radio Exhibition, its restaurant hangs about fifty metres up, and in 1935 the world's first regular television programme went out from its aerial. On your right lies the silver bulk of the ICC, a congress centre over three hundred metres long, opened in 1979, nicknamed the spaceship, and closed for congresses since 2014."
+    },
+    {
+      "id": "hdr",
+      "name": "Haus des Rundfunks",
+      "lat": 52.50794,
+      "lon": 13.27663,
+      "text": "On your right is the Haus des Rundfunks, Hans Poelzig's long tiled broadcasting house, opened in January 1931 and said to be the oldest self-contained broadcasting centre in the world. After the war it stood in the British sector, yet Soviet-controlled Berlin radio worked from it. They moved their station east in 1952, but only handed the building over in July 1956. Today the regional public broadcaster still makes radio here."
+    },
+    {
+      "id": "thp",
+      "name": "Theodor-Heuss-Platz",
+      "lat": 52.50999,
+      "lon": 13.27222,
+      "text": "This is Theodor-Heuss-Platz. It was laid out as Reichskanzlerplatz, renamed Adolf-Hitler-Platz in 1933, given its old name back in 1947, and since December 1963 has honoured West Germany's first president, Theodor Heuss. The flame on the square was lit in 1955 by associations of Germans who fled or were expelled from the east at the end of the war. Take care on the roundabout and leave by the second exit."
+    },
+    {
+      "id": "steuben",
+      "name": "Steubenplatz",
+      "lat": 52.51667,
+      "lon": 13.2609,
+      "text": "Steubenplatz, the heart of Neu-Westend, is named after Friedrich Wilhelm von Steuben, a Prussian officer who joined the American Continental Army in 1777 and drilled it into shape with Prussian methods and regulations. On the island in the middle rides The Victor, a bronze horseman made by Louis Tuaillon in 1902 for a private garden in Wannsee, and set up here in 1961."
+    },
+    {
+      "id": "kolbe",
+      "name": "Georg Kolbe Museum",
+      "lat": 52.50994,
+      "lon": 13.2549,
+      "text": "On your left is the Georg Kolbe Museum, the brick studio house the sculptor had built in 1928 and 1929. Kolbe was one of the best known German sculptors of his day, and Mies van der Rohe chose his bronze figure, Morning, for the famous Barcelona Pavilion of 1929. The studio opened as a museum in 1950, and the café next door is named after Kolbe's wife, Benjamine."
+    },
+    {
+      "id": "corbusier",
+      "name": "Corbusierhaus",
+      "lat": 52.5102,
+      "lon": 13.24389,
+      "text": "On your right stands the Corbusierhaus, Le Corbusier's Berlin version of his Unité d'Habitation, built for the 1957 Interbau building exhibition. Its seventeen storeys hold five hundred and thirty flats, reached by long internal streets. German building rules demanded ceilings two and a half metres high, instead of the lower height set by the architect's own system of proportions, and Le Corbusier ended up distancing himself from the finished building."
+    },
+    {
+      "id": "stadium",
+      "name": "Olympic Stadium",
+      "lat": 52.51526,
+      "lon": 13.24585,
+      "text": "On your left is the Olympic Stadium, designed by Werner March and built between 1934 and 1936 for the Berlin Games, when it held around a hundred and ten thousand people. Here the American sprinter Jesse Owens won four gold medals. Rebuilt between 2000 and 2004, it hosted the 2006 World Cup final, when Italy beat France on penalties, and Hertha's home ground now has a blue running track to match the club's colours."
+    }
+  ]
+}
