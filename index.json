@@ -1,6 +1,17 @@
 {
   "routes": [
     {
+      "id": "power-and-stone-to-gendarmenmarkt",
+      "file": "power-and-stone-to-gendarmenmarkt.json",
+      "name": "Power & Stone: Schöneberg → Gendarmenmarkt",
+      "city": "Berlin",
+      "distanceKmApprox": 6.5,
+      "summary": "Architecture and power: Wittenbergplatz station, the Villa von der Heydt, the Bendlerblock, the Philharmonie, the Potsdamer Platz traffic tower, Göring's Air Ministry, the Wall on Niederkirchnerstraße, Checkpoint Charlie, the Gendarmenmarkt and Hausvogteiplatz.",
+      "shape": "one-way",
+      "endName": "U Hausvogteiplatz",
+      "created": "2026-10-08"
+    },
+    {
       "id": "tiergarten-lions-and-lanterns-loop",
       "file": "tiergarten-lions-and-lanterns-loop.json",
       "name": "Lions, Lanterns and Lakes",

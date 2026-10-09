@@ -1,0 +1,183 @@
+{
+  "id": "power-and-stone-to-gendarmenmarkt",
+  "name": "Power & Stone: Schöneberg → Gendarmenmarkt",
+  "city": "Berlin",
+  "description": "A short one-way ride through the architecture of power: Grenander's Wittenbergplatz station, a banker's villa on the canal, the Bendlerblock, Scharoun's Philharmonie, the Potsdamer Platz traffic tower, Göring's Air Ministry, the Wall on Niederkirchnerstraße, Checkpoint Charlie, the Gendarmenmarkt and the old fashion quarter at Hausvogteiplatz.",
+  "distanceKmApprox": 6.5,
+  "lang": "en-GB",
+  "profile": "bike",
+  "start": {
+    "name": "Bamberger Str. 8",
+    "lat": 52.49553,
+    "lon": 13.33701
+  },
+  "waypoints": [
+    [
+      52.49553,
+      13.33701
+    ],
+    [
+      52.5032,
+      13.3458
+    ],
+    [
+      52.5063,
+      13.358
+    ],
+    [
+      52.51058,
+      13.368
+    ],
+    [
+      52.5094,
+      13.3765
+    ],
+    [
+      52.5097,
+      13.383
+    ],
+    [
+      52.5085,
+      13.3849
+    ],
+    [
+      52.50752,
+      13.388
+    ],
+    [
+      52.50952,
+      13.391
+    ],
+    [
+      52.5133,
+      13.3956
+    ]
+  ],
+  "cueOverrides": [
+    {
+      "lat": 52.50297,
+      "lon": 13.35013,
+      "radius": 30,
+      "text": "Turn left into the green strip of Lützowplatz",
+      "dir": "left"
+    },
+    {
+      "lat": 52.50522,
+      "lon": 13.35225,
+      "radius": 30,
+      "text": "Bear right and follow the path down to the canal",
+      "dir": "slight-right"
+    },
+    {
+      "lat": 52.50644,
+      "lon": 13.35792,
+      "radius": 20,
+      "text": "Jog right, then left, and keep following the canal",
+      "dir": "jog-right"
+    },
+    {
+      "lat": 52.50545,
+      "lon": 13.36223,
+      "radius": 20,
+      "text": "Turn left over the canal bridge into Stauffenbergstraße",
+      "dir": "left"
+    },
+    {
+      "lat": 52.51009,
+      "lon": 13.37644,
+      "radius": 20,
+      "text": "Turn right onto Potsdamer Platz, towards the old traffic-light tower",
+      "dir": "right"
+    }
+  ],
+  "intro": "Welcome to Power and Stone, a one-way ride of about six and a half kilometres, roughly half an hour. Head north up Bamberger Straße. We'll follow the canal past the Bendlerblock and the Philharmonie, cross Potsdamer Platz, then ride the old ministry street and the Wall line to Checkpoint Charlie and the Gendarmenmarkt, with ten stories, finishing at U Hausvogteiplatz.",
+  "outro": "And that's the ride, from a Schöneberg station to Schinkel's square. You're at Hausvogteiplatz, with the U2 station right beside you. Thanks for riding with me.",
+  "pois": [
+    {
+      "id": "wittenbergplatz",
+      "name": "Wittenbergplatz station",
+      "lat": 52.5018,
+      "lon": 13.343,
+      "text": "Just ahead on your left, in the middle of Wittenbergplatz, is the U-Bahn station. Trains have stopped here since March 1902, on Berlin's very first underground line. The entrance hall you can see was designed by Alfred Grenander and finished in 1913. It was badly bombed in the war, rebuilt, and is now a listed monument. Down on platform one hangs a red and blue roundel, just like London's, a gift from London Transport in 1952 for the U-Bahn's fiftieth birthday."
+    },
+    {
+      "id": "villa-von-der-heydt",
+      "name": "Villa von der Heydt",
+      "lat": 52.5067,
+      "lon": 13.3552,
+      "text": "Just to your left stands the Villa von der Heydt. Hermann Ende built it between 1860 and 1862 for August von der Heydt, banker and Prussian minister, and the king himself came to the opening. Later it housed China's first ambassador to the German emperor, and after the First World War a gambling club, shut down by a police raid in 1933. An air raid in 1944 left only the outer walls. Restored, it is now the seat of the Prussian Cultural Heritage Foundation's president."
+    },
+    {
+      "id": "bendlerblock",
+      "name": "The Bendlerblock",
+      "lat": 52.50761,
+      "lon": 13.36299,
+      "text": "On your left is the Bendlerblock, for decades the army's headquarters. In February 1933, Hitler spoke here to the generals about conquering living space in the east. On the twentieth of July 1944 it became the centre of the plot to overthrow him. That night, in the courtyard, Claus von Stauffenberg, Friedrich Olbricht, Albrecht Mertz von Quirnheim and Werner von Haeften were shot. In 1955 this street was renamed after Stauffenberg, and the German Resistance Memorial Center is inside."
+    },
+    {
+      "id": "philharmonie",
+      "name": "The Philharmonie",
+      "lat": 52.50999,
+      "lon": 13.36961,
+      "text": "On your right, the tent-like building is the Philharmonie, home of the Berlin Philharmonic. Hans Scharoun designed it, and it opened on the fifteenth of October 1963, with Herbert von Karajan conducting Beethoven's Ninth. Inside, the audience sits on terraces rising like a vineyard all around the orchestra, an idea that went on to shape concert halls around the world. When it opened, the Berlin Wall ran just to the east, so this was a concert hall on the very edge of West Berlin."
+    },
+    {
+      "id": "traffic-tower",
+      "name": "Potsdamer Platz traffic-light tower",
+      "lat": 52.50923,
+      "lon": 13.37626,
+      "text": "Look for the slim five-sided tower here on Potsdamer Platz. It's a replica of one of Europe's first traffic lights, switched on in December 1924. The original stood eight metres tall, and a lone policeman climbed a ladder to the cabin at the top, where he timed the signals with a stopwatch and switched the lamps by hand. It lasted barely twelve years: in 1936 it was taken down to make way for the new S-Bahn station beneath your wheels."
+    },
+    {
+      "id": "rohwedder-haus",
+      "name": "Detlev Rohwedder House",
+      "lat": 52.5086,
+      "lon": 13.38356,
+      "trigger": [
+        52.5098,
+        13.3835
+      ],
+      "text": "On your right, the vast stone block is the Detlev Rohwedder House. Ernst Sagebiel built it in 1935 and 1936 as Hermann Göring's Air Ministry, with more than two thousand offices, and it came through the war almost untouched. In East German days it became the House of Ministries, and on the seventeenth of June 1953 striking workers gathered here, at the heart of the uprising. It still carries Max Lingner's mural, Building the Republic. Since 1999 it has been the Federal Finance Ministry."
+    },
+    {
+      "id": "topography-of-terror",
+      "name": "Niederkirchnerstraße and the Wall",
+      "lat": 52.50621,
+      "lon": 13.38415,
+      "trigger": [
+        52.50743,
+        13.38554
+      ],
+      "text": "Glance right, down Niederkirchnerstraße. Before the war this was Prinz-Albrecht-Straße, and at number eight stood the headquarters of the Gestapo, with its own house prison, sharing the site with the SS Reich Security Main Office. From 1961 the Berlin Wall ran along that street, and the stretch still standing there is the longest surviving piece of the outer Wall, never torn down. Since 2010, the Topography of Terror documentation centre has told the story of the site. Now left into Zimmerstraße, along the old border."
+    },
+    {
+      "id": "checkpoint-charlie",
+      "name": "Checkpoint Charlie",
+      "lat": 52.50743,
+      "lon": 13.39038,
+      "text": "As you turn into Friedrichstraße, you're at Checkpoint Charlie, Charlie simply being the letter C in the military alphabet. This was the crossing in the Wall for foreigners, diplomats and Allied soldiers. In October 1961, American and Soviet tanks faced each other here; by the twenty-seventh, ten on each side stood less than a hundred metres apart. The next day they pulled back, peacefully. The guard hut you see is a copy. The original is in the Allied Museum in Dahlem."
+    },
+    {
+      "id": "gendarmenmarkt",
+      "name": "Gendarmenmarkt",
+      "lat": 52.51273,
+      "lon": 13.39271,
+      "trigger": [
+        52.51145,
+        13.39361
+      ],
+      "text": "Up ahead on your left opens the Gendarmenmarkt. The nearer domed church is the German Church, and beyond it is the French Church, built from 1701 for the Huguenots. Carl von Gontard gave both their domed towers in 1785. Between them stands Schinkel's theatre of 1821, now the Konzerthaus. And the street you'll cross was renamed in August 2025 after Anton Wilhelm Amo, born around 1703 in today's Ghana, Germany's first known philosopher of African descent."
+    },
+    {
+      "id": "hausvogteiplatz",
+      "name": "Hausvogteiplatz",
+      "lat": 52.51335,
+      "lon": 13.39559,
+      "trigger": [
+        52.51336,
+        13.39429
+      ],
+      "text": "Ahead is Hausvogteiplatz, named after the Hausvogtei, a prison Frederick the Great built here in 1750 and which was pulled down in 1891. From the late nineteenth century this square was the heart of Berlin's fashion trade, with Jewish clothing firms and merchants all around it. From 1933 they were driven out and forced to sell, and those who could not flee were deported. Look for the memorial's three tall mirrors, and in the station, nineteen steps bearing the firms' names."
+    }
+  ]
+}
