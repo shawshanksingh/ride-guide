@@ -1,0 +1,183 @@
+{
+  "id": "tiergarten-lions-and-lanterns-loop",
+  "name": "Lions, Lanterns and Lakes",
+  "city": "Berlin",
+  "description": "A ten-kilometre loop into the green heart of the Tiergarten: the Neuer See, the Lion Bridge, the gas lamp museum, the English Garden, Rousseau Island, Queen Louise's island, Wagner in marble and the old Axis embassies, home via Nollendorfplatz.",
+  "distanceKmApprox": 9.9,
+  "lang": "en-GB",
+  "profile": "bike",
+  "start": {
+    "name": "Bamberger Str. 8",
+    "lat": 52.49553,
+    "lon": 13.33701
+  },
+  "waypoints": [
+    [
+      52.49553,
+      13.33701
+    ],
+    [
+      52.5073,
+      13.3481
+    ],
+    [
+      52.5124,
+      13.3456
+    ],
+    [
+      52.51468,
+      13.3385
+    ],
+    [
+      52.51474,
+      13.34381
+    ],
+    [
+      52.5167,
+      13.3469
+    ],
+    [
+      52.512,
+      13.358
+    ],
+    [
+      52.5109,
+      13.3645
+    ],
+    [
+      52.51,
+      13.3619
+    ],
+    [
+      52.50985,
+      13.359
+    ],
+    [
+      52.5008,
+      13.3536
+    ],
+    [
+      52.49841,
+      13.35008
+    ],
+    [
+      52.49553,
+      13.33701
+    ]
+  ],
+  "cueOverrides": [
+    {
+      "lat": 52.51491,
+      "lon": 13.35221,
+      "radius": 20,
+      "text": "At the Victory Column roundabout, turn left onto the cycle path round the circle",
+      "dir": "left"
+    },
+    {
+      "lat": 52.51514,
+      "lon": 13.35437,
+      "radius": 20,
+      "text": "Turn right off the roundabout onto the park path heading south-east",
+      "dir": "right"
+    },
+    {
+      "lat": 52.49904,
+      "lon": 13.35393,
+      "radius": 15,
+      "text": "At the bottom of Nollendorfplatz, turn right, then keep left into Motzstraße",
+      "dir": "right"
+    },
+    {
+      "lat": 52.49919,
+      "lon": 13.35289,
+      "radius": 10,
+      "drop": true
+    }
+  ],
+  "intro": "Welcome to Lions, Lanterns and Lakes, a loop of about ten kilometres, about forty minutes. Head north up Bamberger Straße. We'll cross the canal into the Tiergarten for a lake, a lion bridge, gas lamps, an English garden, a queen's island and Wagner in marble, with ten stories in all. A few short footbridges mean a moment of pushing.",
+  "outro": "And that's the loop: lakes, lions, lanterns and a few kings and queens in stone, all in Berlin's great green heart. You're back on Bamberger Straße. Thanks for riding with me.",
+  "pois": [
+    {
+      "id": "keithstrasse",
+      "name": "Keithstraße and a Scottish field marshal",
+      "lat": 52.5035,
+      "lon": 13.3462,
+      "text": "You're riding up Keithstraße, named in 1872 after one of Frederick the Great's most trusted soldiers, and a Scotsman at that. James Keith was born in Scotland in 1696, fought for Spain and then for Russia, and finally came to Prussia, where Frederick made him a field marshal and, in 1749, governor of Berlin. He was killed leading his troops at the Battle of Hochkirch in October 1758."
+    },
+    {
+      "id": "neuer-see",
+      "name": "Neuer See",
+      "lat": 52.5105,
+      "lon": 13.3445,
+      "text": "Through the trees on your left is the Neuer See, the New Lake. It was shaped by Peter Joseph Lenné, the great Prussian garden designer, as part of a chain of waterways that winds right through this part of the Tiergarten. Already in the nineteenth century Berliners came here to row in summer and skate in winter, and on a sunny afternoon you'll still see rowing boats out on the water, with a much-loved beer garden by the shore.",
+      "trigger": [
+        52.51017,
+        13.34611
+      ]
+    },
+    {
+      "id": "loewenbruecke",
+      "name": "Löwenbrücke, the Lion Bridge",
+      "lat": 52.51243,
+      "lon": 13.34565,
+      "text": "Here's the Lion Bridge. It's a footbridge, so hop off and push across. Look at the four cast-iron lions: they hold the bridge's suspension cables in their mouths. It was built in 1838 to a design by Ludwig Ferdinand Hesse, with lions by the sculptor Christian Friedrich Tieck, and it's Berlin's oldest suspension bridge. Destroyed in 1945 and rebuilt in 1957, it was closed for years as it decayed, then reopened in July 2025 after a careful restoration."
+    },
+    {
+      "id": "gas-lamp-museum",
+      "name": "Gas Lamp Open-Air Museum",
+      "lat": 52.5136,
+      "lon": 13.3385,
+      "text": "Look out for the old street lamps lining the path near Tiergarten station. This is the Gas Lamp Open-Air Museum, founded in 1978: nearly a hundred gas lanterns, originals and replicas, gathered from thirty-six German and European cities. The oldest dates from 1826, and some even have nicknames, like the Wilmersdorf Widow. It's the largest outdoor collection of gas lamps in Europe, and, like the park around it, it never closes."
+    },
+    {
+      "id": "englischer-garten",
+      "name": "The English Garden",
+      "lat": 52.51669,
+      "lon": 13.34688,
+      "text": "Welcome to the English Garden. After the war the Tiergarten was almost bare, and Britain answered a call for help with thousands of plants, including trees from King George the Sixth's own gardens. Laid out by Willy Alverdes, the garden was opened in May 1952 by Mayor Ernst Reuter and the British Foreign Secretary Anthony Eden, remembering the partnership of the Berlin Blockade years. Its thatched teahouse, built on the foundations of the actor Gustaf Gründgens' house, sadly burned down in September 2024."
+    },
+    {
+      "id": "rousseau-island",
+      "name": "Rousseau Island",
+      "lat": 52.51233,
+      "lon": 13.35787,
+      "text": "Just beside the path, look for a small round island with a slender stone column. This is Rousseau Island, created around 1792 in honour of the French philosopher Jean-Jacques Rousseau, and modelled on his first resting place, the Island of Poplars at Ermenonville. The original urn memorial was lost in the nineteenth century. Today's column, by Günter Anlauf, was unveiled in 1987 for Berlin's seven hundred and fiftieth birthday. Opposite stands a monument to the composer Albert Lortzing."
+    },
+    {
+      "id": "luiseninsel",
+      "name": "Luiseninsel, Queen Louise's island",
+      "lat": 52.51101,
+      "lon": 13.36469,
+      "text": "We're coming to the Luiseninsel, Queen Louise's island, and the path here is a short push. On Christmas Eve 1809, Berliners celebrated the return of their much-loved queen from exile with a memorial on this spot, designed by Gottfried Schadow. Her white marble statue by Erdmann Encke followed in 1880, facing the monument to her husband, King Friedrich Wilhelm the Third. For years a concrete copy stood in for her, until the restored original came home in 2013.",
+      "trigger": [
+        52.51133,
+        13.3657
+      ]
+    },
+    {
+      "id": "wagner-monument",
+      "name": "Richard Wagner Monument",
+      "lat": 52.51,
+      "lon": 13.3619,
+      "text": "Right beside the path, under a protective roof, sits Richard Wagner in white marble. The memorial by Gustav Eberlein was unveiled in 1903, paid for by Ludwig Leichner, a former opera baritone who made his fortune selling stage make-up. Wagner's own family disapproved and stayed away from the ceremony. Around the composer are figures from his operas: the minstrel Wolfram, Brünnhilde with the dead Siegfried, and at the back the dwarf Alberich grabbing the Rhine gold.",
+      "trigger": [
+        52.50996,
+        13.36224
+      ]
+    },
+    {
+      "id": "axis-embassies",
+      "name": "The Japanese and Italian embassies",
+      "lat": 52.5092,
+      "lon": 13.35812,
+      "text": "On your left is the Japanese Embassy, and the big palazzo on the corner behind you is the Italian Embassy. Both were built between 1938 and 1942 as showpieces of the Axis alliance with Nazi Germany, and both were wrecked by bombs. Japan rebuilt its building to the original plans in the 1980s, while Italy's restoration after reunification deliberately left some of the war damage visible. Today both are working embassies again."
+    },
+    {
+      "id": "ulrichs-strasse",
+      "name": "Karl-Heinrich-Ulrichs-Straße",
+      "lat": 52.5015,
+      "lon": 13.3534,
+      "text": "This street has had a new name since December 2013. It used to honour Karl von Einem, a Prussian war minister with anti-democratic, antisemitic and homophobic views. Now it remembers Karl Heinrich Ulrichs, a lawyer born in 1825 and one of the very first campaigners for gay rights. In 1867, at a congress of German jurists in Munich, he called for an end to the criminalisation of love between men. His colleagues rejected him, but history took his side."
+    }
+  ]
+}

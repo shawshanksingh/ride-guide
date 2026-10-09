@@ -1,23 +1,22 @@
 HOW TO UPLOAD
-GitHub → shawshanksingh/ride-guide → Add file → Upload files → drag in radio-tower-and-olympic-ride.json, writers-friedenau-loop.json (from the 2026-10-05 folder – not uploaded yet) and index.json → Commit.
+GitHub → shawshanksingh/ride-guide → Add file → Upload files → drag in tiergarten-lions-and-lanterns-loop.json and index.json → Commit.
 Then on the phone open the app, close it, open it again.
 
 ROUTE SUMMARY
-Name: Radio Tower & Olympic Stadium: Westend Ride
-Distance: about 12.1 km (around 50 minutes at 15 km/h)
-Shape: one-way, from Bamberger Str. 8 to U Olympia-Stadion (U2)
-Theme: radio, racing and sport in Berlin's west – Wilmersdorf, Halensee, the trade-fair grounds and Westend
-Stories:
-  1. Meierottostraße and the Joachimsthal school
-  2. Olivaer Platz
-  3. Erich Kästner, Roscherstraße 16
-  4. The world's first trolleybus
-  5. Lunapark Halensee
-  6. The AVUS race track
-  7. Radio Tower and ICC
-  8. Haus des Rundfunks
-  9. Theodor-Heuss-Platz
-  10. Steubenplatz
-  11. Georg Kolbe Museum
-  12. Corbusierhaus
-  13. Olympic Stadium
+Name: Lions, Lanterns and Lakes
+Distance: 9.9 km (about 40 minutes at 15 km/h)
+Shape: Loop from and back to Bamberger Str. 8
+Theme: Parks & lakes – the green heart of the Tiergarten
+Note: three very short push sections (Corneliusbrücke, Löwenbrücke footbridge, Luiseninsel path)
+
+Stories (10):
+ 1. Keithstraße and a Scottish field marshal (James Keith)
+ 2. Neuer See – Lenné's lake
+ 3. Löwenbrücke – Berlin's oldest suspension bridge, reopened July 2025
+ 4. Gas Lamp Open-Air Museum
+ 5. The English Garden – 1952 British gift, Anthony Eden, the burned teahouse
+ 6. Rousseau Island (and the Lortzing monument)
+ 7. Luiseninsel – Queen Louise's island
+ 8. Richard Wagner Monument
+ 9. The Japanese and Italian embassies
+10. Karl-Heinrich-Ulrichs-Straße

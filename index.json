@@ -1,6 +1,16 @@
 {
   "routes": [
     {
+      "id": "tiergarten-lions-and-lanterns-loop",
+      "file": "tiergarten-lions-and-lanterns-loop.json",
+      "name": "Lions, Lanterns and Lakes",
+      "city": "Berlin",
+      "distanceKmApprox": 9.9,
+      "summary": "Parks and lakes in the Tiergarten: the Neuer See, the 1838 Lion Bridge, the gas lamp museum, the English Garden, Rousseau Island, Queen Louise's island, the Wagner monument and the old Axis embassies, home past Karl-Heinrich-Ulrichs-Straße.",
+      "shape": "loop",
+      "created": "2026-10-07"
+    },
+    {
       "id": "radio-tower-and-olympic-ride",
       "file": "radio-tower-and-olympic-ride.json",
       "name": "Radio Tower & Olympic Stadium: Westend Ride",
