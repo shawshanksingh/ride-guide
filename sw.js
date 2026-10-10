@@ -1,5 +1,5 @@
 // Service worker: app shell offline, route files network-first, map tiles + routing cached as you use them.
-const VERSION = 'v3';
+const VERSION = 'v4';
 const SHELL = `shell-${VERSION}`, DATA = `data-${VERSION}`, TILES = 'tiles-v1';
 const SHELL_FILES = ['./', 'index.html', 'app.css', 'nav.js', 'music.js', 'app.js', 'leaflet.js', 'leaflet.css',
   'manifest.webmanifest', 'icon-192.png', 'icon-512.png'];

@@ -5,7 +5,7 @@
   const $ = s => document.querySelector(s);
 
   // ---------- settings ----------
-  const DEFAULTS = { voice: '', rate: 1, music: 0.5, facts: true, chime: true, simSpeed: 6 };
+  const DEFAULTS = { voice: '', rate: 1, music: 0.5, musicStyle: 'ambient', facts: true, chime: true, simSpeed: 6 };
   const store = {
     get(k, d) { try { const v = localStorage.getItem(k); return v == null ? d : JSON.parse(v); } catch (e) { return d; } },
     set(k, v) { try { localStorage.setItem(k, JSON.stringify(v)); } catch (e) {} },
@@ -110,7 +110,7 @@
   }
 
   const speaker = new Speaker();
-  const music = new window.BTAmbient({ key: 'D', mood: 'calm', volume: settings.music });
+  const music = new window.BTMusic({ style: settings.musicStyle, key: 'D', mood: 'calm', volume: settings.music });
   speaker.onBusy = () => music.setDucked(true);
   speaker.onIdle = () => music.setDucked(false);
 
@@ -498,10 +498,11 @@
 
   // ---------- wire up ----------
   function initSettingsUI() {
-    $('#sRate').value = settings.rate; $('#sMusic').value = settings.music; $('#sFacts').checked = settings.facts; $('#sChime').checked = settings.chime; $('#sSimSpeed').value = String(settings.simSpeed);
+    $('#sRate').value = settings.rate; $('#sMusic').value = settings.music; $('#sMusicStyle').value = settings.musicStyle; $('#sFacts').checked = settings.facts; $('#sChime').checked = settings.chime; $('#sSimSpeed').value = String(settings.simSpeed);
     $('#sVoice').onchange = e => { settings.voice = e.target.value; speaker.pickVoice(settings.voice); saveSettings(); };
     $('#sRate').oninput = e => { settings.rate = +e.target.value; saveSettings(); };
     $('#sMusic').oninput = e => { settings.music = +e.target.value; music.setVolume(settings.music); saveSettings(); };
+    $('#sMusicStyle').onchange = e => { settings.musicStyle = e.target.value; music.setStyle(settings.musicStyle); saveSettings(); };
     $('#sFacts').onchange = e => { settings.facts = e.target.checked; saveSettings(); };
     $('#sChime').onchange = e => { settings.chime = e.target.checked; saveSettings(); };
     $('#sSimSpeed').onchange = e => { settings.simSpeed = +e.target.value; saveSettings(); };

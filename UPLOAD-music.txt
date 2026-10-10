@@ -1,0 +1,21 @@
+NEW MUSIC STYLE: TRIBAL TECHNO
+
+GitHub → shawshanksingh/ride-guide → Add file → Upload files → drag in these 5 files:
+  music.js, app.js, index.html, sw.js, README.md
+→ Commit. (Don't upload the .mp3, it's only a preview for you.)
+Then on the phone open the app, close it, open it again (sw.js has a new version number, so the phone fetches the new files).
+
+HOW TO USE IT
+Open any route → Settings → Music style → "Tribal techno (124 bpm)". The choice is remembered.
+"Test voice" plays 10 seconds of the chosen style. You can also switch styles mid-ride; it swaps straight over.
+
+WHAT IT PLAYS
+Generated live on the phone, like the ambient music, so there are no audio files and no copyright issues.
+- Four-on-the-floor kick, offbeat open hats, a swung shaker
+- Three toms tuned to the route's key, playing rolling patterns that change every 8 bars
+- A conga line in 3-against-4 over the beat
+- A rolling offbeat bass, claps and rimshots
+- Arrangement: percussion-only intro → kick → bass → full groove → breakdown with a filter sweep → full groove, then it keeps cycling with new tom patterns. A tom fill leads into each new section.
+- Loudness is matched to the ambient style. It dips under the voice more quickly and more deeply than the ambient does, so the directions stay clear.
+
+Tested in Chrome: rendered and measured, switched live between the two styles, and the setting survives a reload. No errors.

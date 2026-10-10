@@ -1,6 +1,6 @@
 # Ride Guide: audio bike tours
 
-A small web app (PWA) for Android Chrome. It gives spoken turn-by-turn directions, tells stories about places as you pass them, and plays slow generated ambient music underneath. The music dips whenever the voice speaks.
+A small web app (PWA) for Android Chrome. It gives spoken turn-by-turn directions, tells stories about places as you pass them, and plays generated music underneath: slow ambient pads, or rolling tribal techno (pick under *Settings → Music style*). The music dips whenever the voice speaks.
 
 ## Put it online (one time, about 5 minutes)
 
@@ -29,7 +29,7 @@ Tips: charge the phone first (the screen stays on). Use one earbud, or keep the 
 |---|---|
 | UI, GPS, speech, pocket mode | `app.js` |
 | Route geometry, turn cues, progress tracking | `nav.js` |
-| Generated ambient music (Web Audio, no audio files) | `music.js` |
+| Generated music, ambient and tribal techno (Web Audio, no audio files) | `music.js` |
 | Offline caching | `sw.js` |
 | Map library | `leaflet.js`, `leaflet.css` (+ its png images) |
 | Route list | `index.json` |
