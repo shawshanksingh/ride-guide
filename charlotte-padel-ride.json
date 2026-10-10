@@ -1,0 +1,132 @@
+{
+  "id": "charlotte-padel-ride",
+  "name": "To Charlotte Padel Club via Zoo & the Spree",
+  "city": "Berlin",
+  "description": "One-way, 6.3 km: up Joachimsthaler Straße past the Ku'damm corner and Zoo station, through the TU campus, past the pink 'Rosa Röhre', along the Landwehrkanal to the Spree, and on to the padel club on Sophie-Charlotten-Straße beside the palace grounds.",
+  "distanceKmApprox": 6.3,
+  "lang": "en-GB",
+  "profile": "bike",
+  "start": {
+    "name": "Bamberger Str. 8",
+    "lat": 52.49553,
+    "lon": 13.33701
+  },
+  "end": {
+    "name": "Charlotte Padel Club, Sophie-Charlotten-Str. 14",
+    "lat": 52.52007,
+    "lon": 13.28499
+  },
+  "waypoints": [
+    [
+      52.49553,
+      13.33701
+    ],
+    [
+      52.52007,
+      13.28499
+    ]
+  ],
+  "cueOverrides": [
+    {
+      "lat": 52.52025,
+      "lon": 13.31358,
+      "radius": 15,
+      "text": "Bear left, staying by the river",
+      "dir": "slight-left"
+    },
+    {
+      "lat": 52.52043,
+      "lon": 13.3108,
+      "radius": 15,
+      "text": "Turn left onto the riverside path",
+      "dir": "left"
+    }
+  ],
+  "intro": "Off to padel! This is a one-way ride of about six kilometres, roughly twenty-five minutes at an easy pace. We head up past the Ku'damm and Zoo station, through the university campus, then follow the canal and the Spree almost all the way to the courts. First, a little hop north along Bamberger Straße.",
+  "outro": "You've arrived at Sophie-Charlotten-Straße, and the padel club is right here. Lock up the bike, and have a great game.",
+  "pois": [
+    {
+      "id": "festspiele",
+      "name": "Haus der Berliner Festspiele",
+      "lat": 52.49928,
+      "lon": 13.3325,
+      "text": "On Schaperstraße now. The modern theatre here is the Haus der Berliner Festspiele. It opened on the first of May 1963 as the home of the Freie Volksbühne, West Berlin's people's theatre, led by the director Erwin Piscator. Its architect, Fritz Bornemann, also designed the Deutsche Oper. Today it's a main stage of the Berliner Festspiele, the festivals that bring theatre, music and dance to the city."
+    },
+    {
+      "id": "kranzler",
+      "name": "Café Kranzler",
+      "lat": 52.503,
+      "lon": 13.3312,
+      "trigger": [
+        52.5029,
+        13.3312
+      ],
+      "text": "Coming up is the corner of the Kurfürstendamm. Look for the round pavilion with the red-and-white striped awning on top. That's Café Kranzler. The original Kranzler opened on Unter den Linden in 1834. This western branch arrived in 1932, and the striking rotunda was built in 1957 and 58. For decades it was the place to see and be seen in West Berlin."
+    },
+    {
+      "id": "gedaechtniskirche",
+      "name": "Kaiser Wilhelm Memorial Church",
+      "lat": 52.50471,
+      "lon": 13.33503,
+      "trigger": [
+        52.5047,
+        13.33157
+      ],
+      "text": "Glance right, towards Breitscheidplatz, for the broken spire of the Kaiser Wilhelm Memorial Church. The church was built in the 1890s and badly hit by bombs in 1943. Instead of rebuilding it, Berlin kept the damaged tower as a memorial and added a new church and bell tower between 1959 and 1963. Berliners call the old spire the hollow tooth."
+    },
+    {
+      "id": "zoo-palast",
+      "name": "Zoo Palast",
+      "lat": 52.5066,
+      "lon": 13.33327,
+      "text": "Right by Zoo station is the Zoo Palast cinema, opened in May 1957. From then until 1999 it was the main competition cinema of the Berlinale, the city's international film festival, so the stars walked the red carpet right here. After a long renovation it reopened in 2013, and since 2014 it's been a Berlinale venue again."
+    },
+    {
+      "id": "tu-berlin",
+      "name": "Technische Universität Berlin",
+      "lat": 52.51005,
+      "lon": 13.32972,
+      "trigger": [
+        52.5104,
+        13.3299
+      ],
+      "text": "You're riding through the campus of the Technical University. It was founded on the first of April 1879 as the Royal Technical College, out here in what was then the separate town of Charlottenburg. After the war, in April 1946, it was refounded in the British sector as a Technische Universität, with a new humanist mission. Today it has around thirty-four thousand students."
+    },
+    {
+      "id": "rosa-roehre",
+      "name": "The pink tube (Umlauftank 2)",
+      "lat": 52.5134,
+      "lon": 13.3303,
+      "trigger": [
+        52.51325,
+        13.3302
+      ],
+      "text": "Look for the giant pink pipe on the island in the canal. Berliners call it the Rosa Röhre, the pink tube. It's actually a circulating water tank where the university tests ship models in flowing water. The architect Ludwig Leo designed it, built from 1968 to 1974, and he chose that bold pink himself. Fun detail: around 1900 the test station was meant to go elsewhere, until Kaiser Wilhelm the Second scribbled, my riding ground stays."
+    },
+    {
+      "id": "spreekreuz",
+      "name": "Where the canal meets the Spree",
+      "lat": 52.51987,
+      "lon": 13.31571,
+      "text": "Just ahead, the Landwehrkanal ends its journey. It runs for nearly eleven kilometres through Kreuzberg, Neukölln and Tiergarten, and here in Charlottenburg it flows back into the Spree. Since 2013, boats on the canal may only travel one way, downstream towards this end. Enjoy the riverside, it's car-free for a while now."
+    },
+    {
+      "id": "kalowswerder",
+      "name": "Mierendorff island",
+      "lat": 52.52049,
+      "lon": 13.30597,
+      "text": "The district on the north bank here is old Kalowswerder, today usually called the Mierendorff island, because it's wrapped in water: the Spree, a canal and the Westhafen canal. From the 1890s Charlottenburg grew north onto it, and it became the town's energy hub, with a gasworks and a power station right on the riverbank."
+    },
+    {
+      "id": "sophie-charlotte",
+      "name": "Sophie Charlotte",
+      "lat": 52.51909,
+      "lon": 13.28658,
+      "trigger": [
+        52.51919,
+        13.29136
+      ],
+      "text": "Your destination street is named after Sophie Charlotte, the first queen in Prussia, whose brother became King George the First of Britain. She was famously clever and musical, and her close friend, the philosopher Leibniz, often stayed at her summer palace here. Together they pushed for a scientific academy in Berlin, founded in July 1700. When she died in 1705, her palace, and the town growing around it, were renamed Charlottenburg in her honour."
+    }
+  ]
+}

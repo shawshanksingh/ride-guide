@@ -1,6 +1,18 @@
 {
   "routes": [
     {
+      "id": "charlotte-padel-ride",
+      "file": "charlotte-padel-ride.json",
+      "name": "To Charlotte Padel Club via Zoo & the Spree",
+      "city": "Berlin",
+      "distanceKmApprox": 6.3,
+      "summary": "Padel commute to Sophie-Charlotten-Straße: Café Kranzler, Zoo Palast, the TU campus and its pink tube, then along the Landwehrkanal and the Spree.",
+      "pinned": true,
+      "shape": "one-way",
+      "endName": "Charlotte Padel Club",
+      "created": "2026-10-10"
+    },
+    {
       "id": "rubble-rails-and-radio-loop",
       "file": "rubble-rails-and-radio-loop.json",
       "name": "Rubble, Rails & Radio: Schöneberg South Loop",

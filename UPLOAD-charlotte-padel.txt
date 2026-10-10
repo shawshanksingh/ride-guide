@@ -1,0 +1,16 @@
+Ride Guide — extra route, 2026-10-10: To Charlotte Padel Club via Zoo & the Spree
+
+Upload to GitHub (shawshanksingh/ride-guide → Add file → Upload files), then Commit:
+  - charlotte-padel-ride.json   (the new route)
+  - index.json                  (route list — includes everything up to today)
+  - Also missing on GitHub right now (please upload them too):
+      2026-10-05\writers-friedenau-loop.json
+      2026-10-09\rubble-rails-and-radio-loop.json
+Then on the phone: open the app, close it, open it again.
+
+Route: 6.3 km, one-way, ~25 min. Bamberger Str → Regensburger → Kulmbacher → Geisbergstr → Schaperstr
+→ Joachimsthaler Str (across the Ku'damm) → Hardenbergplatz → Hertzallee → Fasanenstr → Müller-Breslau-Str
+→ Landwehrkanal path → Spree path (Iburger Ufer) → Spandauer Damm → Sophie-Charlotten-Str 14. Pinned at the top.
+
+Stories (9): Haus der Berliner Festspiele · Café Kranzler · Kaiser Wilhelm Memorial Church · Zoo Palast
+· TU Berlin · the pink tube (Umlauftank 2) · where the Landwehrkanal meets the Spree · Mierendorff island · Sophie Charlotte
