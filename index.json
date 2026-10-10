@@ -1,38 +1,6 @@
 {
   "routes": [
     {
-      "id": "power-and-stone-to-gendarmenmarkt",
-      "file": "power-and-stone-to-gendarmenmarkt.json",
-      "name": "Power & Stone: Schöneberg → Gendarmenmarkt",
-      "city": "Berlin",
-      "distanceKmApprox": 6.5,
-      "summary": "Architecture and power: Wittenbergplatz station, the Villa von der Heydt, the Bendlerblock, the Philharmonie, the Potsdamer Platz traffic tower, Göring's Air Ministry, the Wall on Niederkirchnerstraße, Checkpoint Charlie, the Gendarmenmarkt and Hausvogteiplatz.",
-      "shape": "one-way",
-      "endName": "U Hausvogteiplatz",
-      "created": "2026-10-08"
-    },
-    {
-      "id": "tiergarten-lions-and-lanterns-loop",
-      "file": "tiergarten-lions-and-lanterns-loop.json",
-      "name": "Lions, Lanterns and Lakes",
-      "city": "Berlin",
-      "distanceKmApprox": 9.9,
-      "summary": "Parks and lakes in the Tiergarten: the Neuer See, the 1838 Lion Bridge, the gas lamp museum, the English Garden, Rousseau Island, Queen Louise's island, the Wagner monument and the old Axis embassies, home past Karl-Heinrich-Ulrichs-Straße.",
-      "shape": "loop",
-      "created": "2026-10-07"
-    },
-    {
-      "id": "radio-tower-and-olympic-ride",
-      "file": "radio-tower-and-olympic-ride.json",
-      "name": "Radio Tower & Olympic Stadium: Westend Ride",
-      "city": "Berlin",
-      "distanceKmApprox": 12.1,
-      "summary": "Radio, racing and sport in the west: Olivaer Platz, Erich Kästner's Roscherstraße, the world's first trolleybus, Lunapark, the AVUS, the Radio Tower and ICC, the Haus des Rundfunks, Theodor-Heuss-Platz, Steubenplatz, the Kolbe Museum, the Corbusierhaus and the Olympic Stadium.",
-      "shape": "one-way",
-      "endName": "U Olympia-Stadion",
-      "created": "2026-10-06"
-    },
-    {
       "id": "writers-friedenau-loop",
       "file": "writers-friedenau-loop.json",
       "name": "Writers' Friedenau: Benjamin to Benn Loop",

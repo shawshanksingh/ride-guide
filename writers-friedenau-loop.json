@@ -1,0 +1,260 @@
+{
+  "id": "writers-friedenau-loop",
+  "name": "Writers' Friedenau: Benjamin to Benn Loop",
+  "city": "Berlin",
+  "description": "A literary loop through Wilmersdorf, Friedenau and Steglitz: the homes of Walter Benjamin, Max Frisch, Günter Grass, Uwe Johnson, Kurt Tucholsky, Franz Kafka, Rosa Luxemburg, Carl Zuckmayer and Gottfried Benn, plus the Bierpinsel and the Ceciliengärten.",
+  "distanceKmApprox": 11.9,
+  "lang": "en-GB",
+  "profile": "bike",
+  "start": {
+    "name": "Bamberger Str. 8",
+    "lat": 52.49553,
+    "lon": 13.33701
+  },
+  "waypoints": [
+    [
+      52.49553,
+      13.33701
+    ],
+    [
+      52.4958,
+      13.3355
+    ],
+    [
+      52.4934,
+      13.3333
+    ],
+    [
+      52.4727,
+      13.3321
+    ],
+    [
+      52.45931,
+      13.31408
+    ],
+    [
+      52.459,
+      13.32283
+    ],
+    [
+      52.4681,
+      13.3424
+    ],
+    [
+      52.4725,
+      13.3417
+    ],
+    [
+      52.48652,
+      13.34089
+    ],
+    [
+      52.48761,
+      13.33818
+    ],
+    [
+      52.49553,
+      13.33701
+    ]
+  ],
+  "cueOverrides": [
+    {
+      "lat": 52.49587,
+      "lon": 13.3371,
+      "radius": 12,
+      "text": "Turn left onto Regensburger Straße",
+      "dir": "left"
+    },
+    {
+      "lat": 52.47254,
+      "lon": 13.33268,
+      "radius": 15,
+      "text": "Turn right onto Niedstraße",
+      "dir": "right"
+    },
+    {
+      "lat": 52.47256,
+      "lon": 13.32904,
+      "radius": 12,
+      "text": "Quick left, then right, round Friedrich-Wilhelm-Platz",
+      "dir": "jog-left"
+    },
+    {
+      "lat": 52.46362,
+      "lon": 13.3311,
+      "radius": 12,
+      "text": "Turn right onto Feuerbachstraße, then bear right",
+      "dir": "right"
+    },
+    {
+      "lat": 52.46373,
+      "lon": 13.33156,
+      "radius": 10,
+      "drop": true
+    },
+    {
+      "lat": 52.46695,
+      "lon": 13.33822,
+      "radius": 12,
+      "text": "Bear right, then left onto Beckerstraße",
+      "dir": "slight-right"
+    },
+    {
+      "lat": 52.46686,
+      "lon": 13.33911,
+      "radius": 10,
+      "drop": true
+    },
+    {
+      "lat": 52.47328,
+      "lon": 13.34176,
+      "radius": 12,
+      "text": "Jog right and carry on along Ceciliengärten",
+      "dir": "slight-right"
+    },
+    {
+      "lat": 52.47516,
+      "lon": 13.34179,
+      "radius": 12,
+      "text": "Jog left and carry on along Ceciliengärten",
+      "dir": "slight-left"
+    },
+    {
+      "lat": 52.47865,
+      "lon": 13.34445,
+      "radius": 15,
+      "text": "At Innsbrucker Platz, turn left towards Innsbrucker Straße",
+      "dir": "left"
+    },
+    {
+      "lat": 52.48338,
+      "lon": 13.3419,
+      "radius": 15,
+      "text": "Carry straight on over the Carl Zuckmayer Bridge",
+      "dir": "straight"
+    },
+    {
+      "lat": 52.48652,
+      "lon": 13.34089,
+      "radius": 15,
+      "text": "Turn left onto Wartburgstraße",
+      "dir": "left"
+    },
+    {
+      "lat": 52.4868,
+      "lon": 13.33829,
+      "radius": 12,
+      "text": "Turn right onto the path up Bozener Straße",
+      "dir": "right"
+    },
+    {
+      "lat": 52.48826,
+      "lon": 13.33827,
+      "radius": 12,
+      "text": "Turn left, then right onto Bamberger Straße",
+      "dir": "left"
+    },
+    {
+      "lat": 52.48813,
+      "lon": 13.33702,
+      "radius": 10,
+      "drop": true
+    }
+  ],
+  "intro": "Welcome to Writers' Friedenau, a twelve-kilometre loop of about fifty minutes at an easy pace. Head north along Bamberger Straße, then we'll take quiet streets through Wilmersdorf, Friedenau and Steglitz, past the homes of Walter Benjamin, Max Frisch, Günter Grass, Kurt Tucholsky, Franz Kafka, Rosa Luxemburg and Carl Zuckmayer, before finishing back here.",
+  "outro": "And we're home on Bamberger Straße. That was Writers' Friedenau: a dozen stories from the writers of Friedenau and Steglitz in twelve kilometres. Thanks for riding, and happy reading.",
+  "pois": [
+    {
+      "id": "prinzregentenstrasse",
+      "name": "Prinzregentenstraße: synagogue and Walter Benjamin",
+      "lat": 52.484,
+      "lon": 13.3334,
+      "text": "You're riding down Prinzregentenstraße. On your left, at numbers sixty-nine and seventy, stood one of Berlin's great liberal synagogues, opened in 1930 to designs by Alexander Beer, with room for twenty-three hundred worshippers and an organ. It was set on fire in November 1938, and the ruins were cleared in 1958. A few doors on, at number sixty-six, the critic Walter Benjamin lived from 1930 until he fled in 1933, writing parts of his memoir Berlin Childhood around 1900."
+    },
+    {
+      "id": "max-frisch",
+      "name": "Max Frisch, Sarrazinstraße 8",
+      "lat": 52.47497,
+      "lon": 13.3313,
+      "text": "Glance right, down Sarrazinstraße. At number eight, from 1973, lived the Swiss writer Max Frisch, author of Stiller and Homo Faber. Here he kept a private Berlin journal about his friendships with Günter Grass and Uwe Johnson, and about trips across the Wall to meet East German writers such as Christa Wolf and Wolf Biermann. He ordered it locked away for twenty years after his death, and it was finally published in 2014.",
+      "trigger": [
+        52.4757,
+        13.33276
+      ]
+    },
+    {
+      "id": "niedstrasse",
+      "name": "Niedstraße: Grass, Johnson and Kommune One",
+      "lat": 52.47268,
+      "lon": 13.3321,
+      "text": "This is Niedstraße, perhaps the most literary street in Berlin. On your right, number thirteen was the home and workshop of Günter Grass from 1963. At number fourteen, Uwe Johnson arrived from East Berlin in 1959 with little more than a typewriter and the manuscript of Speculations about Jakob, which became a bestseller that same year. In 1967 his studio briefly housed the radical Kommune One. And at number five, Erich Kästner kept a work room where his secretary typed up his texts."
+    },
+    {
+      "id": "tucholsky",
+      "name": "Kurt Tucholsky, Bundesallee 79",
+      "lat": 52.47022,
+      "lon": 13.32796,
+      "text": "Along here on the right, at Bundesallee seventy-nine, then called the Kaiserallee, lived Kurt Tucholsky from 1920 to 1924. He was the sharpest satirist of the Weimar years, and he wrote so much for the weekly Weltbühne that he invented four extra names to sign it with: Theobald Tiger, Peter Panter, Kaspar Hauser and Ignaz Wrobel. His plaque quotes his own advice: language is a weapon, so keep it sharp."
+    },
+    {
+      "id": "kafka-grunewaldstrasse",
+      "name": "Franz Kafka, Grunewaldstraße 13",
+      "lat": 52.45925,
+      "lon": 13.31504,
+      "text": "Here on Grunewaldstraße, at number thirteen, Franz Kafka spent much of his last winter. He had come from Prague in the autumn of 1923 to live with Dora Diamant, a young woman he had met at a Baltic seaside camp that summer. In this house he wrote one of his last stories, The Burrow, about an animal perfecting its underground refuge. By March 1924 his tuberculosis was so bad that he was taken home to Prague, and he died that June near Vienna."
+    },
+    {
+      "id": "kafka-miquelstrasse",
+      "name": "Kafka's first room, Muthesiusstraße",
+      "lat": 52.4595,
+      "lon": 13.3188,
+      "text": "This is Muthesiusstraße, which in Kafka's day was called Miquelstraße. He first rented a room here in the autumn of 1923, just as German inflation ran wild, and his landlady kept demanding more rent. She seems to have inspired his story A Little Woman, about a woman who is endlessly annoyed by the narrator for reasons he can never grasp. In mid-November, Dora loaded his things on to a handcart and they moved a few steps away, to Grunewaldstraße."
+    },
+    {
+      "id": "bierpinsel",
+      "name": "The Bierpinsel",
+      "lat": 52.46146,
+      "lon": 13.32471,
+      "text": "Before we turn right, look ahead along Schloßstraße at the strange tower rising over the junction. Berliners call it the Bierpinsel, the beer brush, a nickname from its bristling steel girders and the restaurant planned up top. Designed by Ralf Schüler and Ursulina Schüler-Witte, it is forty-seven metres tall and opened in October 1976. In 2010 street artists covered it in murals, and since 2017 it has been a protected monument.",
+      "trigger": [
+        52.4598,
+        13.3235
+      ]
+    },
+    {
+      "id": "feuerbachstrasse-station",
+      "name": "Feuerbachstraße station",
+      "lat": 52.4637,
+      "lon": 13.3322,
+      "text": "We're crossing the Wannsee railway at Feuerbachstraße station, on the S1. Look for the round entrance hall in dark clinker brick, designed by the Reichsbahn architect Richard Brademann. The station opened in May 1933, when this line was electrified. It was badly damaged in the war and reopened in June 1945, and in the mid-1980s the entrance building was taken down and faithfully rebuilt."
+    },
+    {
+      "id": "rosa-luxemburg",
+      "name": "Rosa Luxemburg, Cranachstraße 58",
+      "lat": 52.46813,
+      "lon": 13.3424,
+      "text": "On your right, at Cranachstraße fifty-eight, Rosa Luxemburg lived from 1902 to 1911, in a flat on the second floor. Like its neighbours in this Painters' Quarter, the street is named after an artist, here Lucas Cranach. On the evening of the fourth of January 1908, Lenin and his wife came to visit her. Look for the bronze plaque by a tree in front of the house: the owner refused to let it go on the wall."
+    },
+    {
+      "id": "ceciliengaerten",
+      "name": "Ceciliengärten",
+      "lat": 52.4742,
+      "lon": 13.3419,
+      "text": "Welcome to the Ceciliengärten, a garden estate built between 1922 and 1927 by Schöneberg's city architect Heinrich Lassen, and named after Crown Princess Cecilie. On the green in the middle stand two life-size bronze women by Georg Kolbe, Morning and Evening, which were shown at the 1929 World's Fair in Barcelona. The painter Hans Baluschek lived rent-free in the studio tower from 1929, as the estate's honorary resident."
+    },
+    {
+      "id": "zuckmayer-bridge",
+      "name": "Carl Zuckmayer Bridge",
+      "lat": 52.48365,
+      "lon": 13.34192,
+      "text": "We're crossing the Carl Zuckmayer Bridge. The playwright lived in a house right here from 1926 to 1933, and this is where he worked on The Captain of Köpenick, his comedy about a shoemaker who puts on a second-hand army uniform and takes over a town hall. Look for his name in bronze letters on the railing, and for a line from the play: first comes the human being, and then the human order."
+    },
+    {
+      "id": "gottfried-benn",
+      "name": "Gottfried Benn, Bozener Straße 20",
+      "lat": 52.48761,
+      "lon": 13.33833,
+      "text": "This is Bozener Straße. At number twenty, the poet Gottfried Benn lived from December 1937 until his death in July 1956. Benn was also a doctor, a specialist in skin diseases, and he saw patients at home here. His first collection, Morgue, came out in 1912 and shocked readers with poems set in a dissecting room. Late in life he became one of West Germany's most celebrated poets, winning the Büchner Prize in 1951."
+    }
+  ]
+}

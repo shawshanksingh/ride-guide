@@ -1,24 +1,22 @@
-How to publish today's route
-GitHub → shawshanksingh/ride-guide → Add file → Upload files → drag in power-and-stone-to-gendarmenmarkt.json and index.json → Commit.
+HOW TO UPLOAD
+GitHub → shawshanksingh/ride-guide → Add file → Upload files → drag in writers-friedenau-loop.json and index.json → Commit.
 Then on the phone open the app, close it, open it again.
 
-Note: yesterday's tiergarten-lions-and-lanterns-loop.json (folder 2026-10-07) is not on GitHub yet and is kept in this index.json - upload it too.
-Also, writers-friedenau-loop.json is listed in GitHub's index.json but the file itself is missing on GitHub - re-upload it from folder 2026-10-05.
-
-Route summary
-Name: Power & Stone: Schöneberg → Gendarmenmarkt
-Distance: 6.5 km (about 26 minutes at 15 km/h)
-Shape: one-way, ending at U Hausvogteiplatz (U2)
-Theme: architecture and power - from Kaiser-era Berlin through the Nazi ministries and the Wall to Schinkel's square
-
-Stories:
-1. Wittenbergplatz station (Grenander, London roundel)
-2. Villa von der Heydt
-3. The Bendlerblock and 20 July 1944
-4. The Philharmonie
-5. Potsdamer Platz traffic-light tower
-6. Detlev Rohwedder House (Air Ministry, 17 June 1953)
-7. Niederkirchnerstraße, the Gestapo site and the Wall
-8. Checkpoint Charlie
-9. Gendarmenmarkt and Anton-Wilhelm-Amo-Straße
-10. Hausvogteiplatz and the Jewish fashion quarter
+ROUTE SUMMARY
+Name: Writers' Friedenau: Benjamin to Benn Loop
+Distance: 11.9 km (about 50 minutes at 15 km/h)
+Shape: Loop from and back to Bamberger Str. 8
+Theme: Literary Berlin - writers' homes in Wilmersdorf, Friedenau and Steglitz
+Stories (12):
+  1. Prinzregentenstraße: synagogue and Walter Benjamin
+  2. Max Frisch, Sarrazinstraße 8
+  3. Niedstraße: Grass, Johnson and Kommune One
+  4. Kurt Tucholsky, Bundesallee 79
+  5. Franz Kafka, Grunewaldstraße 13
+  6. Kafka's first room, Muthesiusstraße
+  7. The Bierpinsel
+  8. Feuerbachstraße station
+  9. Rosa Luxemburg, Cranachstraße 58
+  10. Ceciliengärten
+  11. Carl Zuckmayer Bridge
+  12. Gottfried Benn, Bozener Straße 20
