@@ -1,22 +1,25 @@
-HOW TO UPLOAD
-GitHub → shawshanksingh/ride-guide → Add file → Upload files → drag in writers-friedenau-loop.json and index.json → Commit.
-Then on the phone open the app, close it, open it again.
+GitHub → shawshanksingh/ride-guide → Add file → Upload files → drag in rubble-rails-and-radio-loop.json and index.json → Commit. Then on the phone open the app, close it, open it again.
+
+Note: writers-friedenau-loop.json (from the 2026-10-05 folder) is listed in index.json but is missing from GitHub. Upload it too, or that route won't load.
 
 ROUTE SUMMARY
-Name: Writers' Friedenau: Benjamin to Benn Loop
-Distance: 11.9 km (about 50 minutes at 15 km/h)
-Shape: Loop from and back to Bamberger Str. 8
-Theme: Literary Berlin - writers' homes in Wilmersdorf, Friedenau and Steglitz
-Stories (12):
-  1. Prinzregentenstraße: synagogue and Walter Benjamin
-  2. Max Frisch, Sarrazinstraße 8
-  3. Niedstraße: Grass, Johnson and Kommune One
-  4. Kurt Tucholsky, Bundesallee 79
-  5. Franz Kafka, Grunewaldstraße 13
-  6. Kafka's first room, Muthesiusstraße
-  7. The Bierpinsel
-  8. Feuerbachstraße station
-  9. Rosa Luxemburg, Cranachstraße 58
-  10. Ceciliengärten
-  11. Carl Zuckmayer Bridge
-  12. Gottfried Benn, Bozener Straße 20
+Name: Rubble, Rails & Radio: Schöneberg South Loop
+Distance: 11.7 km (about 50 minutes at 15 km/h)
+Shape: Loop, starting and ending at Bamberger Straße 8
+Theme: Rubble, railways and Cold War radio in southern Schöneberg (Rathaus Schöneberg, Südkreuz, Südgelände, the Insulaner, Malerviertel)
+
+Stories (11):
+1. The Freedom Bell
+2. Rathaus Schöneberg and Kennedy
+3. Schöneberg station
+4. Südkreuz, the South Cross
+5. Hans-Baluschek-Park
+6. Natur-Park Südgelände
+7. The Insulaner (rubble hill, observatory, planetarium)
+8. Grazer Damm estate
+9. Rubensstraße and the painters' quarter
+10. Innsbrucker Platz and the U4
+11. The RIAS building
+
+Validation: bike route 11,740 m; all waypoints snap within 15 m; no detour legs; all stories within 27 m of the route and at least 600 m apart.
+Cue note: there is a zigzag ramp up to the Sachsendamm footbridge (about 4.4 km in). OSRM reads its hairpin as a U-turn, so a cue override says "Follow the zigzag ramp round to the footbridge" instead.

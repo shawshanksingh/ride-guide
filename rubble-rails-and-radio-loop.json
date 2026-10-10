@@ -1,0 +1,199 @@
+{
+  "id": "rubble-rails-and-radio-loop",
+  "name": "Rubble, Rails & Radio: Schöneberg South Loop",
+  "city": "Berlin",
+  "description": "A loop through southern Schöneberg: the Freedom Bell and Kennedy's town hall, two railway junctions, a railway yard gone wild, a hill built from war rubble, a Nazi-era estate, the painters' quarter, Berlin's shortest U-Bahn line and the home of RIAS.",
+  "distanceKmApprox": 11.7,
+  "lang": "en-GB",
+  "profile": "bike",
+  "start": {
+    "name": "Bamberger Straße 8",
+    "lat": 52.49553,
+    "lon": 13.33701
+  },
+  "waypoints": [
+    [
+      52.49553,
+      13.33701
+    ],
+    [
+      52.49001,
+      13.34211
+    ],
+    [
+      52.48599,
+      13.346
+    ],
+    [
+      52.4798,
+      13.3506
+    ],
+    [
+      52.4709,
+      13.36193
+    ],
+    [
+      52.46688,
+      13.3597
+    ],
+    [
+      52.4593,
+      13.35243
+    ],
+    [
+      52.46097,
+      13.34853
+    ],
+    [
+      52.468,
+      13.34408
+    ],
+    [
+      52.479,
+      13.3437
+    ],
+    [
+      52.4812,
+      13.33704
+    ],
+    [
+      52.4845,
+      13.33699
+    ],
+    [
+      52.49553,
+      13.33701
+    ]
+  ],
+  "cueOverrides": [
+    {
+      "lat": 52.47947,
+      "lon": 13.34982,
+      "radius": 15,
+      "text": "Turn left towards Schöneberg station",
+      "dir": "left"
+    },
+    {
+      "lat": 52.47387,
+      "lon": 13.36362,
+      "radius": 1,
+      "text": "Follow the zigzag ramp round to the footbridge",
+      "dir": "sharp-left"
+    },
+    {
+      "lat": 52.47387,
+      "lon": 13.36365,
+      "radius": 1,
+      "text": "Turn right over the Sachsendamm footbridge into the park",
+      "dir": "right"
+    },
+    {
+      "lat": 52.47865,
+      "lon": 13.34445,
+      "radius": 15,
+      "text": "Turn left across Innsbrucker Platz",
+      "dir": "left"
+    }
+  ],
+  "intro": "Welcome to Rubble, Rails and Radio, an almost twelve-kilometre loop through southern Schöneberg. At an easy fifteen kilometres an hour it takes about fifty minutes, plus stops. Expect Cold War West Berlin, a railway yard gone wild, a hill built from rubble and the voice of the American sector. Head north on Bamberger Straße to begin.",
+  "outro": "That's the loop complete, back on Bamberger Straße after almost twelve kilometres of rubble, rails and radio. Thanks for riding. Come back one day to explore the Südgelände on foot.",
+  "pois": [
+    {
+      "id": "freedom-bell",
+      "name": "The Freedom Bell",
+      "lat": 52.4848,
+      "lon": 13.3441,
+      "trigger": [
+        52.48871,
+        13.34702
+      ],
+      "text": "Look ahead and to your right for a tall tower. That's Rathaus Schöneberg, and high inside it hangs the Freedom Bell, an American gift modelled on Philadelphia's Liberty Bell, minus the crack. Around sixteen million Americans gave money towards it. It was installed here in 1950 and first rang out on United Nations Day that October. A freedom pledge signed by its supporters is kept up in the tower, and the bell still rings every day at noon."
+    },
+    {
+      "id": "kennedy-rathaus",
+      "name": "Rathaus Schöneberg and Kennedy",
+      "lat": 52.4847,
+      "lon": 13.3446,
+      "text": "On your right is John F. Kennedy Square, with the town hall behind it. It was built between 1911 and 1914, when Schöneberg was still a city of its own. From 1949 it was the seat of West Berlin's government. On the twenty-sixth of June 1963, President Kennedy stood on these steps and told the crowd: Ich bin ein Berliner. After his assassination that November, the square was renamed for him within three days. The day after the Wall opened in 1989, some twenty thousand people gathered here."
+    },
+    {
+      "id": "schoeneberg-station",
+      "name": "Schöneberg station",
+      "lat": 52.48004,
+      "lon": 13.35255,
+      "text": "This is Schöneberg station, a two-level junction where the Ringbahn crosses the line out to Wannsee. The circle line runs on the upper deck, the Wannsee trains underneath. The junction opened in March 1933, replacing an older Ringbahn stop called Ebersstraße. That old stop wasn't completely swept away, though: its entrance hall on Ebersstraße, built in the late 1890s, still leads up to the western end of the platform."
+    },
+    {
+      "id": "suedkreuz",
+      "name": "Südkreuz, the South Cross",
+      "lat": 52.47598,
+      "lon": 13.36507,
+      "trigger": [
+        52.47611,
+        13.36
+      ],
+      "text": "Off to your left is Südkreuz, the South Cross. Ring trains stop on the upper level, while long-distance and regional trains run north to south underneath. It began life as Papestraße, named after a Prussian general, and its Ringbahn platform opened in 1901. After years of rebuilding it reopened as Südkreuz on the twenty-eighth of May 2006, the very same day as the new main station. A corner of the old station, clock tower and all, survives inside the new one."
+    },
+    {
+      "id": "hans-baluschek-park",
+      "name": "Hans-Baluschek-Park",
+      "lat": 52.4704,
+      "lon": 13.3617,
+      "text": "You're now rolling along the Hans-Baluschek-Park, a green ribbon about one and a half kilometres long that opened in 2004, right beside the railway. It's named after a painter who loved exactly this kind of view. Hans Baluschek painted Berlin's workers, its factories and above all its railways, and children knew his pictures from the book Little Peter's Journey to the Moon. The Nazis branded his work degenerate and threw him out of all his posts. He died in 1935."
+    },
+    {
+      "id": "suedgelaende",
+      "name": "Natur-Park Südgelände",
+      "lat": 52.45905,
+      "lon": 13.35646,
+      "trigger": [
+        52.46277,
+        13.35733
+      ],
+      "text": "Just across the tracks lies one of Berlin's strangest parks, the Natur-Park Südgelände. This was the Tempelhof marshalling yard, finished by 1889. The divided city left it stranded after the war, shunting stopped around 1952, and for decades nature quietly took over the rails. Local people fought off plans to bring the freight trains back, and since 2000 it has been a park, with a fifty-metre water tower from 1927 and a huge black steam locomotive with red wheels. The entrance is at Priesterweg station, just ahead."
+    },
+    {
+      "id": "insulaner",
+      "name": "The Insulaner",
+      "lat": 52.45742,
+      "lon": 13.35155,
+      "trigger": [
+        52.45923,
+        13.35083
+      ],
+      "text": "On your left rises the Insulaner, a hill made from the ruins of the war. Between 1946 and 1951 about one point eight million cubic metres of rubble were piled up here, some of it brought by a little narrow-gauge railway. A hundred and eighty school classes suggested names, and the winner borrowed the title of a hit radio cabaret, Die Insulaner, the islanders, which is how West Berliners felt. Later the stargazers moved in: there's an observatory on top, and a planetarium at its foot since 1965."
+    },
+    {
+      "id": "grazer-damm",
+      "name": "Grazer Damm estate",
+      "lat": 52.4642,
+      "lon": 13.3485,
+      "text": "The long, plain, five-storey blocks along Grazer Damm went up between 1938 and 1940: more than two thousand flats, the biggest housing programme Berlin saw in the Nazi years. Notice what's missing. No balconies and no loggias, just a deliberately monumental front. These blocks are the only part ever built of the plans to turn this whole southern area into a new district of Hitler's Germania, complete with an enormous railway station."
+    },
+    {
+      "id": "malerviertel",
+      "name": "Rubensstraße and the painters' quarter",
+      "lat": 52.47082,
+      "lon": 13.34373,
+      "text": "This is Rubensstraße, named in 1892 after the Flemish master Peter Paul Rubens. Before that it was simply called Street One. At around the same time other streets here were given painters' names too, which is why the side streets nearby are called after Rembrandt, Menzel and Cranach, and why this corner of Schöneberg is known as the Malerviertel, the painters' quarter."
+    },
+    {
+      "id": "innsbrucker-platz",
+      "name": "Innsbrucker Platz and the U4",
+      "lat": 52.47899,
+      "lon": 13.34367,
+      "text": "Innsbrucker Platz is the end of the line, quite literally. Under your wheels is the terminus of the U4, Berlin's shortest underground line at under three kilometres. The city of Schöneberg built it itself and opened it in December 1910, after Berlin's underground company decided such a short line would never pay. The station was first called Hauptstraße. When the city motorway was tunnelled under the square in the 1970s, the tracks were cut off, so the U4 can never be extended south."
+    },
+    {
+      "id": "rias",
+      "name": "The RIAS building",
+      "lat": 52.48034,
+      "lon": 13.33734,
+      "trigger": [
+        52.47962,
+        13.3369
+      ],
+      "text": "On your right at Hans-Rosenthal-Platz stands the old home of RIAS, Radio in the American Sector. RIAS went on air in 1946 and moved in here in July 1948, calling itself a free voice of the free world. During the East German uprising of June 1953 it reported hour by hour, and its cabaret Die Insulaner gave that rubble hill its name. RIAS closed at the end of 1993. Today Deutschlandfunk Kultur is made here, and on Sundays at noon it still broadcasts the Freedom Bell."
+    }
+  ]
+}
