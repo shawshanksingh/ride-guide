@@ -1,0 +1,208 @@
+{
+  "id": "expressionists-currywurst-and-devils-mountain",
+  "name": "Expressionists, Currywurst and the Devil's Mountain",
+  "city": "Berlin",
+  "description": "A 13.4 km one-way ride west to the Teufelsberg: Fasanenplatz, Anne Frank's room-mate's Berlin, the Lotto House, the lost Friedenstempel synagogue, Der Sturm and the Expressionists, Vostell's concrete Cadillacs, the inventor of currywurst, the Eichkamp settlement, the Mommsenstadion, Kite Mountain, the Teufelssee and the Cold War listening station. Ends at S Heerstraße. Includes forest tracks and a climb.",
+  "distanceKmApprox": 13.4,
+  "lang": "en-GB",
+  "profile": "bike",
+  "start": {
+    "name": "Bamberger Str. 8",
+    "lat": 52.49553,
+    "lon": 13.33701
+  },
+  "waypoints": [
+    [
+      52.49553,
+      13.33701
+    ],
+    [
+      52.49809,
+      13.32717
+    ],
+    [
+      52.49918,
+      13.31113
+    ],
+    [
+      52.5002,
+      13.2991
+    ],
+    [
+      52.502,
+      13.2956
+    ],
+    [
+      52.5,
+      13.29268
+    ],
+    [
+      52.49488,
+      13.28543
+    ],
+    [
+      52.5011,
+      13.26206
+    ],
+    [
+      52.50298,
+      13.25177
+    ],
+    [
+      52.4943,
+      13.23843
+    ],
+    [
+      52.49759,
+      13.23892
+    ],
+    [
+      52.50818,
+      13.25793
+    ]
+  ],
+  "cueOverrides": [
+    {
+      "lat": 52.495931,
+      "lon": 13.331237,
+      "radius": 15,
+      "text": "At the end of Regensburger Straße, turn right towards Bundesallee",
+      "dir": "right"
+    },
+    {
+      "lat": 52.496217,
+      "lon": 13.331215,
+      "radius": 15,
+      "text": "Cross Bundesallee and turn left onto Meierottostraße",
+      "dir": "left"
+    },
+    {
+      "lat": 52.494879,
+      "lon": 13.285432,
+      "radius": 20,
+      "text": "Go round Rathenauplatz and head north on Halenseestraße beside the motorway. Short walking stretch at the crossing",
+      "dir": "right"
+    },
+    {
+      "lat": 52.49366,
+      "lon": 13.23917,
+      "radius": 15,
+      "text": "Turn right onto the forest track up towards the Teufelsberg",
+      "dir": "right"
+    }
+  ],
+  "intro": "Today's ride is one-way, about thirteen and a half kilometres, or fifty-five minutes at fifteen kilometres an hour. We head west through Wilmersdorf and Halensee past the Expressionists, a lost synagogue, concrete Cadillacs and the birthplace of currywurst, then take forest tracks up the Teufelsberg, Berlin's Cold War spy mountain. There's a climb and some gravel, and we finish at S Heerstraße.",
+  "outro": "And that's the Devil's Mountain conquered. You're at S Heerstraße, just ahead on Heerstraße, with S3 and S9 trains back towards the city. Well ridden!",
+  "pois": [
+    {
+      "id": "fasanenplatz",
+      "name": "Fasanenplatz",
+      "lat": 52.49852,
+      "lon": 13.32727,
+      "text": "On your right is Fasanenplatz, one of a chain of squares laid out to the plans of the developer Johann Anton Wilhelm von Carstenn, the man behind Prager and Nikolsburger Platz too. Between 1911 and 1933 the streets around here were a hub of literary and artistic life, where writers, publishers and gallery owners met. The slender water stele in the square is younger: Rolf Lieberknecht made it in 1987."
+    },
+    {
+      "id": "pariser-strasse",
+      "name": "Pariser Straße 21 and 22",
+      "lat": 52.49856,
+      "lon": 13.31762,
+      "text": "Here on Pariser Straße, look out for numbers twenty-one and twenty-two. The pianist and composer Ignaz Friedman lived at number twenty-one from 1914 to 1927. And this was Charlotte Kaletta's last address before she left for Amsterdam. Her partner was the dentist Fritz Pfeffer, who later hid in the Secret Annex and shared a room with Anne Frank. Miep Gies carried their letters, yet Charlotte never knew he was hiding so close by."
+    },
+    {
+      "id": "lotto-haus",
+      "name": "Moriz Seeler and the Lotto House",
+      "lat": 52.49919,
+      "lon": 13.30693,
+      "text": "As you ride up Brandenburgische Straße, the building on your left at number thirty-six is the Lotto House, built in the mid nineteen-fifties for the Berlin state lottery. A plaque remembers Moriz Seeler, who lived on this spot from 1916. He founded the Junge Bühne, a daring matinee stage for young playwrights, and later co-produced the classic film People on Sunday. In 1942 he was deported to Riga and murdered."
+    },
+    {
+      "id": "friedenstempel",
+      "name": "The Friedenstempel synagogue",
+      "lat": 52.49993,
+      "lon": 13.29892,
+      "text": "On Markgraf-Albrecht-Straße, look for the plaque near number eleven. Here stood the Friedenstempel, the Temple of Peace, a synagogue inaugurated in September 1923. It was paid for by Salomon Goldberg, who also owned Luna Park, once Europe's largest amusement park, just down the road. Nazi mobs set it on fire in the November pogrom of 1938, the ruin was cleared in 1959, and the plaque went up in 1988."
+    },
+    {
+      "id": "der-sturm",
+      "name": "Der Sturm, Katharinenstraße 5",
+      "lat": 52.4986,
+      "lon": 13.2926,
+      "text": "You're riding down Katharinenstraße. At number five, Herwarth Walden founded the magazine Der Sturm, The Storm, in 1910, and it became the great forum of German Expressionism. He lived and worked here together with the poet Else Lasker-Schüler. Both paid dearly later. Lasker-Schüler fled in 1933 and died poor in Jerusalem, while Walden, who had emigrated to the Soviet Union, died in Stalin's prisons in 1941."
+    },
+    {
+      "id": "concrete-cadillacs",
+      "name": "Concrete Cadillacs on Rathenauplatz",
+      "lat": 52.49488,
+      "lon": 13.28543,
+      "text": "Up on this bridge the Kurfürstendamm sits twelve metres higher than at the Memorial Church. Now look into the middle of Rathenauplatz: two Cadillacs entombed in concrete. The Fluxus artist Wolf Vostell made them for Berlin's seven hundred and fiftieth birthday in 1987, and called them Two Concrete Cadillacs in the Form of the Naked Maja. It's a jab at our love affair with the car, right beside the motorway."
+    },
+    {
+      "id": "currywurst",
+      "name": "Herta Heuwer and the currywurst",
+      "lat": 52.502,
+      "lon": 13.2775,
+      "text": "The Eichkamp estate just ahead was home to Herta Heuwer. On the fourth of September 1949, at her sausage stand on the corner of Kantstraße and Kaiser-Friedrich-Straße, she created her own spicy sauce to pour over a grilled sausage, and the currywurst was born. She later registered the name Chillup for her special sauce, and since 2003 a plaque on Kantstraße has honoured her."
+    },
+    {
+      "id": "eichkamp",
+      "name": "The Eichkamp settlement",
+      "lat": 52.4975,
+      "lon": 13.27,
+      "text": "This is the Eichkamp settlement, built between 1918 and 1929 by Max and Bruno Taut, Martin Wagner and others as affordable homes for clerks and civil servants, right beside the AVUS. It takes its name from an old forester's lodge in the Grunewald. The writers Arnold Zweig, Ludwig Marcuse and Elisabeth Langgässer lived here. In the Nazi years many Jewish neighbours were persecuted, and twenty-seven are now remembered by Stolpersteine."
+    },
+    {
+      "id": "mommsenstadion",
+      "name": "Mommsenstadion",
+      "lat": 52.50108,
+      "lon": 13.26439,
+      "text": "On your right is the Mommsenstadion, opened on the seventeenth of August 1930 and designed by the architect Fred Forbát. It hosted four football matches at the 1936 Olympics and is the home ground of Tennis Borussia. In 2006 the German national team trained here during the World Cup, and Austria made it their base for the European Championship in 2024."
+    },
+    {
+      "id": "drachenberg",
+      "name": "Drachenberg, Kite Mountain",
+      "lat": 52.50237,
+      "lon": 13.24824,
+      "text": "The green hill on your right is the Drachenberg, Kite Mountain, ninety-nine metres high and built, like its bigger neighbour, from the rubble of the Second World War. Its plateau has no large trees, so on weekends Berliners come to fly kites, and paragliders launch from the top. Climb the steps from the car park another day and you'll see the Olympic Stadium, the TV Tower and the listening station next door.",
+      "trigger": [
+        52.5026,
+        13.2516
+      ]
+    },
+    {
+      "id": "teufelsberg-rubble",
+      "name": "The Devil's Mountain",
+      "lat": 52.4965,
+      "lon": 13.2465,
+      "text": "The wooded slope rising on your right is the Teufelsberg, the Devil's Mountain. Between 1950 and 1972, around twenty-six million cubic metres of bombed-out Berlin were tipped here, carried by some eight hundred lorries a day. Today it stands about a hundred and fifteen metres high. And underneath all that rubble lies a building that never held a single lecture. More on that at the top.",
+      "trigger": [
+        52.49594,
+        13.24806
+      ]
+    },
+    {
+      "id": "teufelssee",
+      "name": "Teufelssee",
+      "lat": 52.4932,
+      "lon": 13.238,
+      "text": "Through the trees ahead and to your left lies the Teufelssee, the Devil's Lake, edged by the Teufelsfenn, a protected moor. Peat was once shipped out of the fen along a ditch to the Havel. In summer people swim here, and by the shore the Ökowerk nature centre has made its home in a historic waterworks, with a little museum about Berlin's water. Now, the climb begins.",
+      "trigger": [
+        52.49366,
+        13.23917
+      ]
+    },
+    {
+      "id": "field-station",
+      "name": "Field Station Berlin",
+      "lat": 52.4975,
+      "lon": 13.24,
+      "text": "You've made it to the top. In 1937 Hitler laid the foundation stone here for a military technical faculty of the Berlin Institute of Technology. Work stopped in 1940, and after the war its shell was simply buried under the rubble. In the early nineteen-sixties the Americans took over the summit, sharing it with the British, and in 1969 they began building the radar station behind this fence."
+    },
+    {
+      "id": "listening-post",
+      "name": "The listening post today",
+      "lat": 52.503,
+      "lon": 13.245,
+      "text": "As you roll down through the forest, picture those white domes in the Cold War. From up there, the Americans and British could intercept radio traffic as far away as the Ural mountains. The station served the National Security Agency and British intelligence until 1992, then slowly decayed. Since October 2018 it has been a protected monument, and its crumbling halls are now an open-air street art gallery."
+    }
+  ]
+}

@@ -1,6 +1,90 @@
 {
   "routes": [
     {
+      "id": "expressionists-currywurst-and-devils-mountain",
+      "file": "expressionists-currywurst-and-devils-mountain.json",
+      "name": "Expressionists, Currywurst and the Devil's Mountain",
+      "city": "Berlin",
+      "distanceKmApprox": 13.4,
+      "summary": "Weimar culture and the Cold War, heading west: Fasanenplatz, the Lotto House, the lost Friedenstempel, Der Sturm, Vostell's concrete Cadillacs, the currywurst's inventor, Eichkamp, the Mommsenstadion, Kite Mountain, the Teufelssee and the Teufelsberg listening station.",
+      "shape": "one-way",
+      "endName": "S Heerstraße",
+      "created": "2026-10-18"
+    },
+    {
+      "id": "courage-and-canals-ploetzensee-loop",
+      "file": "courage-and-canals-ploetzensee-loop.json",
+      "name": "Courage and Canals: the Plötzensee Loop",
+      "city": "Berlin",
+      "distanceKmApprox": 14.7,
+      "summary": "Resistance and canals in the north-west: the Theater des Westens, Ernst-Reuter-Platz, the birthplace of quantum physics, the Charlottenburg power station, the Goerdeler footbridge and resistance streets, the Plötzensee Memorial, the Westhafen, the Levetzowstraße memorial and the Femina-Palast.",
+      "shape": "loop",
+      "created": "2026-10-17"
+    },
+    {
+      "id": "gliders-trams-and-cadets-to-lichterfelde",
+      "file": "gliders-trams-and-cadets-to-lichterfelde.json",
+      "name": "Gliders, Trams and Cadets",
+      "city": "Berlin",
+      "distanceKmApprox": 14.6,
+      "summary": "Pioneers of Lichterfelde: Emil's square, Drake's grape-picker on Bundesplatz, the weather-naming tower, Lichterfelde West station and the Swiss Quarter, the Main Cadet Academy, Drakestraße, the manor and village church, the Teltow Canal, Lilienthal's memorial and home, and the world's first electric tram.",
+      "shape": "one-way",
+      "endName": "S Lichterfelde Ost",
+      "created": "2026-10-16"
+    },
+    {
+      "id": "domes-minarets-and-village-churches-loop",
+      "file": "domes-minarets-and-village-churches-loop.json",
+      "name": "Domes, Minarets & Village Churches: Wilmersdorf Faith Loop",
+      "city": "Berlin",
+      "distanceKmApprox": 11.7,
+      "summary": "Loop west to Schmargendorf: a lost synagogue, Wilmersdorf's village green, a cathedral-like U-Bahn station, a tiny medieval church, the Russian Orthodox cathedral and Germany's oldest mosque.",
+      "shape": "loop",
+      "created": "2026-10-15"
+    },
+    {
+      "id": "templars-and-garden-city-loop",
+      "file": "templars-and-garden-city-loop.json",
+      "name": "Templars, Pilots & a Haunted Pond: Tempelhof Loop",
+      "city": "Berlin",
+      "distanceKmApprox": 14.9,
+      "summary": "14.9 km loop into old Tempelhof: Speer's concrete test weight, the garden city and its pilots' streets, the Knights Templar village and church, the harbour and Ullstein tower, the ufaFabrik and the legend of the Blanke Helle.",
+      "shape": "loop",
+      "created": "2026-10-14"
+    },
+    {
+      "id": "hasenheide-and-bohemian-rixdorf",
+      "file": "hasenheide-and-bohemian-rixdorf.json",
+      "name": "Hares, Gymnasts & Bohemians: Schöneberg → Neukölln",
+      "city": "Berlin",
+      "distanceKmApprox": 11.1,
+      "summary": "Hares, gymnasts and Bohemians: Isherwood's Cabaret house, Bülowstraße station, the Möckernkiez, Riehmers Hofgarten, Chamissoplatz, Stresemann's cemetery, the Hasenheide rubble hill and Father Jahn, Hermannplatz, Neukölln town hall and opera, the Comenius Garden and Richardplatz.",
+      "shape": "one-way",
+      "endName": "S+U Neukölln",
+      "created": "2026-10-13"
+    },
+    {
+      "id": "rebels-murals-and-the-wall",
+      "file": "rebels-murals-and-the-wall.json",
+      "name": "Rebels, Murals & the Wall: Schöneberg → Warschauer Straße",
+      "city": "Berlin",
+      "distanceKmApprox": 11.4,
+      "summary": "Street art, rebels and the Wall: Urban Nation, Gleisdreieck, Mehringplatz, the Jewish Museum, Moritzplatz, Oranienplatz, Kottbusser Tor, Rio-Reiser-Platz and SO36, Bethanien and the Rauch-Haus, the Treehouse at the Wall, the East Side Gallery and the Oberbaum bridge.",
+      "shape": "one-way",
+      "endName": "S+U Warschauer Straße",
+      "created": "2026-10-12"
+    },
+    {
+      "id": "botanic-garden-and-potsdam-road-loop",
+      "file": "botanic-garden-and-potsdam-road-loop.json",
+      "name": "Glasshouses & the Potsdam Road: Botanic Garden Loop",
+      "city": "Berlin",
+      "distanceKmApprox": 13.6,
+      "summary": "Gardens and the old Potsdam road: the Schoeler-Schlösschen, the Wilmersdorf Artists' Colony, the Botanical Museum and Great Tropical Greenhouse, round the Botanic Garden, Unter den Eichen, Papa Wrangel's manor and the Schlosspark Theater, Steglitz town hall and the Kreisel, the Titania-Palast and Renée-Sintenis-Platz.",
+      "shape": "loop",
+      "created": "2026-10-10"
+    },
+    {
       "id": "charlotte-padel-ride",
       "file": "charlotte-padel-ride.json",
       "name": "To Charlotte Padel Club via Zoo & the Spree",
