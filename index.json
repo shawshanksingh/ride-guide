@@ -1,16 +1,6 @@
 {
   "routes": [
     {
-      "id": "courage-and-canals-ploetzensee-loop",
-      "file": "courage-and-canals-ploetzensee-loop.json",
-      "name": "Courage and Canals: the Plötzensee Loop",
-      "city": "Berlin",
-      "distanceKmApprox": 14.7,
-      "summary": "Resistance and canals in the north-west: the Theater des Westens, Ernst-Reuter-Platz, the birthplace of quantum physics, the Charlottenburg power station, the Goerdeler footbridge and resistance streets, the Plötzensee Memorial, the Westhafen, the Levetzowstraße memorial and the Femina-Palast.",
-      "shape": "loop",
-      "created": "2026-10-17"
-    },
-    {
       "id": "gliders-trams-and-cadets-to-lichterfelde",
       "file": "gliders-trams-and-cadets-to-lichterfelde.json",
       "name": "Gliders, Trams and Cadets",

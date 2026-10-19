@@ -1,0 +1,248 @@
+{
+  "id": "gliders-trams-and-cadets-to-lichterfelde",
+  "name": "Gliders, Trams and Cadets",
+  "city": "Berlin",
+  "description": "A one-way 14.6 km ride from home into Carstenn's Lichterfelde, Berlin's oldest villa suburb: Emil's square, Drake's grape-picker on Bundesplatz, the weather-naming tower on the Fichtenberg, Lichterfelde West station and the Swiss Quarter, the old Main Cadet Academy, Drakestraße, the manor and village church, the Teltow Canal, Lilienthal's memorial and home, and the world's first electric tram at S Lichterfelde Ost.",
+  "distanceKmApprox": 14.6,
+  "lang": "en-GB",
+  "profile": "bike",
+  "start": {
+    "name": "Bamberger Str. 8",
+    "lat": 52.49553,
+    "lon": 13.33701
+  },
+  "waypoints": [
+    [
+      52.49553,
+      13.33701
+    ],
+    [
+      52.4958,
+      13.3355
+    ],
+    [
+      52.4931,
+      13.333
+    ],
+    [
+      52.49092,
+      13.329
+    ],
+    [
+      52.489,
+      13.3309
+    ],
+    [
+      52.4755,
+      13.3255
+    ],
+    [
+      52.46,
+      13.317
+    ],
+    [
+      52.45823,
+      13.31187
+    ],
+    [
+      52.44,
+      13.2952
+    ],
+    [
+      52.43237,
+      13.304
+    ],
+    [
+      52.43587,
+      13.30463
+    ],
+    [
+      52.4376,
+      13.3175
+    ],
+    [
+      52.4342,
+      13.3172
+    ],
+    [
+      52.4355,
+      13.323
+    ],
+    [
+      52.4296,
+      13.327
+    ]
+  ],
+  "cueOverrides": [
+    {
+      "lat": 52.49587,
+      "lon": 13.3371,
+      "radius": 12,
+      "text": "Turn left onto Regensburger Straße",
+      "dir": "left"
+    },
+    {
+      "lat": 52.49293,
+      "lon": 13.33306,
+      "radius": 10,
+      "text": "Bear right onto Trautenaustraße",
+      "dir": "slight-right"
+    },
+    {
+      "lat": 52.4757,
+      "lon": 13.32668,
+      "radius": 10,
+      "text": "Turn left, then bear left onto Südwestkorso",
+      "dir": "left"
+    },
+    {
+      "lat": 52.47571,
+      "lon": 13.3255,
+      "radius": 10,
+      "drop": true
+    },
+    {
+      "lat": 52.43788,
+      "lon": 13.31559,
+      "radius": 10,
+      "text": "Cross Hindenburgdamm and carry straight on towards Krahmerstraße",
+      "dir": "straight"
+    },
+    {
+      "lat": 52.43781,
+      "lon": 13.31623,
+      "radius": 8,
+      "drop": true
+    },
+    {
+      "lat": 52.4376,
+      "lon": 13.31736,
+      "radius": 8,
+      "drop": true
+    },
+    {
+      "lat": 52.4372,
+      "lon": 13.31918,
+      "radius": 10,
+      "text": "Turn sharp right onto the path along the canal",
+      "dir": "sharp-right"
+    },
+    {
+      "lat": 52.43462,
+      "lon": 13.31593,
+      "radius": 10,
+      "text": "Turn left over the canal on Bäkestraße",
+      "dir": "left"
+    }
+  ],
+  "intro": "Welcome to Gliders, Trams and Cadets: a one-way ride of about fourteen and a half kilometres, just under an hour, ending at Lichterfelde Ost station. We ride south into Carstenn's villa suburb of Lichterfelde, with cadets, a canal, the world's first electric tram and a pioneer of gliding. Fourteen stories. Head north on Bamberger Straße to begin.",
+  "outro": "And here's Lichterfelde Ost station, the end of today's ride. The S25 and S26, plus regional trains, will carry you home from here. Thanks for riding!",
+  "pois": [
+    {
+      "id": "nikolsburger-platz",
+      "name": "Nikolsburger Platz",
+      "lat": 52.4934,
+      "lon": 13.3288,
+      "text": "Here is Nikolsburger Platz. It belongs to a little chain of squares laid out by Johann Anton Wilhelm von Carstenn, the developer we'll meet again at the end of today's ride. In Erich Kästner's Emil and the Detectives, this is where Emil and the Wilmersdorf children gather to plan how to catch the thief who stole his money, after Emil hopped off the tram at the corner of Trautenaustraße."
+    },
+    {
+      "id": "bundesplatz",
+      "name": "Bundesplatz",
+      "lat": 52.4778,
+      "lon": 13.3283,
+      "text": "This is Bundesplatz. It began in 1875 as Straßburger Platz, became Kaiserplatz in 1888, and got today's name in 1950 to underline West Berlin's ties to the Federal Republic. A car tunnel split it in two in 1972. Look out for a copy of the Winzerin, a grape-picker by the sculptor Friedrich Drake; remember his name. From the mid-nineteen-eighties until 2012, two filmmakers followed the people living around this square in a famous long-term documentary, Berlin, Ecke Bundesplatz."
+    },
+    {
+      "id": "gritznerstrasse",
+      "name": "Gritznerstraße",
+      "lat": 52.46535,
+      "lon": 13.3174,
+      "text": "You're on Gritznerstraße, named in 1947 after Maximilian Gritzner, who died here in Steglitz in 1902. He was an expert in heraldry and designed the Steglitz coat of arms, which is still used in a modified form, although his original drawing was lost when Dresden was bombed. On the side he wrote plays under the pen name Max Fernand. Before 1939 this stretch was two streets, Arndtstraße and Friesenstraße."
+    },
+    {
+      "id": "fichtenberg",
+      "name": "The Fichtenberg weather tower",
+      "lat": 52.4579,
+      "lon": 13.3111,
+      "text": "We're up on the Fichtenberg, at sixty-eight metres the highest point in the district. Its water tower went up in 1885 to supply Berlin's south-west, and today the Free University's meteorologists work in it. Since November 1954 this institute has given names to the highs and lows on our weather maps, and since 2002 anyone can sponsor one. So the next storm in the news may well have been christened right here."
+    },
+    {
+      "id": "altensteinstrasse",
+      "name": "Altensteinstraße",
+      "lat": 52.4513,
+      "lon": 13.2972,
+      "text": "The long avenue beside the Botanic Garden is Altensteinstraße, named in 1905 after Karl vom Stein zum Altenstein. From 1817 he was Prussia's very first minister of culture and education, and he stayed in the job for over twenty years. He founded the University of Bonn in 1818 and in 1825 extended compulsory schooling across the whole of Prussia. A fitting name for the edge of Dahlem's university quarter."
+    },
+    {
+      "id": "lichterfelde-west-station",
+      "name": "Lichterfelde West station",
+      "lat": 52.4433,
+      "lon": 13.2947,
+      "text": "Here is Lichterfelde West station, opened on the fifteenth of December 1872 and paid for by the developer Carstenn himself. Built like an Italian country villa, in yellow brick with a tower and an open belvedere on top, it was designed to suit the villa colony around it. After the war the American army ran its own trains from here: from 1947 until 1994 its duty trains from Frankfurt and Bremerhaven ended at Lichterfelde West."
+    },
+    {
+      "id": "swiss-quarter",
+      "name": "Carstenn's villa colony",
+      "lat": 52.4405,
+      "lon": 13.2952,
+      "text": "You're riding through Berlin's oldest villa quarter. In the 1860s Carstenn, a Hamburg merchant, bought up the run-down estates of Lichterfelde and Giesensdorf and sold off plots for country houses with turrets, bay windows and half-timbering. This corner is called the Swiss Quarter after its Swiss street names, like Baseler Straße here. In 1871 Carstenn gave the Prussian state about twenty-one hectares of land, to tempt the army's cadet school out here. It worked."
+    },
+    {
+      "id": "cadet-academy",
+      "name": "The Main Cadet Academy",
+      "lat": 52.4322,
+      "lon": 13.2998,
+      "text": "On your right is the old Main Cadet Academy. The Kaiser laid its foundation stone in 1873, and from 1878 the army's officer boys trained here, among them Manfred von Richthofen, the Red Baron, and Hermann Göring. After 1933 it became the barracks of Hitler's SS bodyguard, and in the purge of the summer of 1934 men were shot in its yard. The Americans used it until 1994; today it houses the Federal Archives."
+    },
+    {
+      "id": "drakestrasse",
+      "name": "Drakestraße",
+      "lat": 52.4362,
+      "lon": 13.3043,
+      "text": "This is Drakestraße, named in 1866, when Carstenn laid out the colony. Remember the grape-picker on Bundesplatz? Same man. Friedrich Drake trained as a turner in his father's workshop before he became a sculptor, and his most famous work glitters above the Tiergarten: the gilded Victoria on top of the Victory Column, more than eight metres tall, which Berliners call Golden Else. Nearby, at number sixty-four A, is the Steglitz local history museum."
+    },
+    {
+      "id": "gutshaus-lichterfelde",
+      "name": "Lichterfelde manor and village church",
+      "lat": 52.438,
+      "lon": 13.3157,
+      "text": "As you cross Hindenburgdamm, look left for the classical manor house of Lichterfelde, known as the Carstenn-Schlösschen after the man who bought the estate. Around it, the Schlosspark is a nature reserve with very old trees, a remnant of the forest that once lined the little river Bäke. Just to your right is the old village church, a fieldstone church from the fourteenth century, wrecked in the Thirty Years' War and rebuilt several times.",
+      "trigger": [
+        52.438,
+        13.3152
+      ]
+    },
+    {
+      "id": "teltow-canal",
+      "name": "The Teltow Canal",
+      "lat": 52.43668,
+      "lon": 13.31853,
+      "text": "Now we follow the Teltow Canal. It was dug between 1900 and 1906 and runs for almost thirty-eight kilometres, from the Havel near Potsdam to the Dahme in Köpenick. Kaiser Wilhelm the Second came to open it in 1906. Side canals link it to the Spree and, through Neukölln, to the Landwehr Canal, and today its banks make a lovely green corridor for cyclists."
+    },
+    {
+      "id": "lilienthal-memorial",
+      "name": "The Lilienthal memorial",
+      "lat": 52.43365,
+      "lon": 13.31649,
+      "text": "Just to your right, on the canal bank, a bronze Icarus spreads his arms on a tall stone plinth. The citizens of Lichterfelde commissioned this memorial to their most famous neighbour, the flight pioneer Otto Lilienthal, and it was unveiled in June 1914. In front is a portrait relief of Lilienthal, rebuilt from old photographs when the monument was restored in 2012; on the back, a saying attributed to Leonardo da Vinci.",
+      "trigger": [
+        52.4343,
+        13.3169
+      ]
+    },
+    {
+      "id": "lilienthal-home",
+      "name": "Lilienthal's home, Boothstraße 17",
+      "lat": 52.4355,
+      "lon": 13.323,
+      "text": "Here on Boothstraße, at number seventeen, Otto Lilienthal lived. By trade he ran a steam-boiler and engine factory, but his passion was flight. In 1894 he had a fifteen-metre hill heaped up in the south of Lichterfelde, the Fliegeberg, and made well over a thousand glides from it, some more than eighty metres long. He died in August 1896 after a crash near Stölln, and lies in Lankwitz cemetery."
+    },
+    {
+      "id": "first-electric-tram",
+      "name": "The world's first electric tram",
+      "lat": 52.43,
+      "lon": 13.3268,
+      "text": "Here at Lichterfelde Ost station, history ran on rails. On the sixteenth of May 1881, Siemens and Halske opened the world's first electric tram line, built for Carstenn, running from this station to the Main Cadet Academy you passed earlier. Werner Siemens had wanted an electric railway on Friedrichstraße, but local opposition blocked it, so the future of urban transport was tried out first in a quiet villa suburb."
+    }
+  ]
+}

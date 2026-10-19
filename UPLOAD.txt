@@ -1,25 +1,28 @@
-HOW TO UPLOAD
-GitHub → shawshanksingh/ride-guide → Add file → Upload files → drag in courage-and-canals-ploetzensee-loop.json and index.json → Commit.
+HOW TO PUBLISH
+GitHub → shawshanksingh/ride-guide → Add file → Upload files → drag in gliders-trams-and-cadets-to-lichterfelde.json and index.json → Commit.
 Then on the phone open the app, close it, open it again.
 
-NOTE: GitHub's index.json still ends at 2026-10-10. This index.json also keeps the routes from 12–16 October that are in your local folders but not yet uploaded — upload those route files too if you haven't (rebels-murals-and-the-wall, hasenheide-and-bohemian-rixdorf, templars-and-garden-city-loop, domes-minarets-and-village-churches-loop, gliders-trams-and-cadets-to-lichterfelde).
+NOTE: index.json also keeps the five routes from 10–15 October that are in your local folders but not yet on GitHub
+(botanic-garden-and-potsdam-road-loop, rebels-murals-and-the-wall, hasenheide-and-bohemian-rixdorf,
+templars-and-garden-city-loop, domes-minarets-and-village-churches-loop). Upload their JSON files too if you haven't yet.
 
 ROUTE SUMMARY
-Name: Courage and Canals: the Plötzensee Loop
-Distance: 14.7 km (about 1 hour at 15 km/h)
-Shape: Loop from Bamberger Str. 8 and back
-Theme: Resistance and remembrance, with canals and industry in north-west Charlottenburg and Moabit
-
-Validated with the app's own nav.js + OSRM bike router: 14,732 m, all waypoints snapped within 23 m, no U-turn cues (ramp hairpins at the Spree bridge and the Goerdelersteg are covered by cue overrides), all POIs within 40 m of the route or given an on-route trigger, at least 370 m apart.
-
-Stories (10):
-1. Theater des Westens (Kantstraße)
-2. Ernst-Reuter-Platz and the Telefunken tower
-3. Physikalisch-Technische Reichsanstalt (Rubens, Planck and the birth of quantum physics)
-4. Charlottenburg power station (across the Spree)
-5. Goerdelersteg — Carl Goerdeler
-6. Allotments, the Paul-Hertz estate and the resistance street names
-7. Plötzensee Memorial (up Hüttigpfad on your left)
-8. Westhafen (from the Beusselstraße canal bridge)
-9. Levetzowstraße deportation memorial
-10. Femina-Palast (Nürnberger Straße)
+Name: Gliders, Trams and Cadets
+Distance: 14.6 km (validated bike route), about 1 hour at 15 km/h
+Shape: one-way, from Bamberger Str. 8 to S Lichterfelde Ost (S25, S26 + regional trains)
+Theme: Lichterfelde's pioneers — Carstenn's villa suburb, the cadet academy, the Teltow Canal, Otto Lilienthal and the world's first electric tram (1881)
+Stories:
+  1. Nikolsburger Platz
+  2. Bundesplatz
+  3. Gritznerstraße
+  4. The Fichtenberg weather tower
+  5. Altensteinstraße
+  6. Lichterfelde West station
+  7. Carstenn's villa colony
+  8. The Main Cadet Academy
+  9. Drakestraße
+  10. Lichterfelde manor and village church
+  11. The Teltow Canal
+  12. The Lilienthal memorial
+  13. Lilienthal's home, Boothstraße 17
+  14. The world's first electric tram
