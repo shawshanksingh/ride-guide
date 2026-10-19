@@ -1,17 +1,6 @@
 {
   "routes": [
     {
-      "id": "expressionists-currywurst-and-devils-mountain",
-      "file": "expressionists-currywurst-and-devils-mountain.json",
-      "name": "Expressionists, Currywurst and the Devil's Mountain",
-      "city": "Berlin",
-      "distanceKmApprox": 13.4,
-      "summary": "Weimar culture and the Cold War, heading west: Fasanenplatz, the Lotto House, the lost Friedenstempel, Der Sturm, Vostell's concrete Cadillacs, the currywurst's inventor, Eichkamp, the Mommsenstadion, Kite Mountain, the Teufelssee and the Teufelsberg listening station.",
-      "shape": "one-way",
-      "endName": "S Heerstraße",
-      "created": "2026-10-18"
-    },
-    {
       "id": "courage-and-canals-ploetzensee-loop",
       "file": "courage-and-canals-ploetzensee-loop.json",
       "name": "Courage and Canals: the Plötzensee Loop",

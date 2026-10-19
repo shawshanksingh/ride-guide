@@ -1,0 +1,186 @@
+{
+  "id": "courage-and-canals-ploetzensee-loop",
+  "name": "Courage and Canals: the Plötzensee Loop",
+  "city": "Berlin",
+  "description": "A 14.7 km loop north from home to the canals of Charlottenburg-Nord and the memory of the resistance: the Theater des Westens, Ernst-Reuter-Platz and the Telefunken tower, the institute where quantum physics began, the Charlottenburg power station, the Goerdeler footbridge, the allotments and resistance streets, the Plötzensee Memorial, the Westhafen, the Levetzowstraße deportation memorial and the Femina-Palast.",
+  "distanceKmApprox": 14.7,
+  "lang": "en-GB",
+  "profile": "bike",
+  "start": {
+    "name": "Bamberger Str. 8",
+    "lat": 52.49553,
+    "lon": 13.33701
+  },
+  "waypoints": [
+    [
+      52.49553,
+      13.33701
+    ],
+    [
+      52.50585,
+      13.329
+    ],
+    [
+      52.50905,
+      13.32633
+    ],
+    [
+      52.516,
+      13.3242
+    ],
+    [
+      52.51943,
+      13.31885
+    ],
+    [
+      52.52511,
+      13.30618
+    ],
+    [
+      52.5378,
+      13.324
+    ],
+    [
+      52.53003,
+      13.32876
+    ],
+    [
+      52.506,
+      13.342
+    ],
+    [
+      52.49553,
+      13.33701
+    ]
+  ],
+  "cueOverrides": [
+    {
+      "lat": 52.52072,
+      "lon": 13.30516,
+      "radius": 25,
+      "text": "Follow the path as it doubles back up onto the bridge, then cross the Spree",
+      "dir": "sharp-left"
+    },
+    {
+      "lat": 52.52028,
+      "lon": 13.3062,
+      "radius": 25,
+      "drop": true
+    },
+    {
+      "lat": 52.53524,
+      "lon": 13.30489,
+      "radius": 25,
+      "drop": true
+    },
+    {
+      "lat": 52.53513,
+      "lon": 13.30463,
+      "radius": 25,
+      "text": "Follow the ramp down off the footbridge, then keep right on the path heading east",
+      "dir": "right"
+    },
+    {
+      "lat": 52.51457,
+      "lon": 13.34835,
+      "radius": 25,
+      "text": "At the Großer Stern, turn left onto the cycle path around the Victory Column",
+      "dir": "left"
+    },
+    {
+      "lat": 52.51422,
+      "lon": 13.3484,
+      "radius": 25,
+      "drop": true
+    },
+    {
+      "lat": 52.51368,
+      "lon": 13.35,
+      "radius": 25,
+      "text": "Bear right onto Hofjägerallee, heading south",
+      "dir": "slight-right"
+    }
+  ],
+  "intro": "Welcome to Courage and Canals: a loop of just under fifteen kilometres, about an hour at an easy pace, ending back here. We ride past theatres and laboratories to the Spree, cross into Charlottenburg-Nord to the Plötzensee Memorial, then return through Moabit and the Tiergarten. Ten stories in all. Head north on Bamberger Straße to begin.",
+  "outro": "And that's the loop, welcome back to Bamberger Straße. From stages and laboratories to the canals of the north and the Plötzensee Memorial, and home through Moabit. Thank you for riding, and for remembering.",
+  "pois": [
+    {
+      "id": "theater-des-westens",
+      "name": "Theater des Westens",
+      "lat": 52.5059,
+      "lon": 13.32901,
+      "text": "On your right is the Theater des Westens, opened in October 1896 to designs by Bernhard Sehring. Enrico Caruso made his Berlin debut here in 1905, and later Marlene Dietrich and Josephine Baker appeared on its stage. After the war, while the city opera's own house was out of action, the opera company played here until 1961. Then came My Fair Lady, and musicals have filled the house ever since."
+    },
+    {
+      "id": "ernst-reuter-platz",
+      "name": "Ernst-Reuter-Platz",
+      "lat": 52.51189,
+      "lon": 13.32216,
+      "text": "Welcome to Ernst-Reuter-Platz. Berliners called this spot the Knee, because the long road from the old city palace to Charlottenburg bends here. It was renamed in October 1953, four days after the death of Ernst Reuter, the Blockade mayor who stood before the ruined Reichstag and urged the peoples of the world to look upon this city. Look up at the slim tower on the west side: the Telefunken building, eighty metres tall and finished in 1960."
+    },
+    {
+      "id": "reichsanstalt",
+      "name": "Physikalisch-Technische Reichsanstalt",
+      "lat": 52.516,
+      "lon": 13.3232,
+      "text": "On your left is the old Imperial Institute of Physics and Technology, today part of Germany's national measurement institute. Werner von Siemens laid its foundation stone in 1887, and Hermann von Helmholtz became its first president. Here in 1900 Heinrich Rubens and Ferdinand Kurlbaum measured the glow of so-called black bodies. Rubens told Max Planck about the results over dinner, Planck found a formula to fit them that same night, and quantum physics was on its way."
+    },
+    {
+      "id": "kraftwerk",
+      "name": "Charlottenburg power station",
+      "lat": 52.5212,
+      "lon": 13.3115,
+      "text": "Across the river on your right stands the Charlottenburg power station. Charlottenburg was still a separate town when it opened in 1900, built so the town would not depend on Berlin for electricity. It was one of Germany's first three-phase power plants, and from 1912 the first city plant to supply district heating. Its brick halls are classics of Berlin industrial architecture, and three eighty-metre chimneys still rise over a plant that runs on natural gas today.",
+      "trigger": [
+        52.52024,
+        13.31278
+      ]
+    },
+    {
+      "id": "goerdelersteg",
+      "name": "Goerdelersteg",
+      "lat": 52.53407,
+      "lon": 13.30557,
+      "text": "We're crossing the city motorway on the Goerdelersteg, the Goerdeler footbridge, and from here the street names begin to speak of resistance. Carl Goerdeler was mayor of Leipzig from 1930, and quit after the city's monument to the composer Felix Mendelssohn was torn down behind his back. Had the plot of the twentieth of July 1944 succeeded, he was to lead the government. He was arrested that August and executed at Plötzensee on the second of February 1945."
+    },
+    {
+      "id": "allotments",
+      "name": "Allotments and the Paul-Hertz estate",
+      "lat": 52.53605,
+      "lon": 13.3115,
+      "text": "You're riding between allotment gardens now. Behind you to the west lies the Paul-Hertz estate, built in the early 1960s with more than two thousand six hundred flats. Its towers were planned at thirteen storeys, but the Allied air-safety authorities had them cut to eight. All around Charlottenburg-Nord, the streets remember the men of the twentieth of July: Olbricht, Popitz, Klausing, Stieff, Wirmer and Hofacker. Together they form a neighbourhood of remembrance."
+    },
+    {
+      "id": "ploetzensee",
+      "name": "Plötzensee Memorial",
+      "lat": 52.53836,
+      "lon": 13.32569,
+      "text": "Up the lane on your left, called Hüttigpfad, is the Plötzensee Memorial. Between 1933 and 1945 almost three thousand people were put to death in the prison here, and almost half of them were not German. Members of the Red Orchestra resistance group were hanged in December 1942, and in 1944 and 1945 many of the twentieth of July conspirators followed. The execution shed has been a quiet place of remembrance since 1952. If you have time, it's a short ride up the lane."
+    },
+    {
+      "id": "westhafen",
+      "name": "Westhafen",
+      "lat": 52.535,
+      "lon": 13.3295,
+      "text": "As you cross the canal, look left along the water towards the Westhafen, the West Harbour. Work began in 1914, the First World War held it up, and it opened in 1923, linked by canals to the Elbe and the Oder. Its docks cover around forty-three hectares, lined with warehouses of purplish-brown brick, and its landmark is a slender tower with a pyramid roof. More than a century on, it's still a working port.",
+      "trigger": [
+        52.53522,
+        13.32784
+      ]
+    },
+    {
+      "id": "levetzowstrasse",
+      "name": "Levetzowstraße memorial",
+      "lat": 52.5214,
+      "lon": 13.33284,
+      "text": "On your right, a railway freight wagon stands beside a tall iron wall. This is the memorial to the Levetzowstraße synagogue, consecrated in 1914. From October 1941 the Nazis used it as a collection point, where Berlin's Jews were held before deportation. The wall lists sixty-three transports, with their dates and their destinations in the East. The memorial was unveiled in November 1988, and every ninth of November people gather here to remember."
+    },
+    {
+      "id": "femina",
+      "name": "Femina-Palast",
+      "lat": 52.50203,
+      "lon": 13.3384,
+      "text": "On your left, the long building of about a hundred and fifty metres is the old Femina-Palast, built between 1928 and 1931. Its dance hall was one of the most fashionable in Weimar Berlin, famous for telephones at the tables, so you could ring a stranger across the room. Bombs destroyed the ballroom, but the building survived to host the Badewanne jazz club in the fifties and the Dschungel nightclub from 1978 to 1993. Nearly home now."
+    }
+  ]
+}

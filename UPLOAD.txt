@@ -1,28 +1,25 @@
-UPLOAD STEPS
-GitHub → shawshanksingh/ride-guide → Add file → Upload files → drag in expressionists-currywurst-and-devils-mountain.json and index.json → Commit.
+HOW TO UPLOAD
+GitHub → shawshanksingh/ride-guide → Add file → Upload files → drag in courage-and-canals-ploetzensee-loop.json and index.json → Commit.
 Then on the phone open the app, close it, open it again.
 
+NOTE: GitHub's index.json still ends at 2026-10-10. This index.json also keeps the routes from 12–16 October that are in your local folders but not yet uploaded — upload those route files too if you haven't (rebels-murals-and-the-wall, hasenheide-and-bohemian-rixdorf, templars-and-garden-city-loop, domes-minarets-and-village-churches-loop, gliders-trams-and-cadets-to-lichterfelde).
+
 ROUTE SUMMARY
-Name: Expressionists, Currywurst and the Devil's Mountain
-Distance: 13.4 km (about 55 min at 15 km/h)
-Shape: one-way, ending at S Heerstraße (S3, S9)
-Theme: Weimar culture and the Cold War, heading west through Wilmersdorf and Halensee to the Teufelsberg
-Note: the last 4 km are forest tracks with a climb up the Teufelsberg and some gravel; one short walking stretch at the Rathenauplatz crossing.
+Name: Courage and Canals: the Plötzensee Loop
+Distance: 14.7 km (about 1 hour at 15 km/h)
+Shape: Loop from Bamberger Str. 8 and back
+Theme: Resistance and remembrance, with canals and industry in north-west Charlottenburg and Moabit
 
-Stories (14):
-1. Fasanenplatz
-2. Pariser Straße 21 and 22 (Ignaz Friedman; Charlotte Kaletta and Fritz Pfeffer)
-3. Moriz Seeler and the Lotto House
-4. The Friedenstempel synagogue
-5. Der Sturm, Katharinenstraße 5
-6. Concrete Cadillacs on Rathenauplatz
-7. Herta Heuwer and the currywurst
-8. The Eichkamp settlement
-9. Mommsenstadion
-10. Drachenberg, Kite Mountain
-11. The Devil's Mountain (Teufelsberg rubble)
-12. Teufelssee
-13. Field Station Berlin
-14. The listening post today
+Validated with the app's own nav.js + OSRM bike router: 14,732 m, all waypoints snapped within 23 m, no U-turn cues (ramp hairpins at the Spree bridge and the Goerdelersteg are covered by cue overrides), all POIs within 40 m of the route or given an on-route trigger, at least 370 m apart.
 
-Also in this index.json: all routes from the local dated folders (several are not yet on GitHub — e.g. 2026-10-12 to 2026-10-17), so uploading this index makes them all visible once their JSON files are uploaded too.
+Stories (10):
+1. Theater des Westens (Kantstraße)
+2. Ernst-Reuter-Platz and the Telefunken tower
+3. Physikalisch-Technische Reichsanstalt (Rubens, Planck and the birth of quantum physics)
+4. Charlottenburg power station (across the Spree)
+5. Goerdelersteg — Carl Goerdeler
+6. Allotments, the Paul-Hertz estate and the resistance street names
+7. Plötzensee Memorial (up Hüttigpfad on your left)
+8. Westhafen (from the Beusselstraße canal bridge)
+9. Levetzowstraße deportation memorial
+10. Femina-Palast (Nürnberger Straße)
